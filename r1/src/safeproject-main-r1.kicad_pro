@@ -102,7 +102,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -368,7 +368,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "safeproject-led-r1.kicad_pro",
+    "filename": "safeproject-main-r1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -438,7 +438,7 @@
   },
   "sheets": [
     [
-      "e09944be-6d5f-4809-b480-75b75858882d",
+      "4e3d0b93-35a1-4517-837f-2549ec23d97c",
       ""
     ]
   ],

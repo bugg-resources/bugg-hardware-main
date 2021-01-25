@@ -353,5 +353,5 @@
   (lib (name "j_Regulator_Switching")(type "Legacy")(uri "${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Regulator_Switching.lib")(options "")(descr ""))
   (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/CM4IO.kicad_sym")(options "")(descr ""))
   (lib (name "j_Audio")(type "KiCad")(uri "${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Audio.kicad_sym")(options "")(descr ""))
-  (lib (name "j_Connector")(type "KiCad")(uri "{KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Connector.kicad_sym")(options "")(descr ""))
+  (lib (name "j_Connector")(type "KiCad")(uri "${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Connector.kicad_sym")(options "")(descr ""))
 )
