@@ -53,12 +53,13 @@
       26,
       27,
       28,
+      32,
       34,
       35,
       37,
       38
     ],
-    "visible_layers": "ffcfdff_7fffffff",
+    "visible_layers": "ffcfdff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
