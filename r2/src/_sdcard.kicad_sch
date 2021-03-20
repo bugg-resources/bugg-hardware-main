@@ -152,7 +152,7 @@
   (symbol (lib_id "j_Connector:Micro_SD_Card_Det_JAE_ST11") (at 153.035 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 72a4ec17-b96e-4068-8102-fbb9f31ebe08)
-    (property "Reference" "J?" (id 0) (at 151.765 74.93 0))
+    (property "Reference" "J5" (id 0) (at 151.765 74.93 0))
     (property "Value" "Micro_SD_Card_Det_JAE_ST11" (id 1) (at 151.765 77.47 0))
     (property "Footprint" "jeffmakes-footprints:microSD_JAE_ST11S008V4H" (id 2) (at 205.105 78.74 0)
       (effects (font (size 1.27 1.27)) hide)

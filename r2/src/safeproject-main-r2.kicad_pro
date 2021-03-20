@@ -468,7 +468,7 @@
     ],
     [
       "e93db74d-0429-4e7f-b256-c16b4c3a83e7",
-      "Power"
+      "Power and input connector"
     ],
     [
       "c8d4c890-e18c-4f0d-b5c7-f5d98c418551",
@@ -477,6 +477,10 @@
     [
       "498d2354-7ecc-4881-a4b8-afc4730b4589",
       "SDcard"
+    ],
+    [
+      "26331aa8-35b7-4c22-8a42-89230ada1085",
+      "USB-UART bridge"
     ]
   ],
   "text_variables": {}
