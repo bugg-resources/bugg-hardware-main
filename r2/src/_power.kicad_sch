@@ -1797,12 +1797,13 @@
     (uuid 427bafd5-5f23-46b9-abd3-851cd176a0e7)
   )
 
-  (text "Input 5-36V" (at 125.73 59.055 0)
+  (text "Input 6-36V" (at 76.2 66.675 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3559285c-60d6-411c-b257-207aead03603)
   )
-  (text "Output 5.2V at 4A max" (at 330.835 62.23 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (text "Output 5.2V at 4A max\nExtra 0.2V ensures IN_VIN priority\nover I_VUSB_5V if both are connected"
+    (at 305.435 63.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3042743a-ff0f-4a75-9521-117cf6568c67)
   )
   (text "Output 3.7V at 4A max" (at 332.74 198.12 180)
@@ -1846,9 +1847,13 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1240105e-7a61-4f7a-83b0-bad87de3f95f)
   )
-  (label "+3V7" (at 339.09 198.12 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 254fb60e-ae02-48ce-88d4-df314c930280)
+
+  (global_label "+3V7" (shape input) (at 339.09 198.12 90)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 502f70e7-018a-4ead-a7e0-f3d0c929b5ee)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 339.0106 190.6269 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
   )
 
   (hierarchical_label "IN_VUSB_5V" (shape output) (at 99.06 69.85 0)
