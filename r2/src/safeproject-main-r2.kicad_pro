@@ -485,6 +485,10 @@
     [
       "41dcda57-f03b-4254-a26d-4b483d171c17",
       "RTC"
+    ],
+    [
+      "7086fb34-03e0-4978-93d2-ceae572d34d4",
+      "USB-OTG flashing interface"
     ]
   ],
   "text_variables": {}
