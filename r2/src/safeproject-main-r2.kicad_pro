@@ -481,6 +481,10 @@
     [
       "26331aa8-35b7-4c22-8a42-89230ada1085",
       "USB-UART bridge"
+    ],
+    [
+      "41dcda57-f03b-4254-a26d-4b483d171c17",
+      "RTC"
     ]
   ],
   "text_variables": {}

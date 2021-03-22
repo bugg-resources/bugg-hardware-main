@@ -4675,6 +4675,9 @@
     (path "/b7b03aad-6584-4259-9099-75fbefc90612"
       (reference "U2") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
     )
+    (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/ee8b856a-ae20-439b-b164-2359b1f43003"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/1be5a410-f08a-49a9-966f-8063a2ee14cf"
       (reference "#PWR075") (unit 1) (value "GND") (footprint "")
     )
@@ -5002,9 +5005,6 @@
     (path "/498d2354-7ecc-4881-a4b8-afc4730b4589/72a4ec17-b96e-4068-8102-fbb9f31ebe08"
       (reference "J5") (unit 1) (value "Micro_SD_Card_Det_JAE_ST11") (footprint "jeffmakes-footprints:microSD_JAE_ST11S008V4H")
     )
-    (path "/26331aa8-35b7-4c22-8a42-89230ada1085/03a4f0cd-59c2-4baf-9d92-5c54d48b7287"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/26331aa8-35b7-4c22-8a42-89230ada1085/266b6461-311c-4bdd-b521-867ad3327575"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -5037,9 +5037,6 @@
     )
     (path "/26331aa8-35b7-4c22-8a42-89230ada1085/428b485d-9acd-4220-b069-6d07d05a060c"
       (reference "R?") (unit 1) (value "10k") (footprint "")
-    )
-    (path "/26331aa8-35b7-4c22-8a42-89230ada1085/4b83aec9-6287-46bb-b2e5-3b09f3ef7078"
-      (reference "R?") (unit 1) (value "0R") (footprint "")
     )
     (path "/26331aa8-35b7-4c22-8a42-89230ada1085/575e00a9-2d03-4d63-8bb2-1f84b708f6a7"
       (reference "R?") (unit 1) (value "10k") (footprint "")
