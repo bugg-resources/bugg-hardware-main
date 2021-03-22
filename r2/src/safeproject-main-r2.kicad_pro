@@ -489,6 +489,10 @@
     [
       "7086fb34-03e0-4978-93d2-ceae572d34d4",
       "USB-OTG flashing interface"
+    ],
+    [
+      "676be2e4-179b-4538-a96d-4073cd6b4d31",
+      "LED driver, LED board connections"
     ]
   ],
   "text_variables": {}
