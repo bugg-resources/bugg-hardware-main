@@ -2282,11 +2282,11 @@
     )
   )
 
-  (hierarchical_label "USB_DP" (shape input) (at 50.8 90.17 180)
+  (hierarchical_label "USB_DP" (shape bidirectional) (at 50.8 90.17 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7b829176-2007-481e-a5c4-767fba067e80)
   )
-  (hierarchical_label "USB_DN" (shape input) (at 50.8 92.71 180)
+  (hierarchical_label "USB_DN" (shape bidirectional) (at 50.8 92.71 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6aba3ba5-ee9e-402f-ae20-3def53c07686)
   )
