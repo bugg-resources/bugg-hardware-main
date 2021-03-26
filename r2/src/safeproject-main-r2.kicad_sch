@@ -1857,7 +1857,8 @@
     (uuid 62d2be3d-8e9f-45c1-bc4b-93d4651103ee)
   )
 
-  (text "1.5mm clearance under CM4 module" (at 230.505 215.265 180)
+  (text "3mm mated height, 1.5mm clearance under CM4 module"
+    (at 238.125 213.995 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9683c952-bb63-4fd2-be4b-9fce56292e4e)
   )
@@ -3449,7 +3450,7 @@
     (uuid 2e5d8954-dabb-4a70-9f83-592efa0a244f)
     (property "Reference" "Module1" (id 0) (at 83.82 203.4094 0))
     (property "Value" "ComputeModule4-CM4" (id 1) (at 83.82 205.7081 0))
-    (property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module" (id 2) (at 85.725 160.655 0)
+    (property "Footprint" "Raspberry_Pi_CM4:Raspberry-Pi-4-Compute-Module" (id 2) (at 85.725 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 85.725 160.655 0)
@@ -3564,14 +3565,14 @@
     (uuid 983969c3-711c-41cf-b33f-8b265354541d)
     (property "Reference" "Module1" (id 0) (at 211.455 202.7744 0))
     (property "Value" "ComputeModule4-CM4" (id 1) (at 211.455 205.0731 0))
-    (property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module" (id 2) (at 354.965 155.575 0)
+    (property "Footprint" "Raspberry_Pi_CM4:Raspberry-Pi-4-Compute-Module" (id 2) (at 354.965 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 354.965 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field4" "Hirose" (id 4) (at 211.455 207.3718 0))
-    (property "Field5" "2x DF40C-100DS-0.4V" (id 5) (at 212.725 209.6705 0))
+    (property "Field5" "2x DF40HC(3.0)-100DS-0.4V" (id 5) (at 212.725 209.671 0))
     (pin "1" (uuid 88297525-8974-4c26-a162-581d36cd1798))
     (pin "10" (uuid df8709c1-a69c-4e50-8ea0-0ef802adfee4))
     (pin "100" (uuid f2026b9a-c25d-4ea7-8670-ab7def94f66c))
@@ -4137,10 +4138,10 @@
       (reference "D3") (unit 1) (value "LED") (footprint "")
     )
     (path "/983969c3-711c-41cf-b33f-8b265354541d"
-      (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+      (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "Raspberry_Pi_CM4:Raspberry-Pi-4-Compute-Module")
     )
     (path "/2e5d8954-dabb-4a70-9f83-592efa0a244f"
-      (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+      (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "Raspberry_Pi_CM4:Raspberry-Pi-4-Compute-Module")
     )
     (path "/3f8d97d6-0ac1-4872-872a-ee1b29879834"
       (reference "R1") (unit 1) (value "DNP") (footprint "")
@@ -4497,7 +4498,7 @@
       (reference "TP11") (unit 1) (value " ") (footprint "")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/0c345644-04ac-4948-80cf-783f54ce1517"
-      (reference "U7") (unit 1) (value "Sierra_Wireless_RC7620") (footprint "MODULE_WP7504")
+      (reference "U7") (unit 1) (value "Sierra_Wireless_RC7620") (footprint "jeffmakes-footprints:Cellular_Modem-Sierra-Wireless-module-CF3-ringCD")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/75c58704-7884-4d1a-8f29-bd6ba76ee08b"
       (reference "U8") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
