@@ -3190,7 +3190,7 @@
     (uuid 0c345644-04ac-4948-80cf-783f54ce1517)
     (property "Reference" "U7" (id 0) (at 90.17 30.48 0))
     (property "Value" "Sierra_Wireless_RC7620" (id 1) (at 90.17 33.02 0))
-    (property "Footprint" "MODULE_WP7504" (id 2) (at 90.17 113.03 0)
+    (property "Footprint" "jeffmakes-footprints:Cellular_Modem-Sierra-Wireless-module-CF3-ringCD" (id 2) (at 90.17 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 90.17 113.03 0)
