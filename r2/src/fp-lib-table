@@ -131,4 +131,5 @@
   (lib (name Varistor)(type KiCad)(uri ${KIPRJMOD}/../../lib/kicad-footprints/Varistor.pretty)(options "")(descr ""))
   (lib (name jeffmakes-footprints)(type KiCad)(uri ${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-footprints.pretty)(options "")(descr ""))
   (lib (name digikey-footprints)(type KiCad)(uri ${KIPRJMOD}/../../lib/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name Raspberry_Pi_CM4)(type KiCad)(uri ${KIPRJMOD}/../../lib/CM4IO.pretty)(options "")(descr ""))
 )
