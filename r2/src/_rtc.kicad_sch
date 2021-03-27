@@ -800,7 +800,7 @@
     (property "Value" "CR1220" (id 1) (at 110.49 78.74 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 106.68 77.216 90)
+    (property "Footprint" "jeffmakes-footprints:Keystone-3000-CR1220-CR1216" (id 2) (at 106.68 77.216 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 106.68 77.216 90)
