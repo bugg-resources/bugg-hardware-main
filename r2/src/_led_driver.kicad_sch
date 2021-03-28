@@ -946,7 +946,7 @@
     (property "Value" "FH12-20S-0.5SVA" (id 1) (at 192.405 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "jeffmakes-footprints:Hirose_FH12-20S-0.5SVA_1x20-1MP_P0.50mm_Vertical" (id 2) (at 189.23 72.39 0)
+    (property "Footprint" "Connector_FFC-FPC:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal" (id 2) (at 189.23 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 189.23 72.39 0)
