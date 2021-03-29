@@ -4477,9 +4477,6 @@
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/6a773308-d044-4324-8a9f-a322b21736a5"
       (reference "#PWR085") (unit 1) (value "GND") (footprint "")
     )
-    (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/b902ec5b-0370-4e0e-89cf-fdb685e0b0e5"
-      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
-    )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/ed25465a-0455-4024-8df0-01be7fae8143"
       (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
     )
@@ -4516,9 +4513,6 @@
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/7994d75b-8bf0-4447-ae1e-b19aff4616f2"
       (reference "D6") (unit 1) (value "ESD9B3.3ST5G") (footprint "Diode_SMD:D_SOD-923")
     )
-    (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/d4203fb2-974c-4b56-a425-9be01db821f4"
-      (reference "D8") (unit 1) (value "0402ESDA-MLP1") (footprint "Diode_SMD:D_0402_1005Metric")
-    )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/4a201549-9f4f-4019-b75a-31b6f77b7bc5"
       (reference "D9") (unit 1) (value "0402ESDA-MLP1") (footprint "Diode_SMD:D_0402_1005Metric")
     )
@@ -4550,7 +4544,7 @@
       (reference "J9") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/3031a406-c62c-4e07-ac32-286970a425fb"
-      (reference "J11") (unit 1) (value "SMA") (footprint "Connector_Coaxial:SMA_Amphenol_901-144_Vertical")
+      (reference "J11") (unit 1) (value "SMA") (footprint "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/85cbce1d-8929-4292-a443-e179e1a52c9e"
       (reference "J12") (unit 1) (value "U_FL-R-SMT-1_10_") (footprint "digikey-footprints:Coax_Conn_U.FL")
