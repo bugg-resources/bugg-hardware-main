@@ -2332,7 +2332,7 @@
 
   (symbol (lib_id "Connector:TestPoint") (at 67.31 66.04 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 0984090d-c8a7-4123-b9e4-d24fe014bdf3)
+    (uuid c94ba17c-7930-4ef2-a232-25cb1e75e020)
     (property "Reference" "T8" (id 0) (at 60.96 66.04 90))
     (property "Value" " " (id 1) (at 66.04 62.23 90))
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (id 2) (at 67.31 71.12 0)
@@ -2341,7 +2341,7 @@
     (property "Datasheet" "~" (id 3) (at 67.31 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 01e74e09-abe8-44fe-b32b-a6a22e0f9c9e))
+    (pin "1" (uuid ebf58884-fcb6-446d-9fc7-6aa0bb383f55))
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 67.31 73.66 90) (mirror x) (unit 1)
@@ -3254,7 +3254,7 @@
     (uuid 0c345644-04ac-4948-80cf-783f54ce1517)
     (property "Reference" "U7" (id 0) (at 97.79 31.75 0))
     (property "Value" "Sierra_Wireless_RC7620" (id 1) (at 97.79 34.29 0))
-    (property "Footprint" "MODULE_WP7504" (id 2) (at 97.79 114.3 0)
+    (property "Footprint" "jeffmakes-footprints:Cellular_Modem-Sierra-Wireless-module-CF3-ringCD" (id 2) (at 97.79 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 97.79 114.3 0)

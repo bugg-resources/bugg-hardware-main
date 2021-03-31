@@ -1307,6 +1307,7 @@
     )
   )
 
+
   (junction (at 147.32 142.24) (diameter 1.016) (color 0 0 0 0))
   (junction (at 176.53 180.34) (diameter 1.016) (color 0 0 0 0))
   (junction (at 176.53 185.42) (diameter 1.016) (color 0 0 0 0))
@@ -2346,7 +2347,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 179.07 116.84 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9d4ac786-c8ee-4b40-b179-b0adecf71e1d)
-    (property "Reference" "T7" (id 0) (at 173.99 116.84 90)
+    (property "Reference" "T1" (id 0) (at 173.99 116.84 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (id 1) (at 173.99 118.11 90)
@@ -3502,7 +3503,7 @@
     (uuid 2e5d8954-dabb-4a70-9f83-592efa0a244f)
     (property "Reference" "Module1" (id 0) (at 83.185 204.0444 0))
     (property "Value" "ComputeModule4-CM4" (id 1) (at 83.185 206.3431 0))
-    (property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module" (id 2) (at 85.09 161.29 0)
+    (property "Footprint" "Raspberry_Pi_CM4:Raspberry-Pi-4-Compute-Module" (id 2) (at 85.09 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 85.09 161.29 0)
@@ -3617,7 +3618,7 @@
     (uuid 983969c3-711c-41cf-b33f-8b265354541d)
     (property "Reference" "Module1" (id 0) (at 210.82 203.4094 0))
     (property "Value" "ComputeModule4-CM4" (id 1) (at 210.82 205.7081 0))
-    (property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module" (id 2) (at 354.33 156.21 0)
+    (property "Footprint" "Raspberry_Pi_CM4:Raspberry-Pi-4-Compute-Module" (id 2) (at 354.33 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 354.33 156.21 0)
@@ -4196,10 +4197,10 @@
       (reference "D7") (unit 1) (value "LY R976-PS-36") (footprint "jeffmakes-footprints:CHIPLED-0805")
     )
     (path "/983969c3-711c-41cf-b33f-8b265354541d"
-      (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+      (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "Raspberry_Pi_CM4:Raspberry-Pi-4-Compute-Module")
     )
     (path "/2e5d8954-dabb-4a70-9f83-592efa0a244f"
-      (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+      (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "Raspberry_Pi_CM4:Raspberry-Pi-4-Compute-Module")
     )
     (path "/3f8d97d6-0ac1-4872-872a-ee1b29879834"
       (reference "R1") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -4222,6 +4223,9 @@
     (path "/01f77c52-1b52-4742-808d-d7be12bf5723"
       (reference "R34") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/9d4ac786-c8ee-4b40-b179-b0adecf71e1d"
+      (reference "T1") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/a28dff5b-6aea-45e3-a447-6ff0232d5c28"
       (reference "T3") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
@@ -4235,9 +4239,6 @@
       (reference "T6") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/66bf6092-c510-4fdf-a89e-b6af75588a38"
-      (reference "T7") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/9d4ac786-c8ee-4b40-b179-b0adecf71e1d"
       (reference "T7") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/0d301e3a-5e66-4f12-a600-824f82e690fc"
@@ -4570,7 +4571,7 @@
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/449b8561-ef7c-4ca0-a9fa-7e959a1585ea"
       (reference "R23") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/0984090d-c8a7-4123-b9e4-d24fe014bdf3"
+    (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/c94ba17c-7930-4ef2-a232-25cb1e75e020"
       (reference "T8") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/a2b8237b-537f-4ff9-975d-76edd1786e9c"
@@ -4583,7 +4584,7 @@
       (reference "T11") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/0c345644-04ac-4948-80cf-783f54ce1517"
-      (reference "U7") (unit 1) (value "Sierra_Wireless_RC7620") (footprint "MODULE_WP7504")
+      (reference "U7") (unit 1) (value "Sierra_Wireless_RC7620") (footprint "jeffmakes-footprints:Cellular_Modem-Sierra-Wireless-module-CF3-ringCD")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/75c58704-7884-4d1a-8f29-bd6ba76ee08b"
       (reference "U8") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
@@ -4753,8 +4754,8 @@
     (path "/7086fb34-03e0-4978-93d2-ceae572d34d4/91de9c04-29b3-4541-bbed-18c55f9c552b"
       (reference "C37") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/7086fb34-03e0-4978-93d2-ceae572d34d4/ac06fc41-d74b-4f5e-89a0-7e724763b261"
-      (reference "J15") (unit 1) (value "USB_B_Micro") (footprint "digikey-footprints:USB_Micro_B_Female_10118192")
+    (path "/7086fb34-03e0-4978-93d2-ceae572d34d4/caae2f05-01ef-475c-9ce8-22ea15a9183c"
+      (reference "J15") (unit 1) (value "10118192") (footprint "digikey-footprints:USB_Micro_B_Female_10118192")
     )
     (path "/7086fb34-03e0-4978-93d2-ceae572d34d4/d5e4a27a-3f5b-4fd7-aeaf-c63a3c11c793"
       (reference "Q4") (unit 1) (value "NX3008NBKW") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")

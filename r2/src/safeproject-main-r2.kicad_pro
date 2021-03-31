@@ -142,54 +142,7 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": [
-      {
-        "activeLayer": -2,
-        "layers": [
-          0,
-          33,
-          35,
-          39,
-          44,
-          47
-        ],
-        "name": "top",
-        "renderLayers": [
-          125,
-          126,
-          127,
-          128,
-          129,
-          130,
-          131,
-          133,
-          134,
-          135,
-          136,
-          137,
-          138,
-          139,
-          140,
-          141,
-          142,
-          143,
-          144,
-          145,
-          146,
-          147,
-          148,
-          149,
-          153,
-          154,
-          155,
-          156,
-          157,
-          158,
-          162,
-          163
-        ]
-      }
-    ]
+    "layer_presets": []
   },
   "boards": [],
   "cvpcb": {
@@ -458,12 +411,7 @@
           "Net-(Module1-Pad36)",
           "Net-(Module1-Pad92)",
           "Net-(Module1-Pad94)",
-          "Net-(Module1-Pad95)",
-          "Net-(Module1-Pad96)",
-          "Net-(TP10-Pad1)",
-          "Net-(TP11-Pad1)",
-          "Net-(TP8-Pad1)",
-          "Net-(TP9-Pad1)"
+          "Net-(Module1-Pad96)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
