@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.5,
-          "width": 5.5
+          "drill": 0.0,
+          "height": 2.2,
+          "width": 1.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -406,12 +406,7 @@
           "Net-(J6-Pad1)",
           "Net-(J7-Pad1)",
           "Net-(J8-Pad1)",
-          "Net-(J9-Pad1)",
-          "Net-(Module1-Pad35)",
-          "Net-(Module1-Pad36)",
-          "Net-(Module1-Pad92)",
-          "Net-(Module1-Pad94)",
-          "Net-(Module1-Pad96)"
+          "Net-(J9-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
