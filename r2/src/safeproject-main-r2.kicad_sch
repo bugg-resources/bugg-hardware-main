@@ -2004,6 +2004,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0a69eb32-4f37-443f-8ee1-07e2fd334d10)
   )
+  (label "nPWR_LED_BUF" (at 264.16 193.04 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 09027aea-2421-4add-81d4-888f8fa812c4)
+  )
   (label "GLOBAL_EN_o" (at 264.16 198.12 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 55878801-99f2-4b59-8084-b345f1a6fdd1)
@@ -2342,7 +2346,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 179.07 116.84 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9d4ac786-c8ee-4b40-b179-b0adecf71e1d)
-    (property "Reference" "TP2" (id 0) (at 173.99 116.84 90)
+    (property "Reference" "T7" (id 0) (at 173.99 116.84 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (id 1) (at 173.99 118.11 90)
@@ -2360,7 +2364,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 179.07 187.96 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a28dff5b-6aea-45e3-a447-6ff0232d5c28)
-    (property "Reference" "TP3" (id 0) (at 173.99 187.96 90)
+    (property "Reference" "T3" (id 0) (at 173.99 187.96 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (id 1) (at 173.99 189.23 90)
@@ -2378,7 +2382,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 179.07 190.5 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 60aaf9c0-eba6-4ede-adfe-edcbbe56443f)
-    (property "Reference" "TP4" (id 0) (at 173.99 190.5 90)
+    (property "Reference" "T4" (id 0) (at 173.99 190.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (id 1) (at 173.99 191.77 90)
@@ -2396,7 +2400,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 179.07 193.04 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 75570d60-5c08-4391-8f7b-f96dd530f3b0)
-    (property "Reference" "TP5" (id 0) (at 173.99 193.04 90)
+    (property "Reference" "T5" (id 0) (at 173.99 193.04 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (id 1) (at 173.99 194.31 90)
@@ -2414,7 +2418,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 179.07 198.12 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 59db9490-0ce6-4d1d-bcd4-e133b971c5ba)
-    (property "Reference" "TP6" (id 0) (at 173.99 198.12 90)
+    (property "Reference" "T6" (id 0) (at 173.99 198.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (id 1) (at 173.99 199.39 90)
@@ -2432,7 +2436,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 240.03 116.84 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 66bf6092-c510-4fdf-a89e-b6af75588a38)
-    (property "Reference" "TP7" (id 0) (at 245.11 116.84 90)
+    (property "Reference" "T7" (id 0) (at 245.11 116.84 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (id 1) (at 245.11 118.11 90)
@@ -4218,23 +4222,23 @@
     (path "/01f77c52-1b52-4742-808d-d7be12bf5723"
       (reference "R34") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/9d4ac786-c8ee-4b40-b179-b0adecf71e1d"
-      (reference "TP2") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
     (path "/a28dff5b-6aea-45e3-a447-6ff0232d5c28"
-      (reference "TP3") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "T3") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/60aaf9c0-eba6-4ede-adfe-edcbbe56443f"
-      (reference "TP4") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "T4") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/75570d60-5c08-4391-8f7b-f96dd530f3b0"
-      (reference "TP5") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "T5") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/59db9490-0ce6-4d1d-bcd4-e133b971c5ba"
-      (reference "TP6") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "T6") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/66bf6092-c510-4fdf-a89e-b6af75588a38"
-      (reference "TP7") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "T7") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/9d4ac786-c8ee-4b40-b179-b0adecf71e1d"
+      (reference "T7") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/0d301e3a-5e66-4f12-a600-824f82e690fc"
       (reference "U1") (unit 1) (value "74LVC1G07DCK") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
@@ -4567,16 +4571,16 @@
       (reference "R23") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/0984090d-c8a7-4123-b9e4-d24fe014bdf3"
-      (reference "TP8") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "T8") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/a2b8237b-537f-4ff9-975d-76edd1786e9c"
-      (reference "TP9") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "T9") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/b692d1b7-6ca0-415b-85d6-9227609f6918"
-      (reference "TP10") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "T10") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/a9e7f4de-cee1-4bb8-b799-c7d93251ae07"
-      (reference "TP11") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "T11") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/0c345644-04ac-4948-80cf-783f54ce1517"
       (reference "U7") (unit 1) (value "Sierra_Wireless_RC7620") (footprint "MODULE_WP7504")

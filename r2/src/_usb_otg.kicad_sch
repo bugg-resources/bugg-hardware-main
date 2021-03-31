@@ -1131,7 +1131,7 @@
     (property "Value" "ESD7004" (id 1) (at 180.34 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "jeffmakes-footprints:USON-10_2.5x1.0mm_P0.5mm" (id 2) (at 180.34 118.11 0)
+    (property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm" (id 2) (at 180.34 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf" (id 3) (at 175.895 109.855 0)
