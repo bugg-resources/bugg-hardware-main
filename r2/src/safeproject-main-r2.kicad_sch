@@ -2157,7 +2157,6 @@
     )
   )
 
-
   (junction (at 147.32 142.24) (diameter 1.016) (color 0 0 0 0))
   (junction (at 176.53 180.34) (diameter 1.016) (color 0 0 0 0))
   (junction (at 176.53 185.42) (diameter 1.016) (color 0 0 0 0))
@@ -5130,6 +5129,9 @@
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/94ec3250-fb97-4140-a17b-1c7050701e51"
       (reference "#PWR070") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/5f8b0f8f-d915-42c1-b282-2495433d595d"
+      (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/58e8a1f1-eb79-4b5e-ba80-0b28295966b6"
       (reference "C1") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -5211,8 +5213,8 @@
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/cdc59280-e85b-4a6b-8962-a577ed063436"
       (reference "FB2") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_1008_2520Metric")
     )
-    (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/b381bb40-2e7c-4141-83bd-f971660073f4"
-      (reference "J10") (unit 1) (value "Conn_01x05") (footprint "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical")
+    (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/55b07512-90f2-4ac3-907a-2f475e559441"
+      (reference "J10") (unit 1) (value "Conn_01x05_MountingPin") (footprint "Connector_JST:JST_PH_B5B-PH-SM4-TB_1x05-1MP_P2.00mm_Vertical")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/d869c362-91d5-4b4d-bea7-9ffd285fc193"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Coilcraft_XAL5030")

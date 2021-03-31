@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_nets": [],
@@ -61,8 +61,8 @@
       37,
       38
     ],
-    "visible_layers": "ffd5e20_7ffffff9",
-    "zone_display_mode": 1
+    "visible_layers": "ffdde20_fffffff9",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "safeproject-main-r2.kicad_prl",
