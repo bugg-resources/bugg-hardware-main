@@ -696,7 +696,7 @@
     (property "Sheetname" "Power and input connector")
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/55b07512-90f2-4ac3-907a-2f475e559441")
     (attr smd)
-    (fp_text reference "J10" (at 0 -5.45) (layer "F.SilkS")
+    (fp_text reference "J10" (at 0 -5.45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8efca5b9-ef7a-4ec9-8064-6fbf281713ed)
     )
@@ -7896,6 +7896,13 @@
     )
   )
 
+  (gr_circle (center -0.35 27) (end -0.25 27) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 20f1785d-ae05-4193-b437-d9529d7bc520))
+  (gr_circle (center 17.15 23.15) (end 17.25 23.15) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 350c7989-0a67-4bca-83bb-f6338b4d7510))
+  (gr_circle (center -18.2 -0.9) (end -18.1 -0.9) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 71718e0b-874a-4521-9908-96b232d5ea4f))
+  (gr_circle (center -15.1 -0.9) (end -15 -0.9) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 9fc1131b-c339-4128-bd1d-a103cb370a90))
+  (gr_circle (center -11.8 20.9) (end -11.7 20.9) (layer "F.SilkS") (width 0.2) (fill none) (tstamp ca0c8f68-fb55-456a-9086-d85eb3b3c095))
+  (gr_circle (center 22.35 -30.45) (end 22.45 -30.45) (layer "F.SilkS") (width 0.2) (fill none) (tstamp e22f8fc0-e92b-448b-a7ad-34b0b7cfe730))
+  (gr_circle (center 8 27) (end 8.1 27) (layer "F.SilkS") (width 0.2) (fill none) (tstamp fc6391e5-881b-48e8-aaf3-7731e9e64232))
   (gr_arc (start -28 -14.5) (end -26.5 -14.5) (angle -90) (layer "Edge.Cuts") (width 0.16) (tstamp 068263fa-10f0-4aa2-8aae-b70998877d7d))
   (gr_line (start -19.448 -9.38) (end -26.5 -9.75) (angle 90) (layer "Edge.Cuts") (width 0.16) (tstamp 0f1185f4-582f-4bbf-8d29-b0c3cd44dbca))
   (gr_line (start -26.5 32.25) (end -26.5 30.25) (angle 90) (layer "Edge.Cuts") (width 0.16) (tstamp 18aa9bcf-7f39-4f98-ab35-ca31ee0ac764))
