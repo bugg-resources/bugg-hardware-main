@@ -18,7 +18,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -37,7 +37,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -50,19 +49,21 @@
       21,
       22,
       23,
+      24,
       25,
       26,
       27,
       28,
+      29,
+      30,
       32,
       33,
       34,
       35,
-      37,
-      38
+      36
     ],
-    "visible_layers": "ffdde20_fffffffd",
-    "zone_display_mode": 1
+    "visible_layers": "7ff5cef_00000001",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "safeproject-main-r2.kicad_prl",
