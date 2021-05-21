@@ -61,11 +61,11 @@
       35,
       36
     ],
-    "visible_layers": "7ff5c67_80000001",
+    "visible_layers": "7ff5c67_80000005",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "safeproject-main-r2.kicad_prl",
+    "filename": "safeproject-main-r3.kicad_prl",
     "version": 3
   },
   "project": {

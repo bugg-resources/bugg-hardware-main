@@ -5316,6 +5316,9 @@
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/0fb566aa-9750-4217-b9d2-dcca7a040c5a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/2e2e9f21-e5a7-441a-967f-f51c92e4f6ed"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/4750da1c-6508-4fee-85be-539236c13dd5"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -5619,6 +5622,9 @@
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/63052ce9-22df-4750-a42d-581fb8075e99"
       (reference "Q?") (unit 1) (value "NX3008NBKW") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
     )
+    (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/9a473dd8-c820-4612-ba44-4703e09e30ab"
+      (reference "Q?") (unit 1) (value "NX3008NBKW") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
+    )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/a3aeaf4a-209e-4019-809b-d3b10a820689"
       (reference "Q?") (unit 1) (value "NX3008NBKW") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
     )
@@ -5683,7 +5689,7 @@
       (reference "R20") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/afe9ce6a-cf7a-4c34-9b91-49af7c684342"
-      (reference "R21") (unit 1) (value "DNP 29.4k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R21") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/6663d07a-5998-40a2-8d00-6098c477b226"
       (reference "R22") (unit 1) (value "DNP 15k") (footprint "Resistor_SMD:R_0603_1608Metric")
