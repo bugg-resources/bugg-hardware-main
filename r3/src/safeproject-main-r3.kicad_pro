@@ -404,7 +404,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "safeproject-main-r2.kicad_pro",
+    "filename": "safeproject-main-r3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -543,7 +543,7 @@
   },
   "sheets": [
     [
-      "e93db74d-0429-4e7f-b256-c16b4c3a83e7",
+      "e3eb514f-6ce4-4abe-ba20-f82f0015628f",
       ""
     ],
     [
