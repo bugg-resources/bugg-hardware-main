@@ -2760,7 +2760,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7f9d18cb-8d4e-49c2-8bf7-8f97c979dc02)
   )
-  (text "I2C addresses\n---------\nPCMD3180 PDM-I2S converter : 100 1100 (0x4C)\nDS3231N real time clock    : 110 1000 (0x68)\nPCA9685 PWM LED driver     : 110 0110 (0x66)\n"
+  (text "I2C addresses (7-bit)\n--------------\nPCMD3180 PDM-I2S converter : 100 1100 (0x4C)\nDS3231N real time clock    : 110 1000 (0x68)\nPCF8574 LED IO expander    : 010 0011 (0x23)\n"
     (at 274.32 270.51 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cf7f7b70-dcdb-45ab-a317-d34283c70972)
@@ -5370,14 +5370,8 @@
     (path "/676be2e4-179b-4538-a96d-4073cd6b4d31/cf0c7e99-b6cd-4e57-b548-74193761938d"
       (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
     )
-    (path "/676be2e4-179b-4538-a96d-4073cd6b4d31/2dea9972-12ec-4eca-a10a-47e0f4c3fe37"
-      (reference "#PWR0113") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/676be2e4-179b-4538-a96d-4073cd6b4d31/77c42c80-fa99-494d-bee1-81e7261076a1"
       (reference "#PWR0114") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/676be2e4-179b-4538-a96d-4073cd6b4d31/1f817d31-56b2-41b4-9174-8a40bc70bd59"
-      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
     (path "/676be2e4-179b-4538-a96d-4073cd6b4d31/7f4127d3-ac81-4be1-a169-0c2560c4850b"
       (reference "#PWR0116") (unit 1) (value "+3V3") (footprint "")
@@ -5766,9 +5760,6 @@
     (path "/7086fb34-03e0-4978-93d2-ceae572d34d4/c00f105d-4bf4-4ae0-9881-a354a03783c5"
       (reference "R32") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/676be2e4-179b-4538-a96d-4073cd6b4d31/641ec35e-c0cc-4e68-9f40-c75eaa0324bb"
-      (reference "R33") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
     (path "/01f77c52-1b52-4742-808d-d7be12bf5723"
       (reference "R34") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -5868,8 +5859,8 @@
     (path "/7086fb34-03e0-4978-93d2-ceae572d34d4/27f0fb16-7f25-4a09-90c2-64abb0527b16"
       (reference "U16") (unit 1) (value "ESD7004") (footprint "jeffmakes-footprints:USON-10_2.5x1.0mm_P0.5mm")
     )
-    (path "/676be2e4-179b-4538-a96d-4073cd6b4d31/41410602-d37c-47a3-a968-20aee0d383b4"
-      (reference "U17") (unit 1) (value "PCA9685PW") (footprint "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm")
+    (path "/676be2e4-179b-4538-a96d-4073cd6b4d31/051c51f9-56f1-4030-9fbd-9d998eb169a6"
+      (reference "U?") (unit 1) (value "PCF8574PW") (footprint "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm")
     )
   )
 )
