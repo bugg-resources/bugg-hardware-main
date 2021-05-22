@@ -111,7 +111,8 @@
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.125,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.39999999999999997
+        "min_via_diameter": 0.39999999999999997,
+        "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
@@ -440,7 +441,6 @@
           "/Modem/1V8_BOOT_MODE",
           "/Modem/1V8_POWER_ON_N",
           "/Modem/1V8_RESET_IN_N",
-          "/Modem/1V8_RESET_OUT_N",
           "/Modem/1V8_SAFE_PWR_REMOVE",
           "/Modem/1V8_TX_ON",
           "/Modem/1V8_WAKE",
@@ -475,7 +475,6 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "+1V8",
           "+3V3",
           "+3V7",
           "+5V",
@@ -532,7 +531,8 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0
+      "model_mode": 0,
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "",
     "plot_directory": "../build/",
