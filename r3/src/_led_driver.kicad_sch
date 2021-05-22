@@ -964,7 +964,7 @@
   (symbol (lib_id "Interface_Expansion:PCF8574TS") (at 142.24 69.85 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 051c51f9-56f1-4030-9fbd-9d998eb169a6)
-    (property "Reference" "U?" (id 0) (at 146.05 49.53 0))
+    (property "Reference" "U9" (id 0) (at 146.05 49.53 0))
     (property "Value" "PCF8574PW" (id 1) (at 149.86 52.07 0))
     (property "Footprint" "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm" (id 2) (at 142.24 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
