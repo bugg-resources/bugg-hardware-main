@@ -6055,7 +6055,7 @@
       (reference "U1") (unit 1) (value "74LVC1G07DCK") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/74977d10-4d23-4196-aa12-7d3cae68a03b"
-      (reference "U2") (unit 1) (value "ESD7004") (footprint "jeffmakes-footprints:USON-10_2.5x1.0mm_P0.5mm")
+      (reference "U2") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/e310dd0c-322f-4a1a-b388-30747a5b2d3b"
       (reference "U3") (unit 1) (value "DZDH0401DW") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
@@ -6073,16 +6073,16 @@
       (reference "U7") (unit 1) (value "Sierra_Wireless_RC7620") (footprint "jeffmakes-footprints:Cellular_Modem-Sierra-Wireless-module-CF3-ringCD")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/75c58704-7884-4d1a-8f29-bd6ba76ee08b"
-      (reference "U8") (unit 1) (value "ESD7004") (footprint "jeffmakes-footprints:USON-10_2.5x1.0mm_P0.5mm")
+      (reference "U8") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
     )
     (path "/676be2e4-179b-4538-a96d-4073cd6b4d31/051c51f9-56f1-4030-9fbd-9d998eb169a6"
       (reference "U9") (unit 1) (value "PCF8574PW") (footprint "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm")
     )
     (path "/498d2354-7ecc-4881-a4b8-afc4730b4589/bf40b0ee-51fa-493e-b0d5-607dc3d471b9"
-      (reference "U10") (unit 1) (value "ESD7004") (footprint "jeffmakes-footprints:USON-10_2.5x1.0mm_P0.5mm")
+      (reference "U10") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
     )
     (path "/498d2354-7ecc-4881-a4b8-afc4730b4589/e25c3e66-77ff-42cb-a50d-f71ba7462cab"
-      (reference "U11") (unit 1) (value "ESD7004") (footprint "jeffmakes-footprints:USON-10_2.5x1.0mm_P0.5mm")
+      (reference "U11") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
     )
     (path "/26331aa8-35b7-4c22-8a42-89230ada1085/b7270d7b-46cf-4f3d-8516-6ad95f30dd5a"
       (reference "U12") (unit 1) (value "CP2102N-Axx-xQFN24") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
@@ -6097,7 +6097,7 @@
       (reference "U15") (unit 1) (value "FSUSB42MX") (footprint "Package_SO:MSOP-10_3x3mm_P0.5mm")
     )
     (path "/7086fb34-03e0-4978-93d2-ceae572d34d4/27f0fb16-7f25-4a09-90c2-64abb0527b16"
-      (reference "U16") (unit 1) (value "ESD7004") (footprint "jeffmakes-footprints:USON-10_2.5x1.0mm_P0.5mm")
+      (reference "U16") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
     )
   )
 )
