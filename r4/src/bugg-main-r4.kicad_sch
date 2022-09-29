@@ -5511,6 +5511,18 @@
     )
   )
 
+  (sheet (at 279.4 37.465) (size 24.765 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 41f15edd-4583-4f5d-8a81-daeb7c83b416)
+    (property "Sheetname" "External Microphone Interface" (id 0) (at 279.4 36.7534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "_external_mic.kicad_sch" (id 1) (at 279.4 59.6396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 353.06 124.46) (size 24.13 25.4)
     (stroke (width 0.001) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))
@@ -5712,6 +5724,7 @@
     (path "/41dcda57-f03b-4254-a26d-4b483d171c17" (page "6"))
     (path "/7086fb34-03e0-4978-93d2-ceae572d34d4" (page "7"))
     (path "/676be2e4-179b-4538-a96d-4073cd6b4d31" (page "8"))
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416" (page "9"))
   )
 
   (symbol_instances
