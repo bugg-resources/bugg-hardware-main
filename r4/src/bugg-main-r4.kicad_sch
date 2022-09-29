@@ -6386,7 +6386,7 @@
       (reference "J11") (unit 1) (value "SMA") (footprint "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/85cbce1d-8929-4292-a443-e179e1a52c9e"
-      (reference "J12") (unit 1) (value "U_FL-R-SMT-1_10_") (footprint "digikey-footprints:Coax_Conn_U.FL")
+      (reference "J12") (unit 1) (value "U_FL-R-SMT-1_10_") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/8679decb-6816-460d-a141-d8f270881332"
       (reference "J13") (unit 1) (value "JAE_SIM_Card_SF72S006") (footprint "Connector_JAE:JAE_SIM_Card_SF72S006")
