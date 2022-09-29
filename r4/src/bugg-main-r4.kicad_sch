@@ -6169,6 +6169,9 @@
     (path "/be2d00d6-ead2-4e5f-8896-24a88c32d929"
       (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
     )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/c377e3f6-37ad-4d11-b9f8-b18240952b4d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/41dcda57-f03b-4254-a26d-4b483d171c17/80bf2495-1999-475f-8d3c-7c216f4c07f0"
       (reference "BT1") (unit 1) (value "CR1220") (footprint "jeffmakes-footprints:Keystone-3000-CR1220-CR1216")
     )
@@ -6690,6 +6693,9 @@
     )
     (path "/7086fb34-03e0-4978-93d2-ceae572d34d4/27f0fb16-7f25-4a09-90c2-64abb0527b16"
       (reference "U16") (unit 1) (value "ESD7004") (footprint "jeffmakes-footprints:USON-10_2.5x1.0mm_P0.5mm")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/ded4c0fa-61d6-48ef-9ab5-0f3d84d6d349"
+      (reference "U17") (unit 1) (value "AD4005") (footprint "")
     )
   )
 )

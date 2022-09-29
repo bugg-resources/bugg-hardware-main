@@ -1,12 +1,17 @@
 [submodule "lib/kicad-footprints"]
 	path = lib/kicad-footprints
 	url = git@github.com:KiCad/kicad-footprints.git
+    update = merge
 [submodule "lib/kicad-symbols"]
 	path = lib/kicad-symbols
 	url = git@github.com:KiCad/kicad-symbols.git
+    update = merge
 [submodule "lib/digikey-kicad-library"]
 	path = lib/digikey-kicad-library
 	url = git@github.com:digikey/digikey-kicad-library.git
+    update = merge
 [submodule "lib/jeffmakes-kicad-library"]
 	path = lib/jeffmakes-kicad-library
 	url = git@github.com:jeffmakes/jeffmakes-kicad-library.git
+    update = merge
+
