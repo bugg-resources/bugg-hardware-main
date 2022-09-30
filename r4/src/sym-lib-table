@@ -216,5 +216,5 @@
   (lib (name "j_Switch")(type "KiCad")(uri "${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Switch.kicad_sym")(options "")(descr ""))
   (lib (name "j_Power_Management")(type "KiCad")(uri "${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Power_Management.kicad_sym")(options "")(descr ""))
   (lib (name "j_Power_Protection")(type "KiCad")(uri "${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Power_Protection.kicad_sym")(options "")(descr ""))
-  (lib (name "j_Analog_ADC"(type "KiCad")(uri "${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Analog_ADC.kicad_sym")(options "")(descr "")))
+  (lib (name "j_Analog_ADC")(type "KiCad")(uri "${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Analog_ADC.kicad_sym")(options "")(descr "")))
 )
