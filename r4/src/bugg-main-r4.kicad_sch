@@ -6190,11 +6190,11 @@
     (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/f3476fac-2ad6-4ab3-81bb-7bd11918ae78"
       (reference "D12") (unit 1) (value "PMEG6020ETR") (footprint "")
     )
-    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/8da1193c-245f-461f-8bad-eb7ee5455beb"
-      (reference "D13") (unit 1) (value "1N4148WT") (footprint "Diode_SMD:D_SOD-523")
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/37db2872-0cd9-44a8-b711-01ab9f42e37e"
+      (reference "D13") (unit 1) (value "PMEG6020ETR") (footprint "")
     )
-    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/9c123847-0ff7-4400-8b95-be8dd999912f"
-      (reference "D14") (unit 1) (value "1N4148WT") (footprint "Diode_SMD:D_SOD-523")
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/ad74d00a-8386-4135-9767-e38dbe9a5f3b"
+      (reference "D14") (unit 1) (value "PMEG6020ETR") (footprint "")
     )
     (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/42d51839-b2b6-4b3b-b4fc-22cd7720e9be"
       (reference "D15") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-323F")
@@ -6212,16 +6212,16 @@
       (reference "D19") (unit 1) (value "PMEG6020ETR") (footprint "")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/55d23b9d-7c74-456e-9a74-0b3c28e63a24"
-      (reference "FB3") (unit 1) (value "1k@100MHz") (footprint "")
+      (reference "FB3") (unit 1) (value "1k@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/a617fff1-5ccf-492c-adc4-bc4e2543e5a0"
-      (reference "FB4") (unit 1) (value "1k@100MHz") (footprint "")
+      (reference "FB4") (unit 1) (value "1k@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/9bff69e4-061f-4271-996b-d29dbc5142ea"
-      (reference "FB5") (unit 1) (value "1k@100MHz") (footprint "")
+      (reference "FB5") (unit 1) (value "1k@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/788e962d-2906-4634-b366-0cfe927e206e"
-      (reference "FB6") (unit 1) (value "1k@100MHz") (footprint "")
+      (reference "FB6") (unit 1) (value "1k@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/16a0396c-a9e9-4cf0-a1fa-15a27fab4369"
       (reference "FID1") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
@@ -6317,13 +6317,13 @@
       (reference "L2") (unit 1) (value "3.3uH") (footprint "Inductor_SMD:L_Coilcraft_XAL5030")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/a929ba54-b777-4973-86cd-8d69f64fd444"
-      (reference "L3") (unit 1) (value "4.7uH") (footprint "")
+      (reference "L3") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Wuerth_WE-PD-Typ-7345")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/7e011c8c-b70e-4e6f-8293-f7fca3964379"
-      (reference "L4") (unit 1) (value "4.7uH") (footprint "")
+      (reference "L4") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Wuerth_WE-PD-Typ-7345")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/f57c8ad7-4395-46d3-b4ff-3df7a32f1108"
-      (reference "L5") (unit 1) (value "15uH") (footprint "")
+      (reference "L5") (unit 1) (value "15uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-4020")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/0cc6e92d-4d86-4405-902c-e282ef478e76"
       (reference "L6") (unit 1) (value "1uF") (footprint "")
