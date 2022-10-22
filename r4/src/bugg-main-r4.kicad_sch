@@ -1423,7 +1423,6 @@
     )
   )
 
-
   (junction (at 243.84 177.8) (diameter 1.016) (color 0 0 0 0)
     (uuid 32a9bafd-9c7e-433f-ab62-6ba9c89d9cfc)
   )
@@ -2617,6 +2616,25 @@
     )
     (pin "1" (uuid 72384791-d66d-4ded-99c4-d583b77a2b46))
     (pin "2" (uuid af09d83f-a0b0-40b2-8885-98d5dae87dd3))
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 306.07 105.41 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1300a12c-1ad0-41ca-bf28-52b7f1f18c6a)
+    (default_instance (reference "") (unit 1) (value "") (footprint ""))
+    (property "Reference" "" (at 311.15 105.41 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "" (at 311.15 104.14 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 306.07 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 306.07 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b52276c5-6733-4f66-8d0f-21068fa9ffff))
   )
 
   (symbol (lib_id "power:+3V3") (at 288.29 173.99 0) (unit 1)
@@ -4393,6 +4411,25 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4d131341-5780-4c5a-b6de-dd6e29bf1b76))
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 306.07 107.95 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid cf049661-d088-4e11-9f6d-44e318ef4327)
+    (default_instance (reference "") (unit 1) (value "") (footprint ""))
+    (property "Reference" "" (at 311.15 107.95 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "" (at 311.15 106.68 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 306.07 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 306.07 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 53bfcb24-e9c7-4fb3-95b3-c27c738f9dc5))
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 129.54 234.95 0) (unit 1)
@@ -6616,6 +6653,21 @@
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/8f153d19-502f-4055-aa11-4d7f0c507f75"
       (reference "J40") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/f4c880aa-72a5-448b-9e05-252307709c9c"
+      (reference "J41") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/a95bb1aa-7365-4e3f-9b42-7d6ceddc1c59"
+      (reference "J42") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/e9989676-7521-425d-91b1-8c22a159adf5"
+      (reference "J43") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/4ed3638c-d387-4960-bcd9-acbac648d37c"
+      (reference "J44") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/cd248063-820b-4c46-b8e2-b93650024110"
+      (reference "J45") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/d869c362-91d5-4b4d-bea7-9ffd285fc193"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Coilcraft_XAL5030")
     )
@@ -7146,6 +7198,42 @@
     )
     (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/26fb4021-138c-43d1-829c-1f14039275c4"
       (reference "T38") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/1300a12c-1ad0-41ca-bf28-52b7f1f18c6a"
+      (reference "T39") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/cf049661-d088-4e11-9f6d-44e318ef4327"
+      (reference "T40") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/24e94486-0894-4eff-8c1a-d1d50412a5dc"
+      (reference "T41") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/2d9a4fa6-bcc8-4f70-aebe-d3025037b36d"
+      (reference "T42") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/6d98fe51-dece-460d-8320-2c7b81cb8580"
+      (reference "T43") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/0160225b-464d-4f1a-b87c-a69b1b16bff2"
+      (reference "T44") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/88d44931-4870-41e4-8fa9-93076dfaaa18"
+      (reference "T45") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/5d0a0b2c-5b84-4e5a-bf02-89f722b7114c"
+      (reference "T46") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/63e2f762-c2cf-4f16-9df7-ffccbe918f42"
+      (reference "T47") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/9bb9b44c-4fb4-498f-9b9c-4ba3f5f23408"
+      (reference "T48") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/5d63f873-5acf-4423-a546-aeed6d1a34f5"
+      (reference "T49") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/d67b36de-653d-4b32-8103-3e1b910fc4f1"
+      (reference "T50") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/0d301e3a-5e66-4f12-a600-824f82e690fc"
       (reference "U1") (unit 1) (value "74LVC1G07DCK") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
