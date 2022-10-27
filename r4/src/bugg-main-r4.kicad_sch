@@ -6952,7 +6952,7 @@
       (reference "J9") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/55b07512-90f2-4ac3-907a-2f475e559441"
-      (reference "J10") (unit 1) (value "502443-0560") (footprint "Connector_Molex:Molex_CLIK-Mate_502443-0570_1x05-1MP_P2.00mm_Vertical")
+      (reference "J10") (unit 1) (value "502443-0560") (footprint "Connector_Molex:Molex_CLIK-Mate_502443-0870_1x08-1MP_P2.00mm_Vertical")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/3031a406-c62c-4e07-ac32-286970a425fb"
       (reference "J11") (unit 1) (value "SMA") (footprint "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical")
