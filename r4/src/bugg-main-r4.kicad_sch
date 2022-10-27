@@ -6129,6 +6129,9 @@
     (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/4c8265a0-70ac-4e49-a041-47375c73efe1"
       (reference "#PWR0198") (unit 1) (value "GND") (footprint "")
     )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/b7970ec2-3c22-4f31-a020-19e022cf2897"
+      (reference "#PWR0198") (unit 1) (value "GND") (footprint "")
+    )
     (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/1409abf1-e0ab-4c99-b12a-6f76eaac8915"
       (reference "#PWR0199") (unit 1) (value "GND") (footprint "")
     )
@@ -7409,6 +7412,9 @@
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/ca4bb4ee-04f6-4ce4-8844-e3d6ba4dd4f9"
       (reference "R99") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/61bcb0fc-fcac-4e1b-bd66-47d1aa1ce892"
+      (reference "R100") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/3eae5975-a41e-4b7f-8113-e6e04432108c"
       (reference "SP1") (unit 1) (value "wurth-spacer-9774030151R") (footprint "jeffmakes-footprints:wurth-spacer-WA-SMSI-9774030151R")
