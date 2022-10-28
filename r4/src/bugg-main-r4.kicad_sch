@@ -1685,9 +1685,6 @@
   (junction (at 243.84 170.18) (diameter 1.016) (color 0 0 0 0)
     (uuid 950a8d18-756c-49b8-96a6-2a1cc31f577e)
   )
-  (junction (at 176.53 185.42) (diameter 1.016) (color 0 0 0 0)
-    (uuid dcb917cd-4151-4aa5-8855-af8e4d42764e)
-  )
   (junction (at 243.84 175.26) (diameter 1.016) (color 0 0 0 0)
     (uuid f6fbd505-cac1-45e5-b255-b3cc41b03e23)
   )
@@ -1792,6 +1789,8 @@
   (no_connect (at 361.95 237.49) (uuid ea6e203b-925b-46c5-8aab-9be3f4ddc70f))
   (no_connect (at 179.07 172.72) (uuid f66334e4-eac9-4be1-a5ee-943ac47c3c13))
   (no_connect (at 179.07 175.26) (uuid f66334e4-eac9-4be1-a5ee-943ac47c3c14))
+  (no_connect (at 179.07 182.88) (uuid fd3e7619-eec9-4ae7-83d8-692017b92733))
+  (no_connect (at 179.07 185.42) (uuid fd3e7619-eec9-4ae7-83d8-692017b92733))
 
   (wire (pts (xy 243.84 170.18) (xy 243.84 172.72))
     (stroke (width 0) (type solid))
@@ -1941,10 +1940,6 @@
     (stroke (width 0) (type solid))
     (uuid 3b84160a-41c2-4d34-be9b-b64249f46f47)
   )
-  (wire (pts (xy 176.53 182.88) (xy 179.07 182.88))
-    (stroke (width 0) (type solid))
-    (uuid 3e95c8bf-3191-4dd2-b4a8-bac10c0b61b7)
-  )
   (wire (pts (xy 146.05 142.24) (xy 147.32 142.24))
     (stroke (width 0) (type solid))
     (uuid 42f80d52-e8dd-46a9-adee-b88a96fdc808)
@@ -2081,10 +2076,6 @@
     (stroke (width 0) (type solid))
     (uuid 793806ff-2cc0-4801-b9e4-26cf6a28cd46)
   )
-  (wire (pts (xy 166.37 185.42) (xy 176.53 185.42))
-    (stroke (width 0) (type solid))
-    (uuid 85443018-b75d-477e-bc56-bcde0950ddcc)
-  )
   (wire (pts (xy 243.84 170.18) (xy 245.11 170.18))
     (stroke (width 0) (type solid))
     (uuid 85bc8aff-eeac-4fc9-baa7-1fa4a97091b5)
@@ -2156,14 +2147,6 @@
   (wire (pts (xy 240.03 193.04) (xy 267.97 193.04))
     (stroke (width 0) (type solid))
     (uuid a46c85f6-c3a2-48c7-9772-facaba4b4f81)
-  )
-  (wire (pts (xy 176.53 185.42) (xy 176.53 182.88))
-    (stroke (width 0) (type solid))
-    (uuid a66759cf-6a90-479d-8792-7560e2f742fd)
-  )
-  (wire (pts (xy 179.07 185.42) (xy 176.53 185.42))
-    (stroke (width 0) (type solid))
-    (uuid a66759cf-6a90-479d-8792-7560e2f742fe)
   )
   (wire (pts (xy 285.75 49.53) (xy 303.53 49.53))
     (stroke (width 0) (type default))
@@ -3773,25 +3756,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 06f8de92-765d-47b0-9142-f26eb1ab5dab))
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 166.37 185.42 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7029dc71-5612-47e1-a070-8bab3ee33f42)
-    (default_instance (reference "") (unit 1) (value "") (footprint ""))
-    (property "Reference" "" (at 161.29 185.42 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "" (at 161.29 186.69 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 166.37 180.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 166.37 180.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a1bfed04-6c0a-45c6-9a20-f9947de27036))
   )
 
   (symbol (lib_id "Device:LED") (at 288.29 177.8 270) (mirror x) (unit 1)
@@ -5829,9 +5793,6 @@
     (path "/41dcda57-f03b-4254-a26d-4b483d171c17/06d0d2e5-f714-48df-bb74-07b60a4c6cc6"
       (reference "#PWR098") (unit 1) (value "GND") (footprint "")
     )
-    (path "/41dcda57-f03b-4254-a26d-4b483d171c17/4ce51a23-3880-4747-9667-0bbde851a641"
-      (reference "#PWR098") (unit 1) (value "GND") (footprint "")
-    )
     (path "/41dcda57-f03b-4254-a26d-4b483d171c17/d2298f73-adb5-4633-a912-3eafadc9c4bc"
       (reference "#PWR099") (unit 1) (value "GND") (footprint "")
     )
@@ -5951,6 +5912,12 @@
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/ac6606df-075c-4111-8aad-66fe16be96d1"
       (reference "#PWR0138") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/41dcda57-f03b-4254-a26d-4b483d171c17/4ce51a23-3880-4747-9667-0bbde851a641"
+      (reference "#PWR0139") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/4c8265a0-70ac-4e49-a041-47375c73efe1"
+      (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
     )
     (path "/c8d4c890-e18c-4f0d-b5c7-f5d98c418551/5cb959d5-94d7-44f1-8bf1-fdbd3edf08a6"
       (reference "#PWR0141") (unit 1) (value "+3V3") (footprint "")
@@ -6119,9 +6086,6 @@
     )
     (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/9908ec7c-a191-471f-87cd-232ed0161414"
       (reference "#PWR0197") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/4c8265a0-70ac-4e49-a041-47375c73efe1"
-      (reference "#PWR0198") (unit 1) (value "GND") (footprint "")
     )
     (path "/41f15edd-4583-4f5d-8a81-daeb7c83b416/b7970ec2-3c22-4f31-a020-19e022cf2897"
       (reference "#PWR0198") (unit 1) (value "GND") (footprint "")
@@ -7418,9 +7382,6 @@
     )
     (path "/9d4ac786-c8ee-4b40-b179-b0adecf71e1d"
       (reference "T1") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/7029dc71-5612-47e1-a070-8bab3ee33f42"
-      (reference "T2") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/a28dff5b-6aea-45e3-a447-6ff0232d5c28"
       (reference "T3") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
