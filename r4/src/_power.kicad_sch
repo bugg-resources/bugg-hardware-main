@@ -4733,7 +4733,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1240105e-7a61-4f7a-83b0-bad87de3f95f)
   )
-  (label "SW_5V2" (at 317.5 44.45 180) (fields_autoplaced)
+  (label "SW_5V4" (at 317.5 44.45 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 147774d1-f8e4-4953-8fcc-79b1af7f2602)
   )
