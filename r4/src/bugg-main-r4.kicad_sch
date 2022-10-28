@@ -5826,6 +5826,9 @@
     (path "/26331aa8-35b7-4c22-8a42-89230ada1085/266b6461-311c-4bdd-b521-867ad3327575"
       (reference "#PWR097") (unit 1) (value "GND") (footprint "")
     )
+    (path "/41dcda57-f03b-4254-a26d-4b483d171c17/06d0d2e5-f714-48df-bb74-07b60a4c6cc6"
+      (reference "#PWR098") (unit 1) (value "GND") (footprint "")
+    )
     (path "/41dcda57-f03b-4254-a26d-4b483d171c17/4ce51a23-3880-4747-9667-0bbde851a641"
       (reference "#PWR098") (unit 1) (value "GND") (footprint "")
     )
@@ -6884,6 +6887,9 @@
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/97f616af-17f9-4535-a06f-773b0de498b6"
       (reference "D19") (unit 1) (value "PMEG6020ETR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
+    )
+    (path "/41dcda57-f03b-4254-a26d-4b483d171c17/0b6de94b-8208-43fe-aaf8-d3b418ac6b72"
+      (reference "D20") (unit 1) (value "0402ESDA-MLP1") (footprint "Diode_SMD:D_0402_1005Metric")
     )
     (path "/e93db74d-0429-4e7f-b256-c16b4c3a83e7/55d23b9d-7c74-456e-9a74-0b3c28e63a24"
       (reference "FB3") (unit 1) (value "1k@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
