@@ -585,14 +585,14 @@
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -638,6 +638,90 @@
       {
         "netclass": "Power",
         "pattern": "+*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "-15V"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/SD_*"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/SPI*"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/BOOT_MODE"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/POWER_ON_N"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/RESET_IN_N"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/SDOUT"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/FSYNC"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/WAKE*"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/TX_ON"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/EXT_MIC_EN"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/3V7_EN"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/BCLK"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/*XD"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/SHDNZ"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/SAFE_PWR_REMOVE"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/SDA"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/SCL"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/LED_*"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/nPWR_LED_BUF"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/EEPROM_nWP"
       }
     ]
   },
