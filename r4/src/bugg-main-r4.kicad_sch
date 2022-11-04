@@ -1659,6 +1659,7 @@
   (no_connect (at 179.07 157.48) (uuid 0cc79136-4cd6-473b-88fc-9517b13168f9))
   (no_connect (at 52.07 180.34) (uuid 0e17a344-55f6-42be-80b0-4706844a84ea))
   (no_connect (at 52.07 119.38) (uuid 1683c379-cfbc-4f90-87e0-975cfbe0e805))
+  (no_connect (at 179.07 198.12) (uuid 24faccb0-3d62-4cf2-b5ca-1a44c9d2806d))
   (no_connect (at 52.07 187.96) (uuid 2b1d4ae6-49ff-4d06-87f3-ff9d5758813f))
   (no_connect (at 52.07 172.72) (uuid 2c07fa53-01e9-4e24-8bba-251a7c18ae56))
   (no_connect (at 52.07 134.62) (uuid 2f4f50f0-16a8-43dc-b962-85eb3b1c1557))
@@ -3658,31 +3659,6 @@
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
           (reference "#PWR0119") (unit 1) (value "+3V3") (footprint "")
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 179.07 198.12 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 59db9490-0ce6-4d1d-bcd4-e133b971c5ba)
-    (property "Reference" "T6" (at 173.99 198.12 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" " " (at 173.99 199.39 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 179.07 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 179.07 193.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 10fa39d4-435f-4f18-ada5-ce027e0dc3a8))
-    (instances
-      (project "bugg-main-r4"
-        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T6") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )

@@ -722,6 +722,10 @@
       {
         "netclass": "Narrow",
         "pattern": "/EEPROM_nWP"
+      },
+      {
+        "netclass": "Narrow",
+        "pattern": "/nRPIBOOT"
       }
     ]
   },
