@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 48,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -60,8 +60,8 @@
       36,
       40
     ],
-    "visible_layers": "0005000_80000017",
-    "zone_display_mode": 1
+    "visible_layers": "0005000_80000000",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "bugg-main-r4.kicad_prl",
