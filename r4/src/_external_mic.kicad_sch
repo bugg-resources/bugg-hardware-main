@@ -5384,10 +5384,10 @@
   (symbol (lib_id "Device:C") (at 68.58 35.56 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04e1f137-9e84-456e-bbff-e1acade633fa)
-    (property "Reference" "C48" (at 65.405 34.925 0)
+    (property "Reference" "C48" (at 64.77 34.925 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100nF" (at 65.405 37.465 0)
+    (property "Value" "100nF" (at 64.77 37.465 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 69.5452 31.75 0)
@@ -5619,13 +5619,13 @@
   (symbol (lib_id "Device:C") (at 138.43 35.56 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0eca7691-a8f4-46d2-8caf-955dd0a627c4)
-    (property "Reference" "C57" (at 135.255 34.925 0)
+    (property "Reference" "C57" (at 134.62 34.925 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100nF" (at 135.255 37.465 0)
+    (property "Value" "100nF" (at 134.62 37.465 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 139.3952 31.75 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 139.3952 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 35.56 0)
@@ -5636,7 +5636,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "C57") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0201_0603Metric")
+          (reference "C57") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
@@ -5924,13 +5924,13 @@
   (symbol (lib_id "Device:C") (at 33.02 35.56 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16fa4111-6e0c-4a83-b351-f30004d9cd6f)
-    (property "Reference" "C25" (at 29.845 34.925 0)
+    (property "Reference" "C25" (at 29.21 34.925 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100nF" (at 29.845 37.465 0)
+    (property "Value" "100nF" (at 29.21 37.465 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 33.9852 31.75 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 33.9852 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 35.56 0)
@@ -5941,7 +5941,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "C25") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C25") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
@@ -6659,13 +6659,13 @@
   (symbol (lib_id "Device:C") (at 102.87 35.56 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 313e690e-2320-44dc-9126-4aac35ea475a)
-    (property "Reference" "C53" (at 99.695 34.925 0)
+    (property "Reference" "C53" (at 99.06 34.925 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100nF" (at 99.695 37.465 0)
+    (property "Value" "100nF" (at 99.06 37.465 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 103.8352 31.75 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 103.8352 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.87 35.56 0)
@@ -6676,7 +6676,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "C53") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0201_0603Metric")
+          (reference "C53") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
@@ -7119,7 +7119,7 @@
     (property "Value" "12V" (at 184.15 214.63 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 177.165 213.36 0)
+    (property "Footprint" "Diode_SMD:D_SOD-323F" (at 177.165 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm3z2v4.pdf" (at 181.61 213.36 0)
@@ -7130,7 +7130,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "D15") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
+          (reference "D15") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-323F")
         )
       )
     )
@@ -8363,7 +8363,7 @@
     (property "Value" "100nF" (at 200.66 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 194.31 114.6048 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 194.31 114.6048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 198.12 115.57 0)
@@ -8374,7 +8374,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "C52") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0201_0603Metric")
+          (reference "C52") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
@@ -11654,7 +11654,7 @@
     (property "Value" "100nF" (at 200.66 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 194.31 104.4448 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 194.31 104.4448 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 198.12 105.41 0)
@@ -11665,7 +11665,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "C51") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0201_0603Metric")
+          (reference "C51") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
