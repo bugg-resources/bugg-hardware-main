@@ -635,7 +635,7 @@
     "netclass_patterns": [
       {
         "netclass": "GND",
-        "pattern": "GND"
+        "pattern": "GND*"
       },
       {
         "netclass": "Power",
