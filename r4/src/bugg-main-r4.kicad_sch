@@ -2988,7 +2988,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 74.93 223.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16a0396c-a9e9-4cf0-a1fa-15a27fab4369)
     (property "Reference" "FID1" (at 77.47 222.8849 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3037,7 +3037,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 74.93 236.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17f236dc-b841-44d3-b743-0a941e02b531)
     (property "Reference" "FID3" (at 77.47 235.5849 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3061,7 +3061,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 74.93 259.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 1b24891f-7b26-44eb-899e-a99a41222c7f)
     (property "Reference" "H2" (at 78.74 258.4449 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3085,7 +3085,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 74.93 271.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 1cc3b791-6b53-4113-97d4-0cb2fe132e49)
     (property "Reference" "H4" (at 78.74 271.1449 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3135,7 +3135,7 @@
   )
 
   (symbol (lib_id "Mechanical:Housing") (at 46.99 271.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2912102e-bbd1-4bfe-a2c0-bbf61df23d4c)
     (property "Reference" "BOSS4" (at 50.8 271.4625 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3595,7 +3595,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 74.93 265.43 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 4add46bf-d50a-4e5e-9578-739f6bdeb1e3)
     (property "Reference" "H3" (at 78.74 264.7949 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3663,6 +3663,30 @@
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
           (reference "#PWR052") (unit 1) (value "GND") (footprint "")
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 90.17 223.52 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 584c4cf6-e023-4881-9a18-8f47fed31ccc)
+    (property "Reference" "FID4" (at 92.71 222.8849 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 92.71 225.4249 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 90.17 223.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 90.17 223.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "bugg-main-r4"
+        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
+          (reference "FID4") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
         )
       )
     )
@@ -3848,7 +3872,7 @@
   )
 
   (symbol (lib_id "Mechanical:Housing") (at 46.99 245.11 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a37d782-01ae-42ea-af6a-83284321ae00)
     (property "Reference" "BOSS1" (at 50.8 244.7925 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4073,7 +4097,7 @@
   )
 
   (symbol (lib_id "Mechanical:Housing") (at 46.99 254 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 868cbc6a-5de3-43c4-a29a-4b2744ddb4f5)
     (property "Reference" "BOSS2" (at 50.8 253.6825 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4126,7 +4150,7 @@
   )
 
   (symbol (lib_id "Mechanical:Housing") (at 46.99 262.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90406939-2f10-40b4-97c4-ab6b178fa1e7)
     (property "Reference" "BOSS3" (at 50.8 262.5725 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4169,6 +4193,30 @@
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
           (reference "#PWR043") (unit 1) (value "GND") (footprint "")
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 90.17 229.87 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 942c6c62-d640-4e95-87d8-e9772f5b0a8a)
+    (property "Reference" "FID5" (at 92.71 229.2349 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 92.71 231.7749 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 90.17 229.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 90.17 229.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "bugg-main-r4"
+        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
+          (reference "FID5") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
         )
       )
     )
@@ -4733,7 +4781,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 74.93 252.73 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c77a8c91-eb9f-473c-8aca-9afdae0447db)
     (property "Reference" "H1" (at 78.74 252.0949 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4882,7 +4930,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 74.93 229.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6c5107c-4969-428e-b7db-9dbf291c34f4)
     (property "Reference" "FID2" (at 77.47 229.2349 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4925,6 +4973,30 @@
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
           (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 90.17 236.22 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e65ba028-130e-42d2-a777-c9435af2659a)
+    (property "Reference" "FID6" (at 92.71 235.5849 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 92.71 238.1249 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 90.17 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 90.17 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "bugg-main-r4"
+        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
+          (reference "FID6") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
         )
       )
     )
