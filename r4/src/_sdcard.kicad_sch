@@ -933,6 +933,9 @@
     (property "Datasheet" "~" (at 162.56 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Voltage" "6.3V" (at 162.56 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 35b23db3-7c9a-4223-834c-1ae7c59ef7cc))
     (pin "2" (uuid 6aec1565-e3cd-49e1-af31-a4c328529d77))
     (instances
