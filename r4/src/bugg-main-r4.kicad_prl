@@ -69,7 +69,7 @@
       40
     ],
     "visible_layers": "000d020_80000018",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "bugg-main-r4.kicad_prl",
