@@ -682,7 +682,7 @@
         "pattern": "/TX_ON"
       },
       {
-        "netclass": "Narrow",
+        "netclass": "Default",
         "pattern": "/EXT_MIC_EN"
       },
       {
