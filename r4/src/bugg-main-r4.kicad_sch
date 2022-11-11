@@ -1693,6 +1693,7 @@
     (uuid f6fbd505-cac1-45e5-b255-b3cc41b03e23)
   )
 
+  (no_connect (at 179.07 190.5) (uuid 0c213471-8d9c-4186-ac4e-7a3caf4d7a9a))
   (no_connect (at 179.07 149.86) (uuid 0cc79136-4cd6-473b-88fc-9517b13168f7))
   (no_connect (at 179.07 152.4) (uuid 0cc79136-4cd6-473b-88fc-9517b13168f8))
   (no_connect (at 179.07 157.48) (uuid 0cc79136-4cd6-473b-88fc-9517b13168f9))
@@ -1744,6 +1745,7 @@
   (no_connect (at 113.03 182.88) (uuid 7d531b74-2930-4f97-8448-b8d7f04c2e1d))
   (no_connect (at 52.07 157.48) (uuid 8b7dbd09-c10f-4c6f-9374-b9882f54eddb))
   (no_connect (at 52.07 76.2) (uuid 9b2e08c9-ae1e-4726-961c-0ca25bad5b6f))
+  (no_connect (at 179.07 193.04) (uuid 9d2baae7-5be9-448f-a69a-0a1c6f472514))
   (no_connect (at 113.03 96.52) (uuid a5684027-f094-40b9-9ff2-3591d116764c))
   (no_connect (at 113.03 119.38) (uuid a9daaa33-af5c-442c-a010-818b7e131b88))
   (no_connect (at 113.03 88.9) (uuid ad819774-b910-4ee3-a004-fc1fc3880840))
@@ -3759,31 +3761,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 179.07 190.5 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 60aaf9c0-eba6-4ede-adfe-edcbbe56443f)
-    (property "Reference" "T4" (at 173.99 190.5 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" " " (at 173.99 191.77 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 179.07 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 179.07 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f6aaf093-5c65-466a-af6f-b46f1f611c60))
-    (instances
-      (project "bugg-main-r4"
-        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T4") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+5V") (at 245.11 170.18 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6794b596-da23-4aca-9aa0-bb4a546e8fee)
@@ -3983,31 +3960,6 @@
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
           (reference "#PWR0293") (unit 1) (value "GND") (footprint "")
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 179.07 193.04 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 75570d60-5c08-4391-8f7b-f96dd530f3b0)
-    (property "Reference" "T5" (at 173.99 193.04 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" " " (at 173.99 194.31 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 179.07 187.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 179.07 187.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1e50c864-273b-4a0f-94d9-623261436c28))
-    (instances
-      (project "bugg-main-r4"
-        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T5") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
