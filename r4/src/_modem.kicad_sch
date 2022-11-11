@@ -2438,13 +2438,13 @@
   (symbol (lib_id "Device:R_Small") (at 339.09 168.91 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 025b67e1-f715-4762-965d-19ae4abaab23)
-    (property "Reference" "R46" (at 336.55 168.2749 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Reference" "R46" (at 341.63 168.275 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10k" (at 336.55 170.8149 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "10k" (at 341.63 170.815 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 339.09 168.91 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 339.09 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 339.09 168.91 0)
@@ -2455,7 +2455,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R46") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R46") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -2464,13 +2464,13 @@
   (symbol (lib_id "Device:R_Small") (at 250.19 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a50ba51-97b7-4cf4-8b26-1dd1917070d8)
-    (property "Reference" "R38" (at 252.73 193.6749 0)
+    (property "Reference" "R38" (at 252.73 193.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 252.73 196.2149 0)
+    (property "Value" "10k" (at 252.73 196.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 250.19 194.31 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 250.19 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 250.19 194.31 0)
@@ -2481,7 +2481,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R38") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R38") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -2732,13 +2732,13 @@
   (symbol (lib_id "Device:R_Small") (at 327.66 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1408acc7-c789-4811-9299-7898aae827a5)
-    (property "Reference" "R42" (at 330.2 182.2449 0)
+    (property "Reference" "R42" (at 330.2 182.245 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 330.2 184.7849 0)
+    (property "Value" "10k" (at 330.2 184.785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 327.66 182.88 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 327.66 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 327.66 182.88 0)
@@ -2749,7 +2749,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R42") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R42") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -3068,13 +3068,13 @@
   (symbol (lib_id "Device:R_Small") (at 250.19 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39a84425-4284-469b-b68e-2f5677809a8d)
-    (property "Reference" "R37" (at 252.73 172.0849 0)
+    (property "Reference" "R37" (at 252.73 172.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 252.73 174.6249 0)
+    (property "Value" "10k" (at 252.73 174.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 250.19 172.72 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 250.19 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 250.19 172.72 0)
@@ -3085,7 +3085,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R37") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R37") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -3696,13 +3696,13 @@
   (symbol (lib_id "Device:R_Small") (at 261.62 213.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a756285-5e4e-443c-a59a-2c650b114f4f)
-    (property "Reference" "R40" (at 264.16 212.7249 0)
+    (property "Reference" "R40" (at 264.16 212.725 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10k" (at 264.16 215.2649 0)
+    (property "Value" "10k" (at 264.16 215.265 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 261.62 213.36 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 261.62 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 261.62 213.36 0)
@@ -3713,7 +3713,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R40") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R40") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -3882,7 +3882,7 @@
     (property "Value" "10k" (at 255.27 207.01 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 255.27 209.55 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 255.27 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 255.27 209.55 0)
@@ -3893,7 +3893,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R39") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R39") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -3985,7 +3985,7 @@
     (property "Value" "1k" (at 340.36 205.74 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 337.82 208.28 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 337.82 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 337.82 208.28 0)
@@ -3996,7 +3996,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R44") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R44") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -4030,13 +4030,13 @@
   (symbol (lib_id "Device:R_Small") (at 326.39 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abcde602-bf84-43ff-abc3-ceb85cb2edab)
-    (property "Reference" "R43" (at 328.93 221.6149 0)
+    (property "Reference" "R43" (at 328.93 221.615 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 328.93 224.1549 0)
+    (property "Value" "10k" (at 328.93 224.155 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 326.39 222.25 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 326.39 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 326.39 222.25 0)
@@ -4047,7 +4047,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R43") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R43") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -4336,13 +4336,13 @@
   (symbol (lib_id "Device:R_Small") (at 250.19 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da115120-9e0a-41ac-9391-578f1763a023)
-    (property "Reference" "R33" (at 252.73 150.4949 0)
+    (property "Reference" "R33" (at 252.73 150.495 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 252.73 153.0349 0)
+    (property "Value" "10k" (at 252.73 153.035 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 250.19 151.13 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 250.19 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 250.19 151.13 0)
@@ -4353,7 +4353,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R33") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R33") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
