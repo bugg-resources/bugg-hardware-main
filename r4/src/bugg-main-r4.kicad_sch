@@ -3484,7 +3484,7 @@
     (property "Value" "DNP" (at 149.86 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 148.59 96.52 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 148.59 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 96.52 0)
@@ -3495,7 +3495,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R3") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R3") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )

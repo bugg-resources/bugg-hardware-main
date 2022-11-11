@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 4,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -68,8 +68,8 @@
       36,
       40
     ],
-    "visible_layers": "0005000_8000001f",
-    "zone_display_mode": 0
+    "visible_layers": "0009000_8000001f",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "bugg-main-r4.kicad_prl",
