@@ -2784,7 +2784,7 @@
     (property "Value" "1k" (at 151.13 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 106.68 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 151.13 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 106.68 0)
@@ -2795,7 +2795,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R34") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R34") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
