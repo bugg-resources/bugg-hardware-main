@@ -10,7 +10,7 @@
       "GND",
       "GNDA"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -68,8 +68,8 @@
       36,
       40
     ],
-    "visible_layers": "000d020_80000018",
-    "zone_display_mode": 0
+    "visible_layers": "000d020_8000001d",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "bugg-main-r4.kicad_prl",
