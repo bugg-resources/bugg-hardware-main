@@ -1743,6 +1743,7 @@
   (no_connect (at 113.03 175.26) (uuid 7d531b74-2930-4f97-8448-b8d7f04c2e1b))
   (no_connect (at 113.03 177.8) (uuid 7d531b74-2930-4f97-8448-b8d7f04c2e1c))
   (no_connect (at 113.03 182.88) (uuid 7d531b74-2930-4f97-8448-b8d7f04c2e1d))
+  (no_connect (at 240.03 116.84) (uuid 8410ec72-3dea-4465-997c-ae2c1224a894))
   (no_connect (at 52.07 157.48) (uuid 8b7dbd09-c10f-4c6f-9374-b9882f54eddb))
   (no_connect (at 52.07 76.2) (uuid 9b2e08c9-ae1e-4726-961c-0ca25bad5b6f))
   (no_connect (at 179.07 193.04) (uuid 9d2baae7-5be9-448f-a69a-0a1c6f472514))
@@ -1844,10 +1845,6 @@
   (wire (pts (xy 156.21 101.6) (xy 179.07 101.6))
     (stroke (width 0) (type solid))
     (uuid 0324b0a6-9466-4393-9176-1af15f0ab81f)
-  )
-  (wire (pts (xy 240.03 116.84) (xy 264.16 116.84))
-    (stroke (width 0) (type default))
-    (uuid 03ce8f1a-de0d-4358-8ac4-637d73032075)
   )
   (wire (pts (xy 156.21 129.54) (xy 179.07 129.54))
     (stroke (width 0) (type solid))
@@ -2702,10 +2699,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cc5f23eb-da9b-4529-be7d-fbb8a0af4d17)
   )
-  (label "SAFE_PWR_REMOVE" (at 264.16 116.84 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid d0b2f140-f235-4ef9-9f64-7de5d8671a06)
-  )
   (label "3V7_EN" (at 264.16 119.38 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d1ac6d4c-841c-494e-a29e-75f80a2f3c12)
@@ -3111,7 +3104,7 @@
     (property "Value" "DNP" (at 152.4 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 144.78 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 151.13 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 144.78 0)
@@ -3122,7 +3115,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R2") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R2") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -3465,7 +3458,7 @@
     (property "Value" "DNP" (at 152.4 139.7 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 142.24 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 151.13 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 142.24 0)
@@ -3476,7 +3469,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R1") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R1") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
