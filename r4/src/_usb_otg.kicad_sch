@@ -655,6 +655,10 @@
           (name "IO1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
+        (pin passive line (at -5.08 7.62 270) (length 2.54) hide
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
         (pin passive line (at -2.54 7.62 270) (length 2.54)
           (name "IO2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
@@ -666,6 +670,22 @@
         (pin passive line (at 5.08 7.62 270) (length 2.54)
           (name "IO4" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 7.62 270) (length 2.54) hide
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 7.62 270) (length 2.54) hide
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -5.08 90) (length 2.54) hide
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -2.54 7.62 270) (length 2.54) hide
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1059,9 +1079,14 @@
     )
     (pin "3" (uuid b5a63afd-376b-42b9-aa44-4c003fc2c436))
     (pin "1" (uuid 32b45f5f-7ec4-4ac2-a844-95bde111592c))
+    (pin "10" (uuid 6c1fcccc-1151-401f-bb2f-e1dc5347c882))
     (pin "2" (uuid b59e0bf2-84e6-43f3-a73c-8a4f02b458e0))
     (pin "4" (uuid bddf1442-f767-428f-9164-cbcdee65ff94))
     (pin "5" (uuid 344dd8fb-8593-458a-86a2-ca65e899c759))
+    (pin "6" (uuid 0b775525-7908-4331-a800-edccb123b0fb))
+    (pin "7" (uuid b093a666-b607-4603-9e8b-8fd9c28887f4))
+    (pin "8" (uuid fe1140f6-28e9-429b-8baa-4ff83725849e))
+    (pin "9" (uuid 2fd38c72-0f32-40a5-b2e3-6c39e439df3e))
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
