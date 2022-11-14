@@ -5462,7 +5462,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 254 288.29 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1537a5c0-0253-4b43-8f0d-fe000a1747f3)
-    (property "Reference" "J34" (at 254 293.37 90)
+    (property "Reference" "T22" (at 254 293.37 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 252.73 293.37 90)
@@ -5478,7 +5478,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "J34") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T22") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
@@ -5696,7 +5696,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 149.86 356.87 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1df8c105-c8f3-463a-b411-7e81087dce25)
-    (property "Reference" "J39" (at 154.94 356.87 90)
+    (property "Reference" "T42" (at 154.94 356.87 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 154.94 358.14 90)
@@ -5712,7 +5712,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "J39") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T42") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
@@ -6718,7 +6718,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 443.23 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ed3638c-d387-4960-bcd9-acbac648d37c)
-    (property "Reference" "J44" (at 443.23 245.11 90)
+    (property "Reference" "T6" (at 443.23 245.11 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 444.5 245.11 90)
@@ -6734,7 +6734,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "J44") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T6") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
@@ -7196,7 +7196,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 149.86 323.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c6d357c-8150-4eac-9b09-620aca7f26e2)
-    (property "Reference" "J38" (at 154.94 323.85 90)
+    (property "Reference" "T41" (at 154.94 323.85 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 154.94 325.12 90)
@@ -7212,7 +7212,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "J38") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T41") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
@@ -9228,7 +9228,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 278.13 361.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a95bb1aa-7365-4e3f-9b42-7d6ceddc1c59)
-    (property "Reference" "J42" (at 278.13 367.03 90)
+    (property "Reference" "T52" (at 278.13 367.03 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 276.86 367.03 90)
@@ -9244,7 +9244,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "J42") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T52") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
@@ -9986,7 +9986,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 313.69 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd248063-820b-4c46-b8e2-b93650024110)
-    (property "Reference" "J45" (at 313.69 245.11 90)
+    (property "Reference" "T7" (at 313.69 245.11 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 314.96 245.11 90)
@@ -10002,7 +10002,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "J45") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T7") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
@@ -10764,7 +10764,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 254 238.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e919cb42-084f-43ce-844a-33c6126cffda)
-    (property "Reference" "J35" (at 254 233.68 90)
+    (property "Reference" "T21" (at 254 233.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 255.27 233.68 90)
@@ -10780,7 +10780,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "J35") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T21") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
@@ -10789,7 +10789,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 497.84 246.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9989676-7521-425d-91b1-8c22a159adf5)
-    (property "Reference" "J43" (at 502.92 246.38 90)
+    (property "Reference" "T5" (at 502.92 246.38 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 502.92 247.65 90)
@@ -10805,7 +10805,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "J43") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T5") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
@@ -11100,7 +11100,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 223.52 359.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4c880aa-72a5-448b-9e05-252307709c9c)
-    (property "Reference" "J41" (at 223.52 364.49 90)
+    (property "Reference" "T51" (at 223.52 364.49 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 222.25 364.49 90)
@@ -11116,7 +11116,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "J41") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T51") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
         )
       )
     )
