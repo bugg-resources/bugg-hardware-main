@@ -10417,7 +10417,7 @@
     (property "Value" "THAT5173" (at 337.185 271.145 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.4x3.4mm" (at 340.36 285.75 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.4x3.4mm_ThermalVias" (at 340.36 285.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.thatcorp.com/datashts/THAT_5173_Datasheet.pdf" (at 340.36 288.29 0)
@@ -10451,7 +10451,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "U18") (unit 1) (value "THAT5173") (footprint "Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.4x3.4mm")
+          (reference "U18") (unit 1) (value "THAT5173") (footprint "Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.4x3.4mm_ThermalVias")
         )
       )
     )
@@ -11837,7 +11837,7 @@
     (property "Value" "THAT5173" (at 188.595 115.57 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.4x3.4mm" (at 191.77 132.08 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.4x3.4mm_ThermalVias" (at 191.77 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.thatcorp.com/datashts/THAT_5173_Datasheet.pdf" (at 191.77 134.62 0)
@@ -11871,7 +11871,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "U18") (unit 2) (value "THAT5173") (footprint "Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.4x3.4mm")
+          (reference "U18") (unit 2) (value "THAT5173") (footprint "Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.4x3.4mm_ThermalVias")
         )
       )
     )
