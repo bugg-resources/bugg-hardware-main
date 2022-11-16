@@ -22,5 +22,5 @@ Silk
 DK prepreg assumed: 4.2
 Finish: ENIG
 Silk: White
-Resist: Black
+Resist: Black, vias tented
 
