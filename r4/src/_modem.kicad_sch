@@ -1498,6 +1498,300 @@
           (number "99" (effects (font (size 1.016 1.016))))
         )
       )
+      (symbol "Sierra_Wireless_RC7620_1_0"
+        (pin no_connect line (at 81.28 6.35 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "100" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 3.81 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "102" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 1.27 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "103" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -1.27 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "107" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -3.81 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "108" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -6.35 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "114" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -8.89 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "115" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -11.43 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "116" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -13.97 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "117" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -16.51 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "118" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -19.05 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "119" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -21.59 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "120" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -24.13 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "121" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -26.67 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "122" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -29.21 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "123" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -31.75 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "124" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -34.29 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "129" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -36.83 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "130" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -39.37 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "131" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -41.91 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "132" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -44.45 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "133" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -46.99 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "134" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -49.53 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "135" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 97.79 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -52.07 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "140" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -54.61 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "141" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -57.15 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "142" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -59.69 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "143" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -62.23 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "144" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -64.77 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "145" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -67.31 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "146" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 95.25 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "15" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -69.85 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "160" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -72.39 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "161" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -74.93 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "162" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -77.47 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "163" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -80.01 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "164" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -82.55 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "165" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 -85.09 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "166" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 92.71 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "17" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 90.17 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "18" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 87.63 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "19" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 85.09 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "20" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 82.55 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "21" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 80.01 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "55" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 77.47 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "56" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 74.93 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "57" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 72.39 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "58" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 69.85 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "71" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 67.31 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "72" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 64.77 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "73" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 62.23 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "74" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 59.69 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "75" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 57.15 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "76" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 54.61 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "77" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 52.07 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "78" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 49.53 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "79" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 46.99 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "80" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 44.45 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "81" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 41.91 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "82" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 39.37 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "83" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 36.83 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "84" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 34.29 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "85" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 31.75 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "86" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 29.21 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "87" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 26.67 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "88" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 24.13 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "89" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 21.59 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "90" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 19.05 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "91" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 16.51 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "92" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 13.97 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "93" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 11.43 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "94" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 81.28 8.89 180) (length 2.54) hide
+          (name "reserved" (effects (font (size 1.27 1.27))))
+          (number "95" (effects (font (size 1.27 1.27))))
+        )
+      )
       (symbol "Sierra_Wireless_RC7620_1_1"
         (pin output line (at 30.48 -10.16 180) (length 5.08)
           (name "EXT_GPS_LNA_EN" (effects (font (size 1.016 1.016))))
@@ -2865,6 +3159,79 @@
     (pin "97" (uuid 8892c9db-611e-4708-afe5-79dd77bfb199))
     (pin "98" (uuid 8e1a8746-9c17-4f3d-9682-9b5b992dd0ed))
     (pin "99" (uuid 03c8464c-761e-482e-a6b3-9d8aedb7b1cb))
+    (pin "100" (uuid b5c9dbbc-a16a-42cd-9b4a-3477a0043974))
+    (pin "102" (uuid 8b9d55d2-0ede-4c14-bf8e-c150e8bc6a67))
+    (pin "103" (uuid cc4598fb-5cb5-4902-8a29-9e70cfc66e98))
+    (pin "107" (uuid 1cc25b1c-becc-41b1-b865-135cd8ee7e5c))
+    (pin "108" (uuid 30fee450-522c-4341-a0f3-ceda5acd6338))
+    (pin "114" (uuid cb142098-f1a7-4261-b331-f3f064a1dca7))
+    (pin "115" (uuid 3ecadffb-a83c-487c-9fad-52a4f267c515))
+    (pin "116" (uuid da9ac923-e305-4efc-86a2-f20f9791d1d4))
+    (pin "117" (uuid 9e731dcf-4209-41c2-bbf6-68dfdaeba5eb))
+    (pin "118" (uuid e784d92a-c01e-4aa3-9b0d-a2e44e987793))
+    (pin "119" (uuid 8be1fe6c-6a1e-467e-a8f4-417a0d404b6d))
+    (pin "120" (uuid 82a13ac4-c444-436f-b322-a1257b5217d4))
+    (pin "121" (uuid b0456212-0335-45b1-b4e2-93debd9b8867))
+    (pin "122" (uuid 2e9ae4a2-3625-4261-ae8b-42a30ec722b5))
+    (pin "123" (uuid 3a9d440d-dc32-4bbb-85c5-cf3cda5830ce))
+    (pin "124" (uuid c00b7dbb-6d2b-4b61-91e6-1a98781338c8))
+    (pin "129" (uuid a3d78045-a1ee-43a0-9241-f2c33211a391))
+    (pin "130" (uuid a7745039-0899-4408-8821-6a2dc3767dc9))
+    (pin "131" (uuid adc9e464-41b9-4d27-a0fc-3da5a934ffa6))
+    (pin "132" (uuid 4e93d04b-2679-4937-80ac-a087ab29f1a7))
+    (pin "133" (uuid 1ec46712-544d-42a4-9383-97336fee4e69))
+    (pin "134" (uuid 64c20730-0ea7-487c-ad44-4f3ae1d63537))
+    (pin "135" (uuid b8ab081b-e4bc-447b-8f7f-5c1827e844dc))
+    (pin "14" (uuid e8e7dfdf-f706-4331-a0d6-87ce144a9e60))
+    (pin "140" (uuid 7d23d99d-6450-4b04-a62a-f37d4e05f6c9))
+    (pin "141" (uuid 168acb66-0352-4e63-ade1-22f1b94f03c4))
+    (pin "142" (uuid 9c3b8a96-7f49-4215-9b17-b7a436f65129))
+    (pin "143" (uuid 22280114-95d4-4734-9ee2-363fde43810c))
+    (pin "144" (uuid 814385b9-1e7f-4e55-b8b4-1e615ab9a4a7))
+    (pin "145" (uuid 35b753a0-49ba-416f-99a5-ea65942b347e))
+    (pin "146" (uuid 1e6d4fa8-7090-4860-9009-402c8133b76e))
+    (pin "15" (uuid 582bd338-c297-46c6-875a-960584466378))
+    (pin "160" (uuid 88257d31-b405-49cf-8678-c1e44aca86de))
+    (pin "161" (uuid eefb29be-57e4-42cc-9970-19ac59775582))
+    (pin "162" (uuid 5e64393e-eeaf-4882-b955-e11d4ef1847a))
+    (pin "163" (uuid 50c86f49-9605-454d-96fe-4f33f843b380))
+    (pin "164" (uuid f763d96e-724a-4d0d-b51c-dc79234eb853))
+    (pin "165" (uuid 88c3e9d8-2ffa-4e2f-b453-fca1754211cc))
+    (pin "166" (uuid 57f1a38b-71ca-463a-a9c7-52ebdf5b427c))
+    (pin "17" (uuid b53a878d-6955-4368-80a1-9dc43857374d))
+    (pin "18" (uuid f7d98ec2-3e03-406c-93fd-8e991905bb5d))
+    (pin "19" (uuid 58d77543-242b-4bf3-b38e-760d6c4a0d04))
+    (pin "20" (uuid 50010917-ee19-4690-b3f4-41255ca43b30))
+    (pin "21" (uuid 5b7427bb-fd7c-489f-82f0-d2d62e762577))
+    (pin "55" (uuid 9b4ae7b7-b862-4b0d-a99f-985995a6a08d))
+    (pin "56" (uuid 31f9594d-e4f8-41d7-a45a-5882f94b480b))
+    (pin "57" (uuid b1a0865f-ae2b-465c-883d-60a36eeb4348))
+    (pin "58" (uuid 1d9ca1da-7215-4024-89ae-44bc48f585f5))
+    (pin "71" (uuid 2811619e-e8c9-46de-99e3-6fd5166bdcb8))
+    (pin "72" (uuid c40f3b8f-d6c3-4e38-bbb4-3042211178e0))
+    (pin "73" (uuid 26f37e92-6201-41f0-bf83-747221842f03))
+    (pin "74" (uuid 7b7e9330-c789-4ce0-9d7c-dc73b8a4b297))
+    (pin "75" (uuid 6ebce2a6-2db7-4f22-8583-ef781df2bef3))
+    (pin "76" (uuid 2827e0df-5294-4b98-893a-a36ea35ce1c8))
+    (pin "77" (uuid 82906ad8-8640-40f9-b779-cbcc7635dc18))
+    (pin "78" (uuid d4ad55d8-e53b-47a1-90ac-967ce61a524d))
+    (pin "79" (uuid c403d577-a224-43d7-a276-b38f135c57f4))
+    (pin "80" (uuid 6d5b45f8-4459-480a-bc4f-2e30b58b8242))
+    (pin "81" (uuid 4974c297-3b8b-491e-91ce-aded67349e02))
+    (pin "82" (uuid cca35ba2-b2f3-4473-b686-13190b562c50))
+    (pin "83" (uuid f18ceb5a-eec8-40b5-bbc6-b549047b204d))
+    (pin "84" (uuid 3fda021c-6246-4416-bc20-ae2269c0a4b1))
+    (pin "85" (uuid 5ac0ded2-8ca8-43dd-b833-76d1b137de40))
+    (pin "86" (uuid ace0ec7f-0214-4bdc-8895-87ed50a2069b))
+    (pin "87" (uuid 90100501-c633-41f3-ab82-926c1ba0cd0b))
+    (pin "88" (uuid c67f6b48-1dc0-4c2f-9a39-7be370e5761b))
+    (pin "89" (uuid 11695828-2825-48b9-8bba-14085e1c9bb2))
+    (pin "90" (uuid 39adee31-3816-4735-98ca-62a6c207ce7c))
+    (pin "91" (uuid 1233b8f4-0b2a-473a-a3db-17b2054bd901))
+    (pin "92" (uuid fd5c2b9f-b89a-4da8-8f97-e57a96e25790))
+    (pin "93" (uuid 9f2bb52a-7fc1-4f8d-b4ea-fed34f50194e))
+    (pin "94" (uuid 9fc9f15d-1462-4bac-99ce-b611a81445c7))
+    (pin "95" (uuid 87dd0b3c-002e-4874-bb8d-bbe8baf9ef12))
     (pin "43" (uuid 04aff9c7-80ab-454e-b3e8-9e479c7dd31c))
     (instances
       (project "bugg-main-r4"
@@ -4009,7 +4376,7 @@
     (property "Value" "100nF" (at 320.04 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 317.5 69.85 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 317.5 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 317.5 69.85 0)
@@ -4020,7 +4387,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C26") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C26") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
@@ -4722,13 +5089,16 @@
     (property "Reference" "C28" (at 331.47 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1nF" (at 331.47 71.12 0)
+    (property "Value" "10nF" (at 331.47 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 328.93 69.85 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 328.93 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 328.93 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Voltage" "50V" (at 328.93 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8f45ec68-01af-4f0f-8d2f-22e8527ed458))
@@ -4736,7 +5106,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C28") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C28") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
