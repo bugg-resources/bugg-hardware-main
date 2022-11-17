@@ -858,7 +858,7 @@
     (property "Reference" "R26" (at 122.555 109.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "23.7k" (at 122.555 112.395 0)
+    (property "Value" "22.6k" (at 122.555 112.395 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 120.65 110.49 0)
@@ -872,7 +872,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "R26") (unit 1) (value "23.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R26") (unit 1) (value "22.6k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -884,7 +884,7 @@
     (property "Reference" "R25" (at 122.555 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "23.7k" (at 122.555 95.885 0)
+    (property "Value" "22.6k" (at 122.555 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 120.65 93.98 0)
@@ -898,7 +898,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "R25") (unit 1) (value "23.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R25") (unit 1) (value "22.6k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -989,7 +989,7 @@
     (property "Reference" "R27" (at 122.555 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "23.7k" (at 122.555 118.745 0)
+    (property "Value" "22.6k" (at 122.555 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 120.65 116.84 0)
@@ -1003,7 +1003,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "R27") (unit 1) (value "23.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R27") (unit 1) (value "22.6k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
