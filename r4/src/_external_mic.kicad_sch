@@ -8916,7 +8916,7 @@
     (property "Reference" "R49" (at 254 300.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1M2" (at 254 302.895 0)
+    (property "Value" "1.3M" (at 254 302.895 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 249.682 300.99 90)
@@ -8930,7 +8930,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "R49") (unit 1) (value "1M2") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R49") (unit 1) (value "1.3M") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -11617,7 +11617,7 @@
     (property "Reference" "R50" (at 262.255 300.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1M2" (at 262.255 302.895 0)
+    (property "Value" "1.3M" (at 262.255 302.895 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 258.572 300.99 90)
@@ -11631,7 +11631,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "R50") (unit 1) (value "1M2") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R50") (unit 1) (value "1.3M") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
