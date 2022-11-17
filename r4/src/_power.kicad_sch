@@ -6042,7 +6042,7 @@
     (property "Datasheet" "~" (at 193.04 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Voltage" "25V" (at 196.85 270.51 0)
+    (property "Voltage" "50V" (at 196.85 270.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "1" (uuid 4fa665be-4eda-46e6-8d4b-e8991ce0ccf7))
