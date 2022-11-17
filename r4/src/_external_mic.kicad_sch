@@ -7196,7 +7196,7 @@
     (property "Value" "12V" (at 184.15 214.63 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-323F" (at 177.165 213.36 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 177.165 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm3z2v4.pdf" (at 181.61 213.36 0)
@@ -7207,7 +7207,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "D15") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-323F")
+          (reference "D15") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
         )
       )
     )
