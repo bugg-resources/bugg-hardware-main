@@ -7122,7 +7122,7 @@
     (property "Value" "220nF" (at 249.301 176.403 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 247.3452 179.07 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 247.3452 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 246.38 175.26 0)
@@ -7136,7 +7136,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C1") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C1") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
@@ -7256,7 +7256,7 @@
     (property "Value" "220nF" (at 298.831 54.483 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 296.8752 57.15 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 296.8752 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 295.91 53.34 0)
@@ -7270,7 +7270,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C4") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C4") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
@@ -9027,7 +9027,7 @@
     (property "Value" "220nF" (at 311.531 176.403 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 309.5752 179.07 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 309.5752 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 308.61 175.26 0)
@@ -9041,7 +9041,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C41") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C41") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
@@ -9547,7 +9547,7 @@
     (property "Value" "220nF" (at 312.801 54.483 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 310.8452 57.15 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 310.8452 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 309.88 53.34 0)
@@ -9561,7 +9561,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C42") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C42") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
@@ -10778,7 +10778,7 @@
     (property "Value" "220nF" (at 298.831 176.403 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 296.8752 179.07 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 296.8752 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 295.91 175.26 0)
@@ -10792,7 +10792,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C3") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C3") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
