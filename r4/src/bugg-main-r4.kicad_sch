@@ -2842,7 +2842,7 @@
     (property "Value" "1k" (at 255.27 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 255.27 99.06 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 255.27 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 255.27 99.06 0)
@@ -2853,7 +2853,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -3867,7 +3867,7 @@
           (reference "R77") (unit 1) (value "82R") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R77") (unit 1) (value "82R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R77") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -4120,7 +4120,7 @@
           (reference "R75") (unit 1) (value "82R") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R75") (unit 1) (value "82R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R75") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -4563,7 +4563,7 @@
     (property "Value" "1k" (at 285.75 182.88 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 288.29 185.42 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 288.29 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 288.29 185.42 0)
@@ -4574,7 +4574,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -4703,7 +4703,7 @@
           (reference "R76") (unit 1) (value "82R") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R76") (unit 1) (value "82R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R76") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )

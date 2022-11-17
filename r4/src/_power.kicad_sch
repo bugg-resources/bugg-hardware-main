@@ -5001,6 +5001,12 @@
     (property "Datasheet" "~" (at 171.45 292.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Voltage" "50V" (at 171.45 292.1 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tempco" "NP0" (at 171.45 292.1 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 73ecb38c-d14a-42d9-914f-ab4e55054aee))
     (pin "2" (uuid 45ee2e02-3ce5-4a70-a0b6-6dd7ec3836b7))
     (instances
@@ -5197,7 +5203,7 @@
     (property "Reference" "L6" (at 290.83 245.11 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1uF" (at 290.83 247.65 90)
+    (property "Value" "1uH" (at 290.83 247.65 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Inductor_SMD:L_1008_2520Metric" (at 290.83 250.19 0)
@@ -5211,7 +5217,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "L6") (unit 1) (value "1uF") (footprint "Inductor_SMD:L_1008_2520Metric")
+          (reference "L6") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_1008_2520Metric")
         )
       )
     )
@@ -6327,6 +6333,12 @@
     (property "Datasheet" "~" (at 336.55 292.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Voltage" "50V" (at 336.55 292.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tempco" "NP0" (at 336.55 292.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a1b41326-07bf-408f-87ad-5aebe54617cc))
     (pin "2" (uuid a0fbb546-03ed-4df6-8d69-a919c2c46b96))
     (instances
@@ -7273,7 +7285,7 @@
     (property "Value" "1M" (at 218.948 190.373 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 215.392 189.23 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 215.392 189.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 217.17 189.23 0)
@@ -7284,7 +7296,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R10") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R10") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -7408,6 +7420,9 @@
     )
     (property "Voltage" "50V" (at 504.19 255.27 90)
       (effects (font (size 1.27 1.27)))
+    )
+    (property "Tempco" "NP0" (at 497.84 257.81 90)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8d768997-85b3-4844-b40e-0f8bce5945bd))
     (pin "2" (uuid 7e7e60ed-c6aa-4714-8e59-c56e8842c4be))
@@ -10703,7 +10718,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 45.72 283.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e61c18db-32dd-4579-8bec-8f3f5555a56c)
     (property "Reference" "NT1" (at 45.72 279.4 0)
       (effects (font (size 1.27 1.27)))
@@ -10737,7 +10752,7 @@
     (property "Value" "1M" (at 218.948 125.603 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 215.392 124.46 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 215.392 124.46 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 217.17 124.46 0)
@@ -10748,7 +10763,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R9") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R9") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -11312,7 +11327,7 @@
     (property "Reference" "R96" (at 354.33 291.465 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "182k" (at 354.33 294.005 0)
+    (property "Value" "180k" (at 354.33 294.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 350.012 292.1 90)
@@ -11326,7 +11341,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R96") (unit 1) (value "182k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R96") (unit 1) (value "180k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )

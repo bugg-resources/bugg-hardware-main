@@ -3770,7 +3770,7 @@
     (property "Value" "0R" (at 285.75 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 285.75 82.55 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 285.75 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 285.75 82.55 0)
@@ -3781,7 +3781,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R23") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R23") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -4153,7 +4153,7 @@
     (property "Value" "DNP 15k" (at 278.13 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 280.67 72.39 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 280.67 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 280.67 72.39 0)
@@ -4164,7 +4164,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R22") (unit 1) (value "DNP 15k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R22") (unit 1) (value "DNP 15k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -4814,7 +4814,7 @@
     (property "Value" "10k" (at 265.43 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 267.97 72.39 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 267.97 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 267.97 72.39 0)
@@ -4825,7 +4825,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R21") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R21") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -5099,6 +5099,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Voltage" "50V" (at 328.93 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tempco" "NP0" (at 328.93 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8f45ec68-01af-4f0f-8d2f-22e8527ed458))
