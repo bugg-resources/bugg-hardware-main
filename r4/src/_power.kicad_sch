@@ -6982,7 +6982,7 @@
     (property "Reference" "J10" (at 72.39 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "502443-0560" (at 72.39 31.75 0)
+    (property "Value" "502443-0860" (at 72.39 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "jeffmakes-footprints:Molex_CLIK-Mate_502443-0870_1x08-2MP_P2.00mm_Vertical" (at 72.39 43.18 0)
@@ -7004,7 +7004,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "J10") (unit 1) (value "502443-0560") (footprint "jeffmakes-footprints:Molex_CLIK-Mate_502443-0870_1x08-2MP_P2.00mm_Vertical")
+          (reference "J10") (unit 1) (value "502443-0860") (footprint "jeffmakes-footprints:Molex_CLIK-Mate_502443-0870_1x08-2MP_P2.00mm_Vertical")
         )
       )
     )
