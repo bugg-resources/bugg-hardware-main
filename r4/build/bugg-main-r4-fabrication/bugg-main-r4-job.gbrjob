@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "6.99.0-1.20221101gitf80c150.fc36"
     },
-    "CreationDate": "2022-11-23T15:43:32+00:00"
+    "CreationDate": "2022-11-25T18:04:48+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -105,6 +105,11 @@
     {
       "Path": "bugg-main-r4-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "bugg-main-r4-Mousebites-Forbid.gbr",
+      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],
