@@ -3405,7 +3405,7 @@
     (property "Value" "DNP" (at 31.75 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" (at 31.75 156.21 0)
+    (property "Footprint" "jeffmakes-footprints:U.FL_Hirose_U.FL-R-SMT-1-copper-keepout" (at 31.75 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 31.75 156.21 0)
@@ -3419,7 +3419,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J17") (unit 1) (value "DNP") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
+          (reference "J17") (unit 1) (value "DNP") (footprint "jeffmakes-footprints:U.FL_Hirose_U.FL-R-SMT-1-copper-keepout")
         )
       )
     )
@@ -4288,7 +4288,7 @@
     (property "Value" "U_FL-R-SMT-1_10_" (at 29.21 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" (at 31.75 133.35 0)
+    (property "Footprint" "jeffmakes-footprints:U.FL_Hirose_U.FL-R-SMT-1-copper-keepout" (at 31.75 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 31.75 133.35 0)
@@ -4302,7 +4302,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J12") (unit 1) (value "U_FL-R-SMT-1_10_") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
+          (reference "J12") (unit 1) (value "U_FL-R-SMT-1_10_") (footprint "jeffmakes-footprints:U.FL_Hirose_U.FL-R-SMT-1-copper-keepout")
         )
       )
     )

@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "6.99.0-1.20221101gitf80c150.fc36"
     },
-    "CreationDate": "2022-11-25T18:04:48+00:00"
+    "CreationDate": "2022-11-27T18:51:59+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,7 +18,7 @@
       "Y": 109.16
     },
     "LayerNumber": 6,
-    "BoardThickness": 1.49,
+    "BoardThickness": 1.6,
     "Finish": "ENIG"
   },
   "DesignRules": [
@@ -160,7 +160,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.22,
+      "Thickness": 0.33,
       "Material": "FR4",
       "Name": "In2.Cu-routing/In3.Cu-routing",
       "Notes": "Type: dielectric layer 3 (from In2.Cu-routing to In3.Cu-routing)"
