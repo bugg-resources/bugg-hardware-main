@@ -1,4 +1,4 @@
-### Module positions - created on Fri 25 Nov 2022 18:12:13 GMT ###
+### Module positions - created on Sun 27 Nov 2022 20:22:00 GMT ###
 ### Printed by Pcbnew version 6.99.0-1.20221101gitf80c150.fc36
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -46,12 +46,12 @@ H2        MountingHole_3.2mm_M3_DIN965  MountingHole_3.2mm_M3_DIN965            
 H3        MountingHole_3.2mm_M3_DIN965  MountingHole_3.2mm_M3_DIN965                            -14.6500   -34.5000    0.0000  top
 H4        MountingHole_3.2mm_M3_DIN965  MountingHole_3.2mm_M3_DIN965                            -48.6500   -34.5000    0.0000  top
 J10       502443-0860                   Molex_CLIK-Mate_502443-0870_1x08-2MP_P2.00mm_Vertical   -39.1500   -27.0000    0.0000  top
-J12       U_FL-R-SMT-1_10_              U.FL_Hirose_U.FL-R-SMT-1_Vertical                       -49.1700    63.4500  180.0000  top
+J12       U_FL-R-SMT-1_10_              U.FL_Hirose_U.FL-R-SMT-1-copper-keepout                 -49.1700    63.4500  180.0000  top
 J13       JAE_SIM_Card_SF72S006         JAE_SIM_Card_SF72S006                                   -59.5900   -16.7000   90.0000  top
 J14       Micro_SD_Card_Det_JAE_ST11    microSD_JAE_ST11S008V4H                                 -63.6500    -4.5000  -90.0000  top
 J15       10118194                      USB_Micro-B_Amphenol_10118194_Horizontal                -10.7500    37.7000   90.0000  top
 J16       FH12A-20S-0.5SH               Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal       -48.3500    47.0000  -90.0000  top
-J17       DNP                           U.FL_Hirose_U.FL-R-SMT-1_Vertical                       -11.1750    51.2750    0.0000  top
+J17       DNP                           U.FL_Hirose_U.FL-R-SMT-1-copper-keepout                 -11.1750    51.2750    0.0000  top
 Module1   ComputeModule4-CM4            Raspberry-Pi-4-Compute-Module-no-holes                  -45.1500   -18.5000    0.0000  top
 NT1       NetTie_2                      NetTie-2_SMD_Pad2.0mm-inner1                            -36.3000    11.2000  180.0000  top
 Q4        NX3008NBKW                    SOT-323_SC-70                                           -14.8000    34.0500  -90.0000  top
