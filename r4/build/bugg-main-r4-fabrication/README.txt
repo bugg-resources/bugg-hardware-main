@@ -23,3 +23,5 @@ Silk: White
 Resist: Black, vias tented
 
 See Mousebites-Forbid layer for areas in which mousebites should not be placed.
+Mousebites can be placed anywhere on Mic and LED boards.
+
