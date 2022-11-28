@@ -12,4 +12,4 @@ For a full overview of the design of the Bugg recording device and practical ass
 
 ## BoM
 
-[Interactive BoM for the main board is here](https://raw.githack.com/jeffmakes/bugg-hardware-main/main/r4/build/bugg-main-r4-bom/bugg-main-r4.html)
+[Interactive BoM for the main board](https://raw.githack.com/jeffmakes/bugg-hardware-main/main/r4/build/bugg-main-r4-bom/bugg-main-r4.html)
