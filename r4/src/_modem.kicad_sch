@@ -5101,9 +5101,6 @@
     (property "Voltage" "50V" (at 328.93 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Tempco" "NP0" (at 328.93 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid 8f45ec68-01af-4f0f-8d2f-22e8527ed458))
     (pin "2" (uuid e8eea789-b190-40ef-8340-9a5120646c30))
     (instances
