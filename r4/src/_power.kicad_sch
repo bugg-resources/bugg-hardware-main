@@ -5296,7 +5296,7 @@
     (property "Reference" "R98" (at 260.35 332.74 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "500R" (at 260.35 335.28 90)
+    (property "Value" "510R" (at 260.35 335.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 260.35 339.598 90)
@@ -5310,7 +5310,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R98") (unit 1) (value "500R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R98") (unit 1) (value "510R") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
@@ -11471,7 +11471,7 @@
     (property "Reference" "R89" (at 453.39 259.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "500R" (at 453.39 262.255 0)
+    (property "Value" "510R" (at 453.39 262.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 449.072 260.35 90)
@@ -11485,7 +11485,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R89") (unit 1) (value "500R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R89") (unit 1) (value "510R") (footprint "Resistor_SMD:R_0402_1005Metric")
         )
       )
     )
