@@ -1,4 +1,4 @@
-(kicad_sch (version 20221004) (generator eeschema)
+(kicad_sch (version 20230409) (generator eeschema)
 
   (uuid e3eb514f-6ce4-4abe-ba20-f82f0015628f)
 
@@ -2450,42 +2450,51 @@
     (uuid fc351705-60b1-4145-953c-fb8605572a93)
   )
 
-  (text "Yellow" (at 143.51 115.57 0)
+  (text "Yellow" (exclude_from_sim no)
+ (at 143.51 115.57 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0d630ac5-f13f-409e-86f8-50a8e8b0c223)
   )
-  (text "Red" (at 295.91 185.42 90)
+  (text "Red" (exclude_from_sim no)
+ (at 295.91 185.42 90)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 29255188-799f-410d-8195-880dbacadedf)
   )
-  (text "Mux the two mono mic data \nlines into one stereo LJ bus.\nLeft = External\nRight = Internal"
+  (text "Mux the two mono mic data \nlines into one stereo LJ bus.\nLeft = External\nRight = Internal" (exclude_from_sim no)
+
     (at 285.75 125.73 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 545b0077-4403-4af7-90be-8febcac98261)
   )
-  (text "Green" (at 265.43 97.79 0)
+  (text "Green" (exclude_from_sim no)
+ (at 265.43 97.79 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7f9d18cb-8d4e-49c2-8bf7-8f97c979dc02)
   )
-  (text "3mm mated height, 1.5mm clearance under CM4 module"
+  (text "3mm mated height, 1.5mm clearance under CM4 module" (exclude_from_sim no)
+
     (at 237.49 214.63 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9683c952-bb63-4fd2-be4b-9fce56292e4e)
   )
-  (text "PCB mounting bosses in enclosure base\n" (at 38.1 276.86 90)
+  (text "PCB mounting bosses in enclosure base\n" (exclude_from_sim no)
+ (at 38.1 276.86 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 96be51e6-c746-495a-80a4-f6ec899bac79)
   )
-  (text "Clearance holes for self tappers" (at 71.12 274.32 90)
+  (text "Clearance holes for self tappers" (exclude_from_sim no)
+ (at 71.12 274.32 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a7f5d85d-53b9-4921-bf86-31b6d943706f)
   )
-  (text "I2C addresses (7-bit)\n--------------\nPCMD3180 PDM-I2S converter : 100 1100 (0x4C)\nDS3231N real time clock    : 110 1000 (0x68)\nPCF8574 LED IO expander    : 010 0011 (0x23)\n"
+  (text "I2C addresses (7-bit)\n--------------\nPCMD3180 PDM-I2S converter : 100 1100 (0x4C)\nDS3231N real time clock    : 110 1000 (0x68)\nPCF8574 LED IO expander    : 010 0011 (0x23)\n" (exclude_from_sim no)
+
     (at 274.32 270.51 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cf7f7b70-dcdb-45ab-a317-d34283c70972)
   )
-  (text "M2.5x1.5 spacers for CM4" (at 119.38 250.19 90)
+  (text "M2.5x1.5 spacers for CM4" (exclude_from_sim no)
+ (at 119.38 250.19 90)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d44d2fe8-1d73-4b13-bad2-046fe1b22460)
   )
@@ -2879,7 +2888,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R34") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -2905,7 +2914,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2930,7 +2939,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0292") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR0292") (unit 1)
         )
       )
     )
@@ -2958,7 +2967,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "U1") (unit 1) (value "74LVC1G07DCK") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2983,7 +2992,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR036") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3009,7 +3018,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "D7") (unit 1) (value "LY R976-PS-36") (footprint "jeffmakes-footprints:CHIPLED-0805")
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -3034,7 +3043,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T39") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T39") (unit 1)
         )
       )
     )
@@ -3059,7 +3068,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR061") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -3083,7 +3092,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "FID1") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+          (reference "FID1") (unit 1)
         )
       )
     )
@@ -3108,7 +3117,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR058") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -3132,7 +3141,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "FID3") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+          (reference "FID3") (unit 1)
         )
       )
     )
@@ -3156,7 +3165,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "H2") (unit 1) (value "MountingHole_3.2mm_M3_DIN965") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965")
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -3180,7 +3189,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "H4") (unit 1) (value "MountingHole_3.2mm_M3_DIN965") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965")
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -3206,7 +3215,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R2") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3231,7 +3240,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "GC4") (unit 1) (value "TestPoint_Probe") (footprint "TestPoint:TestPoint_Keystone_5019_Minature")
+          (reference "GC4") (unit 1)
         )
       )
     )
@@ -3256,7 +3265,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0328") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0328") (unit 1)
         )
       )
     )
@@ -3280,7 +3289,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "BOSS4") (unit 1) (value "Housing") (footprint "jeffmakes-footprints:bugg-pcb-boss")
+          (reference "BOSS4") (unit 1)
         )
       )
     )
@@ -3305,7 +3314,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T15") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T15") (unit 1)
         )
       )
     )
@@ -3535,7 +3544,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "jeffmakes-footprints:Raspberry-Pi-4-Compute-Module-no-holes")
+          (reference "Module1") (unit 2)
         )
       )
     )
@@ -3560,7 +3569,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR051") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -3585,7 +3594,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "SP1") (unit 1) (value "wurth-spacer-9774030151R") (footprint "jeffmakes-footprints:wurth-spacer-WA-SMSI-9774030151R")
+          (reference "SP1") (unit 1)
         )
       )
     )
@@ -3611,7 +3620,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R1") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3637,7 +3646,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R3") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3662,7 +3671,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR056") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -3692,7 +3701,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "U34") (unit 1) (value "74LVC1G157GV") (footprint "Package_SO:SC-74-6_1.5x2.9mm_P0.95mm")
+          (reference "U34") (unit 1)
         )
       )
     )
@@ -3717,7 +3726,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR032") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3741,7 +3750,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "H3") (unit 1) (value "MountingHole_3.2mm_M3_DIN965") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965")
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -3766,7 +3775,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "GC3") (unit 1) (value "TestPoint_Probe") (footprint "TestPoint:TestPoint_Keystone_5019_Minature")
+          (reference "GC3") (unit 1)
         )
       )
     )
@@ -3791,7 +3800,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR031") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -3816,7 +3825,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR052") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -3840,7 +3849,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "FID4") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+          (reference "FID4") (unit 1)
         )
       )
     )
@@ -3865,7 +3874,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR048") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -3890,7 +3899,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0119") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -3915,7 +3924,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR063") (unit 1) (value "VBUS") (footprint "")
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -3940,7 +3949,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0329") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0329") (unit 1)
         )
       )
     )
@@ -3965,7 +3974,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "GC2") (unit 1) (value "TestPoint_Probe") (footprint "TestPoint:TestPoint_Keystone_5019_Minature")
+          (reference "GC2") (unit 1)
         )
       )
     )
@@ -3990,7 +3999,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR057") (unit 1) (value "+5V") (footprint "")
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -4015,7 +4024,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -4027,7 +4036,7 @@
     (property "Reference" "R77" (at 297.815 43.18 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "82R" (at 302.26 43.18 90)
+    (property "Value" "33R" (at 302.26 43.18 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 290.83 43.688 90)
@@ -4041,10 +4050,10 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "R77") (unit 1) (value "82R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R77") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R77") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R77") (unit 1)
         )
       )
     )
@@ -4068,7 +4077,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "BOSS1") (unit 1) (value "Housing") (footprint "jeffmakes-footprints:bugg-pcb-boss")
+          (reference "BOSS1") (unit 1)
         )
       )
     )
@@ -4093,7 +4102,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR041") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -4118,7 +4127,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR049") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -4144,7 +4153,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "D2") (unit 1) (value "LH R974-LP-1") (footprint "jeffmakes-footprints:CHIPLED-0805")
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -4169,7 +4178,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0293") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0293") (unit 1)
         )
       )
     )
@@ -4194,7 +4203,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR033") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -4219,7 +4228,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0330") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0330") (unit 1)
         )
       )
     )
@@ -4244,7 +4253,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR050") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -4268,7 +4277,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "BOSS2") (unit 1) (value "Housing") (footprint "jeffmakes-footprints:bugg-pcb-boss")
+          (reference "BOSS2") (unit 1)
         )
       )
     )
@@ -4280,7 +4289,7 @@
     (property "Reference" "R75" (at 297.815 38.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "82R" (at 302.26 38.1 90)
+    (property "Value" "33R" (at 302.26 38.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 290.83 38.608 90)
@@ -4294,10 +4303,10 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "R75") (unit 1) (value "82R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R75") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R75") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R75") (unit 1)
         )
       )
     )
@@ -4321,7 +4330,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "BOSS3") (unit 1) (value "Housing") (footprint "jeffmakes-footprints:bugg-pcb-boss")
+          (reference "BOSS3") (unit 1)
         )
       )
     )
@@ -4346,7 +4355,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR043") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -4370,7 +4379,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "FID5") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+          (reference "FID5") (unit 1)
         )
       )
     )
@@ -4395,7 +4404,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR037") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -4625,7 +4634,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "jeffmakes-footprints:Raspberry-Pi-4-Compute-Module-no-holes")
+          (reference "Module1") (unit 1)
         )
       )
     )
@@ -4650,7 +4659,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T16") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T16") (unit 1)
         )
       )
     )
@@ -4675,7 +4684,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "SP4") (unit 1) (value "wurth-spacer-9774030151R") (footprint "jeffmakes-footprints:wurth-spacer-WA-SMSI-9774030151R")
+          (reference "SP4") (unit 1)
         )
       )
     )
@@ -4700,7 +4709,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T3") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T3") (unit 1)
         )
       )
     )
@@ -4725,7 +4734,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "SP3") (unit 1) (value "wurth-spacer-9774030151R") (footprint "jeffmakes-footprints:wurth-spacer-WA-SMSI-9774030151R")
+          (reference "SP3") (unit 1)
         )
       )
     )
@@ -4751,7 +4760,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4776,7 +4785,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR044") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -4801,7 +4810,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR034") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -4826,7 +4835,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR059") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -4851,7 +4860,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR053") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -4863,7 +4872,7 @@
     (property "Reference" "R76" (at 297.815 40.64 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "82R" (at 302.26 40.64 90)
+    (property "Value" "33R" (at 302.26 40.64 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 290.83 41.148 90)
@@ -4877,10 +4886,10 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416"
-          (reference "R76") (unit 1) (value "82R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R76") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R76") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R76") (unit 1)
         )
       )
     )
@@ -4905,7 +4914,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0229") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0229") (unit 1)
         )
       )
     )
@@ -4930,7 +4939,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR040") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -4955,7 +4964,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR060") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -4980,7 +4989,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR039") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -5004,7 +5013,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "H1") (unit 1) (value "MountingHole_3.2mm_M3_DIN965") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965")
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -5029,7 +5038,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR046") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -5054,7 +5063,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T40") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T40") (unit 1)
         )
       )
     )
@@ -5079,7 +5088,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "SP2") (unit 1) (value "wurth-spacer-9774030151R") (footprint "jeffmakes-footprints:wurth-spacer-WA-SMSI-9774030151R")
+          (reference "SP2") (unit 1)
         )
       )
     )
@@ -5104,7 +5113,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR055") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -5130,7 +5139,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "D1") (unit 1) (value "LG R971-KN-1") (footprint "jeffmakes-footprints:CHIPLED-0805")
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -5154,7 +5163,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "FID2") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+          (reference "FID2") (unit 1)
         )
       )
     )
@@ -5179,7 +5188,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -5203,7 +5212,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "FID6") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_1mm_Mask2mm")
+          (reference "FID6") (unit 1)
         )
       )
     )
@@ -5228,7 +5237,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR042") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -5253,7 +5262,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR045") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -5278,7 +5287,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "GC1") (unit 1) (value "TestPoint_Probe") (footprint "TestPoint:TestPoint_Keystone_5019_Minature")
+          (reference "GC1") (unit 1)
         )
       )
     )
@@ -5303,7 +5312,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR047") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -5328,7 +5337,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR038") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -5353,7 +5362,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR054") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -5378,7 +5387,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T14") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T14") (unit 1)
         )
       )
     )
@@ -5410,6 +5419,11 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 4b79ab59-043a-40ad-a646-3a759664930b)
     )
+    (instances
+      (project "bugg-main-r4"
+        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f" (page "5"))
+      )
+    )
   )
 
   (sheet (at 361.95 166.37) (size 24.13 13.97)
@@ -5433,6 +5447,11 @@
     (pin "SCL" input (at 361.95 172.72 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 03f0fe2b-b83d-45df-a8a7-85fa4b07de18)
+    )
+    (instances
+      (project "bugg-main-r4"
+        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f" (page "6"))
+      )
     )
   )
 
@@ -5486,6 +5505,11 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid f5d7a708-86f6-4995-be0d-02e09283398e)
     )
+    (instances
+      (project "bugg-main-r4"
+        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f" (page "9"))
+      )
+    )
   )
 
   (sheet (at 361.95 130.81) (size 24.13 25.4)
@@ -5525,6 +5549,11 @@
     (pin "DAT2" bidirectional (at 361.95 139.7 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid e1ea6852-029b-49db-9415-3044e2013001)
+    )
+    (instances
+      (project "bugg-main-r4"
+        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f" (page "4"))
+      )
     )
   )
 
@@ -5566,6 +5595,11 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid a93f1113-c854-40dc-b958-1a8b4e8df342)
     )
+    (instances
+      (project "bugg-main-r4"
+        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f" (page "8"))
+      )
+    )
   )
 
   (sheet (at 361.95 189.23) (size 24.13 20.32)
@@ -5601,6 +5635,11 @@
     (pin "MODEM_USB_DN" bidirectional (at 361.95 201.93 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid a41d93b9-bdac-4e9b-9c97-c9c8c6552103)
+    )
+    (instances
+      (project "bugg-main-r4"
+        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f" (page "7"))
+      )
     )
   )
 
@@ -5645,6 +5684,11 @@
     (pin "BOOT_MODE" input (at 361.95 73.66 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid af095075-56e1-4ac4-a2f1-07c2606d66c2)
+    )
+    (instances
+      (project "bugg-main-r4"
+        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f" (page "3"))
+      )
     )
   )
 
@@ -5694,17 +5738,14 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 758cfcfd-3b5a-4e45-9171-bf04e756272c)
     )
+    (instances
+      (project "bugg-main-r4"
+        (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f" (page "2"))
+      )
+    )
   )
 
   (sheet_instances
-    (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f" (page "1"))
-    (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7" (page "2"))
-    (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551" (page "3"))
-    (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589" (page "4"))
-    (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085" (page "5"))
-    (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41dcda57-f03b-4254-a26d-4b483d171c17" (page "6"))
-    (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4" (page "7"))
-    (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/676be2e4-179b-4538-a96d-4073cd6b4d31" (page "8"))
-    (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/41f15edd-4583-4f5d-8a81-daeb7c83b416" (page "9"))
+    (path "/" (page "1"))
   )
 )

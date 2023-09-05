@@ -1,4 +1,4 @@
-(kicad_sch (version 20221004) (generator eeschema)
+(kicad_sch (version 20230409) (generator eeschema)
 
   (uuid 857a6588-2041-47e4-8b9c-899f325fb6c0)
 
@@ -830,7 +830,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "J14") (unit 1) (value "Micro_SD_Card_Det_JAE_ST11") (footprint "jeffmakes-footprints:microSD_JAE_ST11S008V4H")
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -855,7 +855,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "#PWR089") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -881,7 +881,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "R24") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -907,7 +907,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "C30") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -932,7 +932,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "#PWR091") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -961,7 +961,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "C29") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -986,7 +986,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "#PWR086") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -1011,7 +1011,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "#PWR090") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -1045,7 +1045,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "U10") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -1070,7 +1070,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "#PWR088") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -1104,7 +1104,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "U11") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -1129,7 +1129,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/498d2354-7ecc-4881-a4b8-afc4730b4589"
-          (reference "#PWR087") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR087") (unit 1)
         )
       )
     )

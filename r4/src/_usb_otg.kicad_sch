@@ -1,4 +1,4 @@
-(kicad_sch (version 20221004) (generator eeschema)
+(kicad_sch (version 20230409) (generator eeschema)
 
   (uuid 886c9832-fe82-48a6-8efe-e9c644280995)
 
@@ -976,12 +976,14 @@
     (uuid e7853451-adfe-4e28-b340-36772919c650)
   )
 
-  (text "Switch USB lines from modem to OTG interface when\nmicro-USB cable is connected to permit firmware flashing.\n\nAlso hold the Pi in USB bootloader mode"
+  (text "Switch USB lines from modem to OTG interface when\nmicro-USB cable is connected to permit firmware flashing.\n\nAlso hold the Pi in USB bootloader mode" (exclude_from_sim no)
+
     (at 113.03 66.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4d633e65-6a04-40fd-b976-7c17a2daabe5)
   )
-  (text "ID not used, but connected to TVS just in case" (at 212.09 142.24 0)
+  (text "ID not used, but connected to TVS just in case" (exclude_from_sim no)
+ (at 212.09 142.24 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 943556df-eeda-43d5-bcc4-c36bc58de003)
   )
@@ -1056,7 +1058,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "J15") (unit 1) (value "10118194") (footprint "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal")
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -1090,7 +1092,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "U16") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+          (reference "U16") (unit 1)
         )
       )
     )
@@ -1115,7 +1117,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -1140,7 +1142,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -1174,7 +1176,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "U15") (unit 1) (value "FSUSB42MX") (footprint "Package_SO:MSOP-10_3x3mm_P0.5mm")
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -1200,7 +1202,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "C37") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -1225,7 +1227,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -1250,7 +1252,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "#PWR0106") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -1275,7 +1277,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -1300,7 +1302,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -1325,7 +1327,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -1351,7 +1353,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "R32") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -1377,7 +1379,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "R31") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -1404,7 +1406,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/7086fb34-03e0-4978-93d2-ceae572d34d4"
-          (reference "Q4") (unit 1) (value "NX3008NBKW") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
+          (reference "Q4") (unit 1)
         )
       )
     )

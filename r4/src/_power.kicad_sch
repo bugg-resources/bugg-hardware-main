@@ -1,4 +1,4 @@
-(kicad_sch (version 20221004) (generator eeschema)
+(kicad_sch (version 20230409) (generator eeschema)
 
   (uuid 0a7d69ab-8c24-4db5-ab13-4b6c4207ab5a)
 
@@ -4777,60 +4777,73 @@
     (uuid fffb9c50-3a09-44dc-b9b0-cc1c471a3583)
   )
 
-  (text "Special op-amp stable with\nunlimited Cload for driving C77"
+  (text "Special op-amp stable with\nunlimited Cload for driving C77" (exclude_from_sim no)
+
     (at 264.16 378.46 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0e30f621-c769-4d08-bd7c-6339bc30724b)
   )
-  (text "Output 5.4V at 4A max\nExtra 0.4V ensures IN_VIN priority\nover I_VUSB_5V if both are connected,\nand exceeds 5.0V reference IC max dropout of 200mV"
+  (text "Output 5.4V at 4A max\nExtra 0.4V ensures IN_VIN priority\nover I_VUSB_5V if both are connected,\nand exceeds 5.0V reference IC max dropout of 200mV" (exclude_from_sim no)
+
     (at 394.97 38.1 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3042743a-ff0f-4a75-9521-117cf6568c67)
   )
-  (text "Input 6-36V" (at 101.6 40.64 0)
+  (text "Input 6-36V" (exclude_from_sim no)
+ (at 101.6 40.64 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3559285c-60d6-411c-b257-207aead03603)
   )
-  (text "GNDA Domain" (at 49.53 238.76 90)
+  (text "GNDA Domain" (exclude_from_sim no)
+ (at 49.53 238.76 90)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 4693b1cd-fd43-48e5-a4a6-eff54c408fac)
   )
-  (text "VDD is actually 5.4V.\nSatisfies max dropout of 200mV"
+  (text "VDD is actually 5.4V.\nSatisfies max dropout of 200mV" (exclude_from_sim no)
+
     (at 198.12 349.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5c8e8b56-78dc-4e47-97fa-a4e4a216d93f)
   )
-  (text "P48 microphone phantom.\nCapacitance multiplier for ultra-low ripple.\nSimulated <100uVpp"
+  (text "P48 microphone phantom.\nCapacitance multiplier for ultra-low ripple.\nSimulated <100uVpp" (exclude_from_sim no)
+
     (at 478.79 236.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 64380dec-a678-4551-843c-bcbb16b4b74c)
   )
-  (text "Output 3.7V at 4A max" (at 454.025 158.115 0)
+  (text "Output 3.7V at 4A max" (exclude_from_sim no)
+ (at 454.025 158.115 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7c4ae1d2-1c7e-4b31-af97-e9477aaa84f1)
   )
-  (text "Switch digital supply into the external mic interface\nU35 discharges +3.3VADC to GND when turned off."
+  (text "Switch digital supply into the external mic interface\nU35 discharges +3.3VADC to GND when turned off." (exclude_from_sim no)
+
     (at 78.74 156.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7db05c36-b580-4382-8688-cc6139d61922)
   )
-  (text "ADC core voltage" (at 142.24 346.71 0)
+  (text "ADC core voltage" (exclude_from_sim no)
+ (at 142.24 346.71 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8216fd74-8e29-46d3-927b-a836f8998a2e)
   )
-  (text "Preamp and ADC driver rails" (at 223.52 231.14 0)
+  (text "Preamp and ADC driver rails" (exclude_from_sim no)
+ (at 223.52 231.14 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid abbb4cc0-377f-4c8c-a968-049e9ee341da)
   )
-  (text "GND Domain" (at 44.45 238.76 90)
+  (text "GND Domain" (exclude_from_sim no)
+ (at 44.45 238.76 90)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid c9341dfe-62dd-4458-86d0-c11214d0f9eb)
   )
-  (text "PIP and 3.3V microphone power" (at 135.89 313.69 0)
+  (text "PIP and 3.3V microphone power" (exclude_from_sim no)
+ (at 135.89 313.69 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ddfe7050-72e6-4cc2-b20b-84f3d6571f4d)
   )
-  (text "ADC reference" (at 190.5 327.66 0)
+  (text "ADC reference" (exclude_from_sim no)
+ (at 190.5 327.66 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f6c50016-b4ba-4dfc-980d-b3037e0874ff)
   )
@@ -4986,7 +4999,7 @@
   (global_label "+3V7" (shape input) (at 462.28 158.75 90)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 502f70e7-018a-4ead-a7e0-f3d0c929b5ee)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (at 462.2006 151.2569 90)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 462.2006 151.2569 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -5051,7 +5064,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C96") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C96") (unit 1)
         )
       )
     )
@@ -5076,7 +5089,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0201") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -5101,7 +5114,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0242") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0242") (unit 1)
         )
       )
     )
@@ -5126,7 +5139,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0246") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0246") (unit 1)
         )
       )
     )
@@ -5151,7 +5164,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0321") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0321") (unit 1)
         )
       )
     )
@@ -5176,7 +5189,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0108") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0108") (unit 1)
         )
       )
     )
@@ -5205,7 +5218,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C88") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+          (reference "C88") (unit 1)
         )
       )
     )
@@ -5230,7 +5243,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR067") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -5256,7 +5269,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "L6") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_1008_2520Metric")
+          (reference "L6") (unit 1)
         )
       )
     )
@@ -5281,7 +5294,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0113") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0113") (unit 1)
         )
       )
     )
@@ -5307,7 +5320,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R98") (unit 1) (value "510R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R98") (unit 1)
         )
       )
     )
@@ -5333,7 +5346,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -5358,7 +5371,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T12") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T12") (unit 1)
         )
       )
     )
@@ -5387,7 +5400,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C116") (unit 1) (value "3.3pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C116") (unit 1)
         )
       )
     )
@@ -5412,7 +5425,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0185") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0185") (unit 1)
         )
       )
     )
@@ -5437,7 +5450,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0245") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0245") (unit 1)
         )
       )
     )
@@ -5462,7 +5475,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0110") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0110") (unit 1)
         )
       )
     )
@@ -5488,7 +5501,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C128") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C128") (unit 1)
         )
       )
     )
@@ -5514,7 +5527,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R95") (unit 1) (value "34.8k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R95") (unit 1)
         )
       )
     )
@@ -5539,7 +5552,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T13") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T13") (unit 1)
         )
       )
     )
@@ -5564,7 +5577,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T22") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T22") (unit 1)
         )
       )
     )
@@ -5589,7 +5602,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0104") (unit 1)
         )
       )
     )
@@ -5615,7 +5628,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C7") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -5641,7 +5654,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R90") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R90") (unit 1)
         )
       )
     )
@@ -5666,7 +5679,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0240") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0240") (unit 1)
         )
       )
     )
@@ -5691,7 +5704,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR065") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -5723,7 +5736,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C99") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C99") (unit 1)
         )
       )
     )
@@ -5748,7 +5761,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -5773,7 +5786,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR064") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -5798,7 +5811,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T42") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T42") (unit 1)
         )
       )
     )
@@ -5824,7 +5837,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C13") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -5849,7 +5862,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0250") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0250") (unit 1)
         )
       )
     )
@@ -5874,7 +5887,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0145") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -5900,7 +5913,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "D16") (unit 1) (value "PMEG6020ETR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -5927,7 +5940,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "Q26") (unit 1) (value "2SD1782KT146R") (footprint "Package_TO_SOT_SMD:SC-59")
+          (reference "Q26") (unit 1)
         )
       )
     )
@@ -5953,7 +5966,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C43") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -5979,7 +5992,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R88") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R88") (unit 1)
         )
       )
     )
@@ -6005,7 +6018,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "D23") (unit 1) (value "DNP") (footprint "Diode_SMD:D_SOD-123F")
+          (reference "D23") (unit 1)
         )
       )
     )
@@ -6031,7 +6044,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R35") (unit 1) (value "0.1R") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -6060,7 +6073,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C89") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+          (reference "C89") (unit 1)
         )
       )
     )
@@ -6089,7 +6102,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C93") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C93") (unit 1)
         )
       )
     )
@@ -6115,7 +6128,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C45") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C45") (unit 1)
         )
       )
     )
@@ -6141,7 +6154,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C114") (unit 1) (value "5.8pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C114") (unit 1)
         )
       )
     )
@@ -6166,7 +6179,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0109") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0109") (unit 1)
         )
       )
     )
@@ -6195,7 +6208,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U30") (unit 1) (value "NCP163ASN180T1G") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+          (reference "U30") (unit 1)
         )
       )
     )
@@ -6221,7 +6234,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R14") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -6246,7 +6259,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0227") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0227") (unit 1)
         )
       )
     )
@@ -6271,7 +6284,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0202") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -6297,7 +6310,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C2") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -6326,7 +6339,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C92") (unit 1) (value "3.3pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C92") (unit 1)
         )
       )
     )
@@ -6351,7 +6364,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0243") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0243") (unit 1)
         )
       )
     )
@@ -6380,7 +6393,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C113") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C113") (unit 1)
         )
       )
     )
@@ -6409,7 +6422,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C98") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C98") (unit 1)
         )
       )
     )
@@ -6434,7 +6447,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0248") (unit 1) (value "+5VA") (footprint "")
+          (reference "#PWR0248") (unit 1)
         )
       )
     )
@@ -6459,7 +6472,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0308") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0308") (unit 1)
         )
       )
     )
@@ -6488,7 +6501,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C120") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C120") (unit 1)
         )
       )
     )
@@ -6517,7 +6530,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C109") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+          (reference "C109") (unit 1)
         )
       )
     )
@@ -6543,7 +6556,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C10") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -6569,7 +6582,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C18") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -6595,7 +6608,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C16") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -6621,7 +6634,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C95") (unit 1) (value "4.7nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C95") (unit 1)
         )
       )
     )
@@ -6670,7 +6683,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U28") (unit 1) (value "TPS65130RGE") (footprint "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias")
+          (reference "U28") (unit 1)
         )
       )
     )
@@ -6696,7 +6709,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "L8") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_1008_2520Metric")
+          (reference "L8") (unit 1)
         )
       )
     )
@@ -6721,7 +6734,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0309") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0309") (unit 1)
         )
       )
     )
@@ -6747,7 +6760,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "L2") (unit 1) (value "3.3uH") (footprint "Inductor_SMD:L_Coilcraft_XAL5030")
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -6772,7 +6785,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR066") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -6797,7 +6810,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T6") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T6") (unit 1)
         )
       )
     )
@@ -6822,7 +6835,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0184") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0184") (unit 1)
         )
       )
     )
@@ -6847,7 +6860,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0209") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -6876,7 +6889,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C85") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C85") (unit 1)
         )
       )
     )
@@ -6902,7 +6915,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C131") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C131") (unit 1)
         )
       )
     )
@@ -6927,7 +6940,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -6952,7 +6965,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0111") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0111") (unit 1)
         )
       )
     )
@@ -6977,7 +6990,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0231") (unit 1) (value "+5V") (footprint "")
+          (reference "#PWR0231") (unit 1)
         )
       )
     )
@@ -7006,7 +7019,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C118") (unit 1) (value "22uF") (footprint "Capacitor_SMD:CP_Elec_5x5.8")
+          (reference "C118") (unit 1)
         )
       )
     )
@@ -7040,7 +7053,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "J10") (unit 1) (value "502443-0860") (footprint "jeffmakes-footprints:Molex_CLIK-Mate_502443-0870_1x08-2MP_P2.00mm_Vertical")
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -7066,7 +7079,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "FB3") (unit 1) (value "1k@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
+          (reference "FB3") (unit 1)
         )
       )
     )
@@ -7092,7 +7105,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "D22") (unit 1) (value "SMF4L48CA") (footprint "Diode_SMD:D_SOD-123F")
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -7117,7 +7130,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0289") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0289") (unit 1)
         )
       )
     )
@@ -7143,7 +7156,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C44") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -7172,7 +7185,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C1") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -7197,7 +7210,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T36") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T36") (unit 1)
         )
       )
     )
@@ -7222,7 +7235,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T17") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T17") (unit 1)
         )
       )
     )
@@ -7251,7 +7264,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C111") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C111") (unit 1)
         )
       )
     )
@@ -7276,7 +7289,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0224") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
@@ -7302,7 +7315,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R91") (unit 1) (value "2.05M") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R91") (unit 1)
         )
       )
     )
@@ -7327,7 +7340,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T41") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T41") (unit 1)
         )
       )
     )
@@ -7356,7 +7369,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C4") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -7382,7 +7395,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R10") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -7407,7 +7420,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0239") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0239") (unit 1)
         )
       )
     )
@@ -7433,7 +7446,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R15") (unit 1) (value "22.6k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -7458,7 +7471,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0311") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0311") (unit 1)
         )
       )
     )
@@ -7483,7 +7496,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0166") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0166") (unit 1)
         )
       )
     )
@@ -7512,7 +7525,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C115") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C115") (unit 1)
         )
       )
     )
@@ -7537,7 +7550,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0233") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0233") (unit 1)
         )
       )
     )
@@ -7562,7 +7575,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0114") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0114") (unit 1)
         )
       )
     )
@@ -7588,7 +7601,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C8") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -7613,7 +7626,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0252") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0252") (unit 1)
         )
       )
     )
@@ -7639,7 +7652,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C101") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C101") (unit 1)
         )
       )
     )
@@ -7665,7 +7678,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C87") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C87") (unit 1)
         )
       )
     )
@@ -7694,7 +7707,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C105") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C105") (unit 1)
         )
       )
     )
@@ -7720,7 +7733,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C112") (unit 1) (value "180pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C112") (unit 1)
         )
       )
     )
@@ -7746,7 +7759,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "D4") (unit 1) (value "ATV02W360B-HF") (footprint "Diode_SMD:D_SOD-123")
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -7771,7 +7784,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0260") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0260") (unit 1)
         )
       )
     )
@@ -7796,7 +7809,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0310") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0310") (unit 1)
         )
       )
     )
@@ -7821,7 +7834,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0313") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0313") (unit 1)
         )
       )
     )
@@ -7846,7 +7859,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0241") (unit 1) (value "+3.3VA") (footprint "")
+          (reference "#PWR0241") (unit 1)
         )
       )
     )
@@ -7871,7 +7884,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0284") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0284") (unit 1)
         )
       )
     )
@@ -7896,7 +7909,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0164") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -7921,7 +7934,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0203") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -7947,7 +7960,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R36") (unit 1) (value "0.1R") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -7981,7 +7994,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U2") (unit 1) (value "ESD7004") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -8013,7 +8026,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U33") (unit 1) (value "LM7121IM") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+          (reference "U33") (unit 1)
         )
       )
     )
@@ -8038,7 +8051,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0102") (unit 1)
         )
       )
     )
@@ -8064,7 +8077,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "FB6") (unit 1) (value "1k@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
+          (reference "FB6") (unit 1)
         )
       )
     )
@@ -8090,7 +8103,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R12") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -8116,7 +8129,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "L4") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Wuerth_WE-PD-Typ-7345")
+          (reference "L4") (unit 1)
         )
       )
     )
@@ -8145,7 +8158,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C104") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C104") (unit 1)
         )
       )
     )
@@ -8170,7 +8183,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0234") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0234") (unit 1)
         )
       )
     )
@@ -8199,7 +8212,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C119") (unit 1) (value "22uF") (footprint "Capacitor_SMD:CP_Elec_5x5.8")
+          (reference "C119") (unit 1)
         )
       )
     )
@@ -8225,7 +8238,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R17") (unit 1) (value "37.4k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -8250,7 +8263,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0107") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0107") (unit 1)
         )
       )
     )
@@ -8275,7 +8288,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0323") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0323") (unit 1)
         )
       )
     )
@@ -8304,7 +8317,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C107") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+          (reference "C107") (unit 1)
         )
       )
     )
@@ -8329,7 +8342,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0200") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0200") (unit 1)
         )
       )
     )
@@ -8355,7 +8368,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "D17") (unit 1) (value "PMEG6020ETR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
+          (reference "D17") (unit 1)
         )
       )
     )
@@ -8392,7 +8405,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U5") (unit 1) (value "LM60440DRPK") (footprint "jeffmakes-footprints:WQFN-HR-13")
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -8418,7 +8431,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C125") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C125") (unit 1)
         )
       )
     )
@@ -8444,7 +8457,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C11") (unit 1) (value "18pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -8469,7 +8482,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0204") (unit 1) (value "+1V8") (footprint "")
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -8495,7 +8508,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R16") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -8524,7 +8537,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "Q1") (unit 1) (value "Si7113ADN") (footprint "Package_SO:Vishay_PowerPAK_1212-8_Single")
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -8549,7 +8562,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0153") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0153") (unit 1)
         )
       )
     )
@@ -8575,7 +8588,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C9") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -8600,7 +8613,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR069") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -8625,7 +8638,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0247") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0247") (unit 1)
         )
       )
     )
@@ -8651,7 +8664,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "D24") (unit 1) (value "DNP") (footprint "Diode_SMD:D_SOD-123F")
+          (reference "D24") (unit 1)
         )
       )
     )
@@ -8676,7 +8689,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR070") (unit 1) (value "+5V") (footprint "")
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -8701,7 +8714,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0262") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0262") (unit 1)
         )
       )
     )
@@ -8727,7 +8740,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R92") (unit 1) (value "180k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R92") (unit 1)
         )
       )
     )
@@ -8752,7 +8765,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0238") (unit 1) (value "+5V") (footprint "")
+          (reference "#PWR0238") (unit 1)
         )
       )
     )
@@ -8777,7 +8790,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0320") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0320") (unit 1)
         )
       )
     )
@@ -8807,7 +8820,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U4") (unit 1) (value "DZDH0401DW") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -8832,7 +8845,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0251") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0251") (unit 1)
         )
       )
     )
@@ -8858,7 +8871,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "D19") (unit 1) (value "PMEG6020ETR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
+          (reference "D19") (unit 1)
         )
       )
     )
@@ -8884,7 +8897,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C15") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -8910,7 +8923,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C126") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C126") (unit 1)
         )
       )
     )
@@ -8935,7 +8948,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0322") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0322") (unit 1)
         )
       )
     )
@@ -8964,7 +8977,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C108") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+          (reference "C108") (unit 1)
         )
       )
     )
@@ -8993,7 +9006,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C102") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C102") (unit 1)
         )
       )
     )
@@ -9018,7 +9031,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0326") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0326") (unit 1)
         )
       )
     )
@@ -9044,7 +9057,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "FB5") (unit 1) (value "1k@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
+          (reference "FB5") (unit 1)
         )
       )
     )
@@ -9070,7 +9083,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "D5") (unit 1) (value "12V") (footprint "Diode_SMD:D_SOD-123")
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -9095,7 +9108,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0236") (unit 1) (value "+5V") (footprint "")
+          (reference "#PWR0236") (unit 1)
         )
       )
     )
@@ -9124,7 +9137,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C41") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -9149,7 +9162,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0318") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0318") (unit 1)
         )
       )
     )
@@ -9174,7 +9187,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0168") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0168") (unit 1)
         )
       )
     )
@@ -9199,7 +9212,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0147") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -9225,7 +9238,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "FB4") (unit 1) (value "1k@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
+          (reference "FB4") (unit 1)
         )
       )
     )
@@ -9251,7 +9264,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C94") (unit 1) (value "5.8pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C94") (unit 1)
         )
       )
     )
@@ -9288,7 +9301,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U6") (unit 1) (value "LM60440DRPK") (footprint "jeffmakes-footprints:WQFN-HR-13")
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -9314,7 +9327,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "L3") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Wuerth_WE-PD-Typ-7345")
+          (reference "L3") (unit 1)
         )
       )
     )
@@ -9339,7 +9352,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0226") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0226") (unit 1)
         )
       )
     )
@@ -9364,7 +9377,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T52") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T52") (unit 1)
         )
       )
     )
@@ -9389,7 +9402,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0314") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0314") (unit 1)
         )
       )
     )
@@ -9414,7 +9427,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0237") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0237") (unit 1)
         )
       )
     )
@@ -9439,7 +9452,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0291") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0291") (unit 1)
         )
       )
     )
@@ -9464,7 +9477,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0162") (unit 1) (value "+15V") (footprint "")
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -9489,7 +9502,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0165") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -9514,7 +9527,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0312") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0312") (unit 1)
         )
       )
     )
@@ -9540,7 +9553,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C17") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -9565,7 +9578,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0225") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0225") (unit 1)
         )
       )
     )
@@ -9590,7 +9603,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0210") (unit 1) (value "+3V3") (footprint "")
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -9615,7 +9628,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0230") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0230") (unit 1)
         )
       )
     )
@@ -9644,7 +9657,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C42") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -9670,7 +9683,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C5") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -9695,7 +9708,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0106") (unit 1)
         )
       )
     )
@@ -9724,7 +9737,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "Q3") (unit 1) (value "Si7113ADN") (footprint "Package_SO:Vishay_PowerPAK_1212-8_Single")
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -9750,7 +9763,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C12") (unit 1) (value "15pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -9775,7 +9788,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0316") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0316") (unit 1)
         )
       )
     )
@@ -9800,7 +9813,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0207") (unit 1) (value "+3.3VADC") (footprint "")
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -9826,7 +9839,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R87") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R87") (unit 1)
         )
       )
     )
@@ -9855,7 +9868,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C97") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C97") (unit 1)
         )
       )
     )
@@ -9882,7 +9895,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U31") (unit 1) (value "MAX6105") (footprint "Package_TO_SOT_SMD:SOT-23")
+          (reference "U31") (unit 1)
         )
       )
     )
@@ -9911,7 +9924,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C86") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+          (reference "C86") (unit 1)
         )
       )
     )
@@ -9940,7 +9953,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C90") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+          (reference "C90") (unit 1)
         )
       )
     )
@@ -9966,7 +9979,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C110") (unit 1) (value "5.8pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C110") (unit 1)
         )
       )
     )
@@ -9995,7 +10008,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C100") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C100") (unit 1)
         )
       )
     )
@@ -10021,7 +10034,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C130") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C130") (unit 1)
         )
       )
     )
@@ -10046,7 +10059,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0317") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0317") (unit 1)
         )
       )
     )
@@ -10072,7 +10085,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R99") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R99") (unit 1)
         )
       )
     )
@@ -10097,7 +10110,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0319") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0319") (unit 1)
         )
       )
     )
@@ -10122,7 +10135,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T7") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T7") (unit 1)
         )
       )
     )
@@ -10148,7 +10161,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "L7") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_1008_2520Metric")
+          (reference "L7") (unit 1)
         )
       )
     )
@@ -10173,7 +10186,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0294") (unit 1) (value "+15V") (footprint "")
+          (reference "#PWR0294") (unit 1)
         )
       )
     )
@@ -10199,7 +10212,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R97") (unit 1) (value "45.3k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R97") (unit 1)
         )
       )
     )
@@ -10224,7 +10237,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0144") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -10249,7 +10262,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0296") (unit 1) (value "-15V") (footprint "")
+          (reference "#PWR0296") (unit 1)
         )
       )
     )
@@ -10275,7 +10288,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R13") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -10301,7 +10314,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "D21") (unit 1) (value "SMF4L48CA") (footprint "Diode_SMD:D_SOD-123F")
+          (reference "D21") (unit 1)
         )
       )
     )
@@ -10327,7 +10340,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R11") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -10352,7 +10365,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0208") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -10378,7 +10391,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Coilcraft_XAL5030")
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -10403,7 +10416,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0232") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0232") (unit 1)
         )
       )
     )
@@ -10429,7 +10442,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C14") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -10454,7 +10467,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0183") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0183") (unit 1)
         )
       )
     )
@@ -10479,7 +10492,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0257") (unit 1) (value "+5V") (footprint "")
+          (reference "#PWR0257") (unit 1)
         )
       )
     )
@@ -10505,7 +10518,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C123") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C123") (unit 1)
         )
       )
     )
@@ -10534,7 +10547,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C106") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C106") (unit 1)
         )
       )
     )
@@ -10559,7 +10572,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0315") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0315") (unit 1)
         )
       )
     )
@@ -10585,7 +10598,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C6") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -10611,7 +10624,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R7") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -10641,7 +10654,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U3") (unit 1) (value "DZDH0401DW") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -10667,7 +10680,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R94") (unit 1) (value "1.3M") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R94") (unit 1)
         )
       )
     )
@@ -10692,7 +10705,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0235") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0235") (unit 1)
         )
       )
     )
@@ -10717,7 +10730,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0228") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0228") (unit 1)
         )
       )
     )
@@ -10742,7 +10755,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0223") (unit 1) (value "+48V") (footprint "")
+          (reference "#PWR0223") (unit 1)
         )
       )
     )
@@ -10768,7 +10781,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R93") (unit 1) (value "105k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R93") (unit 1)
         )
       )
     )
@@ -10794,7 +10807,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C129") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C129") (unit 1)
         )
       )
     )
@@ -10820,7 +10833,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "NT1") (unit 1) (value "NetTie_2") (footprint "jeffmakes-footprints:NetTie-2_SMD_Pad2.0mm-inner1")
+          (reference "NT1") (unit 1)
         )
       )
     )
@@ -10846,7 +10859,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R9") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -10875,7 +10888,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C3") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -10901,7 +10914,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "D18") (unit 1) (value "PMEG6020ETR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
+          (reference "D18") (unit 1)
         )
       )
     )
@@ -10926,7 +10939,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T21") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T21") (unit 1)
         )
       )
     )
@@ -10951,7 +10964,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T5") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T5") (unit 1)
         )
       )
     )
@@ -10977,7 +10990,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R8") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -11002,7 +11015,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0254") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0254") (unit 1)
         )
       )
     )
@@ -11027,7 +11040,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0205") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -11056,7 +11069,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C80") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C80") (unit 1)
         )
       )
     )
@@ -11081,7 +11094,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0112") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0112") (unit 1)
         )
       )
     )
@@ -11107,7 +11120,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C117") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C117") (unit 1)
         )
       )
     )
@@ -11136,7 +11149,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U29") (unit 1) (value "NCP163ASN330T1G") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+          (reference "U29") (unit 1)
         )
       )
     )
@@ -11161,7 +11174,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0163") (unit 1) (value "-15V") (footprint "")
+          (reference "#PWR0163") (unit 1)
         )
       )
     )
@@ -11186,7 +11199,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0249") (unit 1) (value "+5V") (footprint "")
+          (reference "#PWR0249") (unit 1)
         )
       )
     )
@@ -11212,7 +11225,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C121") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C121") (unit 1)
         )
       )
     )
@@ -11237,7 +11250,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0169") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0169") (unit 1)
         )
       )
     )
@@ -11262,7 +11275,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "T51") (unit 1) (value " ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+          (reference "T51") (unit 1)
         )
       )
     )
@@ -11288,7 +11301,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C122") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C122") (unit 1)
         )
       )
     )
@@ -11314,7 +11327,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C124") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C124") (unit 1)
         )
       )
     )
@@ -11340,7 +11353,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "L5") (unit 1) (value "15uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-4020")
+          (reference "L5") (unit 1)
         )
       )
     )
@@ -11369,7 +11382,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C103") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C103") (unit 1)
         )
       )
     )
@@ -11398,7 +11411,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "Q2") (unit 1) (value "Si7113ADN") (footprint "Package_SO:Vishay_PowerPAK_1212-8_Single")
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -11424,7 +11437,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R96") (unit 1) (value "180k") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R96") (unit 1)
         )
       )
     )
@@ -11450,7 +11463,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C127") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_1206_3216Metric")
+          (reference "C127") (unit 1)
         )
       )
     )
@@ -11476,7 +11489,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "R89") (unit 1) (value "510R") (footprint "Resistor_SMD:R_0402_1005Metric")
+          (reference "R89") (unit 1)
         )
       )
     )
@@ -11501,7 +11514,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+          (reference "#FLG0101") (unit 1)
         )
       )
     )
@@ -11536,7 +11549,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U32") (unit 1) (value "LT8362xDD") (footprint "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm")
+          (reference "U32") (unit 1)
         )
       )
     )
@@ -11561,7 +11574,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "#PWR0244") (unit 1) (value "GNDA") (footprint "")
+          (reference "#PWR0244") (unit 1)
         )
       )
     )
@@ -11590,7 +11603,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "C91") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+          (reference "C91") (unit 1)
         )
       )
     )
@@ -11620,7 +11633,7 @@
     (instances
       (project "bugg-main-r4"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
-          (reference "U35") (unit 1) (value "TPS22810DBV") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+          (reference "U35") (unit 1)
         )
       )
     )
