@@ -1002,7 +1002,7 @@
   (symbol (lib_id "Interface_Expansion:PCF8574TS") (at 142.24 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 051c51f9-56f1-4030-9fbd-9d998eb169a6)
-    (property "Reference" "U24" (at 146.05 49.53 0)
+    (property "Reference" "U9" (at 146.05 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PCF8574PW" (at 149.86 52.07 0)
@@ -1037,7 +1037,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/676be2e4-179b-4538-a96d-4073cd6b4d31"
-          (reference "U24") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -1152,10 +1152,10 @@
   (symbol (lib_id "Device:R_Small") (at 97.79 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 409484c7-9f7c-4303-a3d6-e1320053d3cc)
-    (property "Reference" "R33" (at 100.33 56.515 0)
+    (property "Reference" "R33" (at 100.33 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 100.33 59.055 0)
+    (property "Value" "10k" (at 100.33 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 97.79 57.15 0)
@@ -1172,7 +1172,7 @@
           (reference "R33") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/676be2e4-179b-4538-a96d-4073cd6b4d31"
-          (reference "R66") (unit 1)
+          (reference "R114") (unit 1)
         )
       )
     )
@@ -1255,7 +1255,7 @@
           (reference "Q22") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/676be2e4-179b-4538-a96d-4073cd6b4d31"
-          (reference "Q13") (unit 1)
+          (reference "Q28") (unit 1)
         )
       )
     )
@@ -1264,10 +1264,10 @@
   (symbol (lib_id "Device:R_Small") (at 97.79 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6734f01c-0b63-480e-9cd3-235ce6a43dea)
-    (property "Reference" "R33" (at 100.33 42.545 0)
+    (property "Reference" "R33" (at 100.33 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 100.33 45.085 0)
+    (property "Value" "10k" (at 100.33 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 97.79 43.18 0)
@@ -1284,7 +1284,7 @@
           (reference "R33") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/676be2e4-179b-4538-a96d-4073cd6b4d31"
-          (reference "R65") (unit 1)
+          (reference "R113") (unit 1)
         )
       )
     )
@@ -1346,7 +1346,7 @@
   (symbol (lib_id "Device:C_Small") (at 134.62 43.18 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b01ec341-e8e8-46a1-b117-1c98dcb6e013)
-    (property "Reference" "C94" (at 132.08 41.91 0)
+    (property "Reference" "C38" (at 132.08 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100nF" (at 132.08 44.45 0)
@@ -1363,7 +1363,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/676be2e4-179b-4538-a96d-4073cd6b4d31"
-          (reference "C94") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -1574,7 +1574,7 @@
           (reference "Q22") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/676be2e4-179b-4538-a96d-4073cd6b4d31"
-          (reference "Q12") (unit 1)
+          (reference "Q27") (unit 1)
         )
       )
     )

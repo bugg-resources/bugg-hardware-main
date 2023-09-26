@@ -2878,7 +2878,7 @@
   (symbol (lib_id "Device:C_Small") (at 85.09 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 016cbf63-5cfd-47ff-8b13-dc8c9c842c28)
-    (property "Reference" "C75" (at 87.63 158.75 0)
+    (property "Reference" "C61" (at 87.63 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 87.63 161.29 0)
@@ -2895,7 +2895,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C75") (unit 1)
+          (reference "C61") (unit 1)
         )
       )
     )
@@ -2904,7 +2904,7 @@
   (symbol (lib_id "Device:R_Small") (at 339.09 168.91 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 025b67e1-f715-4762-965d-19ae4abaab23)
-    (property "Reference" "R55" (at 341.63 168.275 0)
+    (property "Reference" "R46" (at 341.63 168.275 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 341.63 170.815 0)
@@ -2921,7 +2921,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R55") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -2955,7 +2955,7 @@
   (symbol (lib_id "Device:R_Small") (at 250.19 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a50ba51-97b7-4cf4-8b26-1dd1917070d8)
-    (property "Reference" "R46" (at 252.73 193.675 0)
+    (property "Reference" "R38" (at 252.73 193.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 252.73 196.215 0)
@@ -2972,7 +2972,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R46") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -2981,7 +2981,7 @@
   (symbol (lib_id "j_RF_Module:Sierra_Wireless_RC7620") (at 139.7 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c345644-04ac-4948-80cf-783f54ce1517)
-    (property "Reference" "U15" (at 139.7 60.96 0)
+    (property "Reference" "U7" (at 139.7 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Sierra_Wireless_RC7620" (at 139.7 63.5 0)
@@ -3237,7 +3237,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "U15") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -3296,7 +3296,7 @@
   (symbol (lib_id "Device:R_Small") (at 327.66 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1408acc7-c789-4811-9299-7898aae827a5)
-    (property "Reference" "R53" (at 330.2 182.245 0)
+    (property "Reference" "R42" (at 330.2 182.245 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 330.2 184.785 0)
@@ -3313,7 +3313,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R53") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -3322,7 +3322,7 @@
   (symbol (lib_id "Device:R_Small") (at 81.28 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18fcfa20-0f00-4019-8688-05d907f6672b)
-    (property "Reference" "R43" (at 81.28 151.13 90)
+    (property "Reference" "R45" (at 81.28 151.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DNP" (at 81.28 153.67 90)
@@ -3339,7 +3339,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R43") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -3400,7 +3400,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 31.75 156.21 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ddb4fc4-3263-4902-8d89-096a3dd9bb70)
-    (property "Reference" "J3" (at 31.75 149.86 0)
+    (property "Reference" "J17" (at 31.75 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DNP" (at 31.75 152.4 0)
@@ -3420,7 +3420,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J3") (unit 1)
+          (reference "J17") (unit 1)
         )
       )
     )
@@ -3429,7 +3429,7 @@
   (symbol (lib_id "Device:D_TVS") (at 66.04 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fc2bfaa-df61-41d8-947d-a84c0bbafb10)
-    (property "Reference" "D15" (at 59.69 158.75 0)
+    (property "Reference" "D25" (at 59.69 158.75 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DNP" (at 62.23 158.75 0)
@@ -3446,7 +3446,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "D15") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
     )
@@ -3455,7 +3455,7 @@
   (symbol (lib_id "Device:D_TVS") (at 316.23 100.33 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2181c252-6938-409a-a376-142f0afd352b)
-    (property "Reference" "D16" (at 322.58 106.68 0)
+    (property "Reference" "D6" (at 322.58 106.68 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0402ESDA-MLP1" (at 320.04 93.98 0)
@@ -3472,7 +3472,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "D16") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -3481,7 +3481,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 161.29 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 22f99436-0b98-4ea1-8a26-636e423ec29c)
-    (property "Reference" "J5" (at 182.88 161.29 90)
+    (property "Reference" "J2" (at 182.88 161.29 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 182.88 162.56 90)
@@ -3497,7 +3497,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J5") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3506,7 +3506,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 171.45 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 251bf992-759a-4989-907d-00fa15400fa7)
-    (property "Reference" "J9" (at 182.88 171.45 90)
+    (property "Reference" "J6" (at 182.88 171.45 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 182.88 172.72 90)
@@ -3522,7 +3522,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J9") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -3531,7 +3531,7 @@
   (symbol (lib_id "Device:C_Small") (at 213.36 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a3c6e69-ac8f-424c-ab02-32fc936ef218)
-    (property "Reference" "C78" (at 215.9 63.5 0)
+    (property "Reference" "C23" (at 215.9 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 215.9 66.04 0)
@@ -3551,7 +3551,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C78") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -3560,7 +3560,7 @@
   (symbol (lib_id "Device:R_Small") (at 81.28 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a593bb9-42e4-46f5-bab1-cce4f486a8ac)
-    (property "Reference" "R42" (at 81.28 128.27 90)
+    (property "Reference" "R20" (at 81.28 128.27 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 81.28 130.81 90)
@@ -3577,7 +3577,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R42") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -3636,7 +3636,7 @@
   (symbol (lib_id "Device:R_Small") (at 54.61 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31426f11-ec9b-4875-ab60-c1630369cce6)
-    (property "Reference" "R40" (at 54.61 128.27 90)
+    (property "Reference" "R19" (at 54.61 128.27 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 54.61 130.81 90)
@@ -3653,7 +3653,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R40") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -3662,7 +3662,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 168.91 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 32445d00-587e-48fd-bb5b-cb676fbdae46)
-    (property "Reference" "J8" (at 182.88 168.91 90)
+    (property "Reference" "J5" (at 182.88 168.91 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 182.88 170.18 90)
@@ -3678,7 +3678,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J8") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -3687,7 +3687,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 166.37 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 38be5a6f-9624-45ca-95af-d66e2dbeb5d1)
-    (property "Reference" "J7" (at 182.88 166.37 90)
+    (property "Reference" "J4" (at 182.88 166.37 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 182.88 167.64 90)
@@ -3703,7 +3703,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J7") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -3712,7 +3712,7 @@
   (symbol (lib_id "Device:R_Small") (at 250.19 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39a84425-4284-469b-b68e-2f5677809a8d)
-    (property "Reference" "R45" (at 252.73 172.085 0)
+    (property "Reference" "R37" (at 252.73 172.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 252.73 174.625 0)
@@ -3729,7 +3729,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R45") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -3738,7 +3738,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 336.55 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f25ecf7-a55a-4e6d-be14-0ed5eec3da85)
-    (property "Reference" "Q10" (at 342.9 177.8 0)
+    (property "Reference" "Q11" (at 342.9 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NX3008NBKW" (at 342.9 180.34 0)
@@ -3756,7 +3756,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "Q10") (unit 1)
+          (reference "Q11") (unit 1)
         )
       )
     )
@@ -3765,7 +3765,7 @@
   (symbol (lib_id "Device:R_Small") (at 285.75 82.55 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 449b8561-ef7c-4ca0-a9fa-7e959a1585ea)
-    (property "Reference" "R51" (at 285.75 76.2 90)
+    (property "Reference" "R23" (at 285.75 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 285.75 78.74 90)
@@ -3782,7 +3782,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R51") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -3791,7 +3791,7 @@
   (symbol (lib_id "Device:C_Small") (at 77.47 160.02 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44d3698f-5f4d-4488-b8d0-e21ea5f66ba1)
-    (property "Reference" "C73" (at 74.93 158.75 0)
+    (property "Reference" "C51" (at 74.93 158.75 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DNP" (at 74.93 161.29 0)
@@ -3808,7 +3808,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C73") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
     )
@@ -3869,7 +3869,7 @@
   (symbol (lib_id "Device:D_TVS") (at 66.04 138.43 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a201549-9f4f-4019-b75a-31b6f77b7bc5)
-    (property "Reference" "D14" (at 59.69 148.59 0)
+    (property "Reference" "D9" (at 59.69 148.59 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0402ESDA-MLP1" (at 62.23 135.89 0)
@@ -3886,7 +3886,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "D14") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -3920,7 +3920,7 @@
   (symbol (lib_id "Device:C_Small") (at 77.47 137.16 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4da02474-150d-463f-8582-0cbcc1055195)
-    (property "Reference" "C72" (at 74.93 135.89 0)
+    (property "Reference" "C19" (at 74.93 135.89 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DNP" (at 74.93 138.43 0)
@@ -3937,7 +3937,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C72") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -3971,7 +3971,7 @@
   (symbol (lib_id "Device:LED") (at 337.82 201.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f0b2daf-d642-4fde-8362-e1e0a7001aef)
-    (property "Reference" "D17" (at 331.47 208.28 0)
+    (property "Reference" "D3" (at 331.47 208.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LO R976-PS-1" (at 334.01 201.93 0)
@@ -3988,7 +3988,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "D17") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -4097,7 +4097,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 176.53 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 5ee09ce8-f345-4ed7-8605-24c1dd03c88f)
-    (property "Reference" "J11" (at 182.88 176.53 90)
+    (property "Reference" "J8" (at 182.88 176.53 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 182.88 177.8 90)
@@ -4113,7 +4113,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J11") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -4122,7 +4122,7 @@
   (symbol (lib_id "Device:C_Small") (at 85.09 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61e12af1-63ab-4089-99e1-bfba28b6ad98)
-    (property "Reference" "C74" (at 87.63 135.89 0)
+    (property "Reference" "C20" (at 87.63 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 87.63 138.43 0)
@@ -4139,7 +4139,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C74") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -4148,7 +4148,7 @@
   (symbol (lib_id "Device:R_Small") (at 280.67 72.39 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6663d07a-5998-40a2-8d00-6098c477b226)
-    (property "Reference" "R50" (at 278.13 71.12 0)
+    (property "Reference" "R22" (at 278.13 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DNP 15k" (at 278.13 73.66 0)
@@ -4165,7 +4165,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R50") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4249,7 +4249,7 @@
   (symbol (lib_id "j_Power_Protection:ESD7004") (at 295.91 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75c58704-7884-4d1a-8f29-bd6ba76ee08b)
-    (property "Reference" "U16" (at 299.085 106.045 0)
+    (property "Reference" "U8" (at 299.085 106.045 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESD7004" (at 299.085 109.855 0)
@@ -4274,7 +4274,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "U16") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -4283,7 +4283,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 31.75 133.35 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85cbce1d-8929-4292-a443-e179e1a52c9e)
-    (property "Reference" "J2" (at 31.75 127 0)
+    (property "Reference" "J12" (at 31.75 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "U_FL-R-SMT-1_10_" (at 29.21 129.54 0)
@@ -4303,7 +4303,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J2") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -4345,7 +4345,7 @@
   (symbol (lib_id "Device:R_Small") (at 261.62 213.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a756285-5e4e-443c-a59a-2c650b114f4f)
-    (property "Reference" "R48" (at 264.16 212.725 0)
+    (property "Reference" "R40" (at 264.16 212.725 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 264.16 215.265 0)
@@ -4362,7 +4362,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R48") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -4371,7 +4371,7 @@
   (symbol (lib_id "Device:C_Small") (at 317.5 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8bdd5fe8-8d96-4bfd-ace0-20f60994075e)
-    (property "Reference" "C80" (at 320.04 68.58 0)
+    (property "Reference" "C26" (at 320.04 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 320.04 71.12 0)
@@ -4388,7 +4388,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C80") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -4447,7 +4447,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 158.75 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 966d6bd5-7af6-477e-b0b7-4b7017e3dea3)
-    (property "Reference" "J4" (at 182.88 158.75 90)
+    (property "Reference" "J1" (at 182.88 158.75 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 182.88 160.02 90)
@@ -4463,7 +4463,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J4") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -4499,7 +4499,7 @@
   (symbol (lib_id "Device:C_Small") (at 187.96 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b03b304-2ad5-498f-acdb-d80f7a9a21ad)
-    (property "Reference" "C76" (at 190.5 63.5 0)
+    (property "Reference" "C21" (at 190.5 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15pF" (at 190.5 66.04 0)
@@ -4516,7 +4516,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C76") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -4550,7 +4550,7 @@
   (symbol (lib_id "Device:R_Small") (at 255.27 209.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f4dc7e5-a8d0-4315-b3b0-5f22224a60e6)
-    (property "Reference" "R47" (at 255.27 204.47 90)
+    (property "Reference" "R39" (at 255.27 204.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 255.27 207.01 90)
@@ -4567,7 +4567,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R47") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -4576,7 +4576,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 104.14 102.87 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2b8237b-537f-4ff9-975d-76edd1786e9c)
-    (property "Reference" "T21" (at 97.79 102.87 90)
+    (property "Reference" "T9" (at 97.79 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" " " (at 102.87 99.06 90)
@@ -4592,7 +4592,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "T21") (unit 1)
+          (reference "T9") (unit 1)
         )
       )
     )
@@ -4653,7 +4653,7 @@
   (symbol (lib_id "Device:R_Small") (at 337.82 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a54e2361-231b-40c1-95f8-de9e0cd18d8e)
-    (property "Reference" "R54" (at 340.36 210.82 90)
+    (property "Reference" "R44" (at 340.36 210.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 340.36 205.74 90)
@@ -4670,7 +4670,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R54") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -4679,7 +4679,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 170.18 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9e7f4de-cee1-4bb8-b799-c7d93251ae07)
-    (property "Reference" "T23" (at 175.26 106.68 90)
+    (property "Reference" "T11" (at 175.26 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 175.26 107.95 90)
@@ -4695,7 +4695,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "T23") (unit 1)
+          (reference "T11") (unit 1)
         )
       )
     )
@@ -4704,7 +4704,7 @@
   (symbol (lib_id "Device:R_Small") (at 326.39 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abcde602-bf84-43ff-abc3-ceb85cb2edab)
-    (property "Reference" "R52" (at 328.93 221.615 0)
+    (property "Reference" "R43" (at 328.93 221.615 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 328.93 224.155 0)
@@ -4721,7 +4721,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R52") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -4755,7 +4755,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 163.83 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid ae54bd6e-0f17-4afc-aabc-229c8d612560)
-    (property "Reference" "J6" (at 182.88 163.83 90)
+    (property "Reference" "J3" (at 182.88 163.83 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 182.88 165.1 90)
@@ -4771,7 +4771,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J6") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -4780,7 +4780,7 @@
   (symbol (lib_id "Device:C_Small") (at 200.66 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae71fe1f-1297-4de1-84b2-61f471a1bc1c)
-    (property "Reference" "C77" (at 203.2 63.5 0)
+    (property "Reference" "C22" (at 203.2 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (at 203.2 66.04 0)
@@ -4800,7 +4800,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C77") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -4809,7 +4809,7 @@
   (symbol (lib_id "Device:R_Small") (at 267.97 72.39 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid afe9ce6a-cf7a-4c34-9b91-49af7c684342)
-    (property "Reference" "R49" (at 265.43 71.12 0)
+    (property "Reference" "R21" (at 265.43 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 265.43 73.66 0)
@@ -4826,7 +4826,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R49") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -4885,7 +4885,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 170.18 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b692d1b7-6ca0-415b-85d6-9227609f6918)
-    (property "Reference" "T22" (at 175.26 104.14 90)
+    (property "Reference" "T10" (at 175.26 104.14 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 175.26 105.41 90)
@@ -4901,7 +4901,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "T22") (unit 1)
+          (reference "T10") (unit 1)
         )
       )
     )
@@ -4935,7 +4935,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 104.14 95.25 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c94ba17c-7930-4ef2-a232-25cb1e75e020)
-    (property "Reference" "T20" (at 97.79 95.25 90)
+    (property "Reference" "T8" (at 97.79 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" " " (at 102.87 91.44 90)
@@ -4951,7 +4951,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "T20") (unit 1)
+          (reference "T8") (unit 1)
         )
       )
     )
@@ -4960,7 +4960,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 173.99 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid cbfc0ea7-6618-40d0-8b14-da335fbbe0c0)
-    (property "Reference" "J10" (at 182.88 173.99 90)
+    (property "Reference" "J7" (at 182.88 173.99 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 182.88 175.26 90)
@@ -4976,7 +4976,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J10") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -4985,7 +4985,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 177.8 179.07 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid d25fe423-3588-43d8-8106-9abda7aaf14c)
-    (property "Reference" "J12" (at 182.88 179.07 90)
+    (property "Reference" "J9" (at 182.88 179.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 182.88 180.34 90)
@@ -5001,7 +5001,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "J12") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -5061,7 +5061,7 @@
   (symbol (lib_id "Device:R_Small") (at 250.19 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da115120-9e0a-41ac-9391-578f1763a023)
-    (property "Reference" "R44" (at 252.73 150.495 0)
+    (property "Reference" "R33" (at 252.73 150.495 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 252.73 153.035 0)
@@ -5078,7 +5078,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "R44") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -5087,7 +5087,7 @@
   (symbol (lib_id "Device:C_Small") (at 328.93 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de13ee41-43dc-4c68-9bea-1f58532e9f98)
-    (property "Reference" "C81" (at 331.47 68.58 0)
+    (property "Reference" "C28" (at 331.47 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 331.47 71.12 0)
@@ -5107,7 +5107,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C81") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -5116,7 +5116,7 @@
   (symbol (lib_id "Device:C_Small") (at 302.26 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e65dd6e0-a435-478c-902b-3a7ea7e9d750)
-    (property "Reference" "C79" (at 304.8 68.58 0)
+    (property "Reference" "C24" (at 304.8 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP 4.7uF" (at 304.8 71.12 0)
@@ -5133,7 +5133,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/c8d4c890-e18c-4f0d-b5c7-f5d98c418551"
-          (reference "C79") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )

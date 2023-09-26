@@ -727,7 +727,7 @@
   (symbol (lib_id "Device:R_Small") (at 127 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09a20bb9-98f0-48ff-942d-9b3ddf036824)
-    (property "Reference" "R60" (at 128.905 74.295 0)
+    (property "Reference" "R28" (at 128.905 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 128.905 76.835 0)
@@ -744,7 +744,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "R60") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -753,7 +753,7 @@
   (symbol (lib_id "Device:C") (at 154.94 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b875756-6b84-4801-a28b-8bc1f66f2a8f)
-    (property "Reference" "C86" (at 157.861 61.0616 0)
+    (property "Reference" "C33" (at 157.861 61.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 157.861 63.373 0)
@@ -770,7 +770,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C86") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -829,7 +829,7 @@
   (symbol (lib_id "Device:C") (at 168.91 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 232f5ae3-d3dd-47ca-bdd1-f327c875df80)
-    (property "Reference" "C87" (at 171.831 61.0616 0)
+    (property "Reference" "C132" (at 171.831 61.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 171.831 63.373 0)
@@ -846,7 +846,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C87") (unit 1)
+          (reference "C132") (unit 1)
         )
       )
     )
@@ -855,7 +855,7 @@
   (symbol (lib_id "Device:C") (at 101.6 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2619848f-feef-4e94-aec0-7487dc9341b5)
-    (property "Reference" "C84" (at 98.679 85.1916 0)
+    (property "Reference" "C39" (at 98.679 85.1916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 98.679 87.503 0)
@@ -872,7 +872,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C84") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -906,7 +906,7 @@
   (symbol (lib_id "Device:C") (at 176.53 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 285fcc55-ccb7-4e1c-89fe-311785d5179e)
-    (property "Reference" "C88" (at 173.609 78.8416 0)
+    (property "Reference" "C32" (at 173.609 78.8416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 173.609 81.153 0)
@@ -923,7 +923,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C88") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -957,7 +957,7 @@
   (symbol (lib_id "Device:R_Small") (at 120.65 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 428b485d-9acd-4220-b069-6d07d05a060c)
-    (property "Reference" "R58" (at 122.555 109.855 0)
+    (property "Reference" "R26" (at 122.555 109.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22.6k" (at 122.555 112.395 0)
@@ -974,7 +974,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "R58") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -983,7 +983,7 @@
   (symbol (lib_id "Device:R_Small") (at 120.65 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 575e00a9-2d03-4d63-8bb2-1f84b708f6a7)
-    (property "Reference" "R57" (at 122.555 93.345 0)
+    (property "Reference" "R25" (at 122.555 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22.6k" (at 122.555 95.885 0)
@@ -1000,7 +1000,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "R57") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1084,7 +1084,7 @@
   (symbol (lib_id "Device:C") (at 110.49 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88ccbcbe-5e2d-4376-b954-1e40305ec983)
-    (property "Reference" "C85" (at 113.411 85.1916 0)
+    (property "Reference" "C40" (at 113.411 85.1916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 113.411 87.503 0)
@@ -1104,7 +1104,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C85") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -1132,7 +1132,7 @@
           (reference "T41") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "T24") (unit 1)
+          (reference "T53") (unit 1)
         )
       )
     )
@@ -1141,7 +1141,7 @@
   (symbol (lib_id "Device:R_Small") (at 120.65 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3ae5f61-c19a-4b88-941f-0dbdc3451682)
-    (property "Reference" "R59" (at 122.555 116.205 0)
+    (property "Reference" "R27" (at 122.555 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22.6k" (at 122.555 118.745 0)
@@ -1158,7 +1158,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "R59") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -1192,7 +1192,7 @@
   (symbol (lib_id "Interface_USB:CP2102N-Axx-xQFN24") (at 143.51 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7270d7b-46cf-4f3d-8516-6ad95f30dd5a)
-    (property "Reference" "U19" (at 148.59 140.97 0)
+    (property "Reference" "U12" (at 148.59 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CP2102N-Axx-xQFN24" (at 158.115 144.145 0)
@@ -1232,7 +1232,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "U19") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -1241,7 +1241,7 @@
   (symbol (lib_id "Device:C") (at 185.42 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1c1d51c-ff07-493f-893d-d23592af8584)
-    (property "Reference" "C89" (at 188.341 78.8416 0)
+    (property "Reference" "C31" (at 188.341 78.8416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 188.341 81.153 0)
@@ -1261,7 +1261,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C89") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -1314,7 +1314,7 @@
           (reference "T41") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "T25") (unit 1)
+          (reference "T54") (unit 1)
         )
       )
     )
