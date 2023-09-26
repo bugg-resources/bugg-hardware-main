@@ -564,11 +564,11 @@
         )
       )
     )
-    (symbol "Device:Q_NPN_EBC" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:Q_NPN_BEC" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Q_NPN_EBC" (at 5.08 -1.27 0)
+      (property "Value" "Q_NPN_BEC" (at 5.08 -1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (at 5.08 2.54 0)
@@ -580,10 +580,10 @@
       (property "ki_keywords" "transistor NPN" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "NPN transistor, emitter/base/collector" (at 0 0 0)
+      (property "ki_description" "NPN transistor, base/emitter/collector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Q_NPN_EBC_0_1"
+      (symbol "Q_NPN_BEC_0_1"
         (polyline
           (pts
             (xy 0.635 0.635)
@@ -626,13 +626,13 @@
           (fill (type none))
         )
       )
-      (symbol "Q_NPN_EBC_1_1"
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "E" (effects (font (size 1.27 1.27))))
+      (symbol "Q_NPN_BEC_1_1"
+        (pin input line (at -5.08 0 0) (length 5.715)
+          (name "B" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 0 0) (length 5.715)
-          (name "B" (effects (font (size 1.27 1.27))))
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "E" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
@@ -5039,7 +5039,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7f235aae-5e6c-4e9c-86c8-8e721756e29b)
   )
-  (label "EXT_MIC_EN" (at 307.34 269.24 0) (fields_autoplaced)
+  (label "P48_EN" (at 307.34 269.24 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7f78ddb8-c3cd-4b03-ba71-35cbe9ba5005)
   )
@@ -6113,7 +6113,7 @@
     )
   )
 
-  (symbol (lib_id "Device:Q_NPN_EBC") (at 459.74 252.73 90) (unit 1)
+  (symbol (lib_id "Device:Q_NPN_BEC") (at 459.74 252.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28d5a123-8cee-4f3d-9649-7d9faf60140a)
     (property "Reference" "Q26" (at 459.74 245.11 90)
