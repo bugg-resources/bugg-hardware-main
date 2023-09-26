@@ -727,7 +727,7 @@
   (symbol (lib_id "Device:R_Small") (at 127 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09a20bb9-98f0-48ff-942d-9b3ddf036824)
-    (property "Reference" "R28" (at 128.905 74.295 0)
+    (property "Reference" "R60" (at 128.905 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 128.905 76.835 0)
@@ -744,7 +744,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "R28") (unit 1)
+          (reference "R60") (unit 1)
         )
       )
     )
@@ -753,7 +753,7 @@
   (symbol (lib_id "Device:C") (at 154.94 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b875756-6b84-4801-a28b-8bc1f66f2a8f)
-    (property "Reference" "C33" (at 157.861 61.0616 0)
+    (property "Reference" "C86" (at 157.861 61.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 157.861 63.373 0)
@@ -770,7 +770,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C33") (unit 1)
+          (reference "C86") (unit 1)
         )
       )
     )
@@ -779,7 +779,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 187.96 73.66 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 202298cd-496d-45d1-b63a-35679d6c67bb)
-    (property "Reference" "#FLG0103" (at 189.865 73.66 0)
+    (property "Reference" "#FLG014" (at 189.865 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 191.77 74.295 90)
@@ -795,7 +795,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "#FLG0103") (unit 1)
+          (reference "#FLG014") (unit 1)
         )
       )
     )
@@ -804,7 +804,7 @@
   (symbol (lib_id "power:GND") (at 101.6 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 210190cb-a4bc-4e2b-8f47-b4de9695de35)
-    (property "Reference" "#PWR0118" (at 101.6 99.06 0)
+    (property "Reference" "#PWR0163" (at 101.6 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.727 97.1042 0)
@@ -820,7 +820,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
     )
@@ -829,7 +829,7 @@
   (symbol (lib_id "Device:C") (at 168.91 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 232f5ae3-d3dd-47ca-bdd1-f327c875df80)
-    (property "Reference" "C132" (at 171.831 61.0616 0)
+    (property "Reference" "C87" (at 171.831 61.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 171.831 63.373 0)
@@ -846,7 +846,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C132") (unit 1)
+          (reference "C87") (unit 1)
         )
       )
     )
@@ -855,7 +855,7 @@
   (symbol (lib_id "Device:C") (at 101.6 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2619848f-feef-4e94-aec0-7487dc9341b5)
-    (property "Reference" "C39" (at 98.679 85.1916 0)
+    (property "Reference" "C84" (at 98.679 85.1916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 98.679 87.503 0)
@@ -872,7 +872,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C39") (unit 1)
+          (reference "C84") (unit 1)
         )
       )
     )
@@ -881,7 +881,7 @@
   (symbol (lib_id "power:GND") (at 154.94 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 266b6461-311c-4bdd-b521-867ad3327575)
-    (property "Reference" "#PWR097" (at 154.94 72.39 0)
+    (property "Reference" "#PWR0168" (at 154.94 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 155.067 70.4342 0)
@@ -897,7 +897,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0168") (unit 1)
         )
       )
     )
@@ -906,7 +906,7 @@
   (symbol (lib_id "Device:C") (at 176.53 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 285fcc55-ccb7-4e1c-89fe-311785d5179e)
-    (property "Reference" "C32" (at 173.609 78.8416 0)
+    (property "Reference" "C88" (at 173.609 78.8416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 173.609 81.153 0)
@@ -923,7 +923,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C32") (unit 1)
+          (reference "C88") (unit 1)
         )
       )
     )
@@ -932,7 +932,7 @@
   (symbol (lib_id "power:GND") (at 120.65 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 347d4142-150b-4b47-9f0d-27db39050a9a)
-    (property "Reference" "#PWR094" (at 120.65 127 0)
+    (property "Reference" "#PWR0165" (at 120.65 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.777 125.0442 0)
@@ -948,7 +948,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -957,7 +957,7 @@
   (symbol (lib_id "Device:R_Small") (at 120.65 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 428b485d-9acd-4220-b069-6d07d05a060c)
-    (property "Reference" "R26" (at 122.555 109.855 0)
+    (property "Reference" "R58" (at 122.555 109.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22.6k" (at 122.555 112.395 0)
@@ -974,7 +974,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "R26") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
     )
@@ -983,7 +983,7 @@
   (symbol (lib_id "Device:R_Small") (at 120.65 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 575e00a9-2d03-4d63-8bb2-1f84b708f6a7)
-    (property "Reference" "R25" (at 122.555 93.345 0)
+    (property "Reference" "R57" (at 122.555 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22.6k" (at 122.555 95.885 0)
@@ -1000,7 +1000,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "R25") (unit 1)
+          (reference "R57") (unit 1)
         )
       )
     )
@@ -1009,7 +1009,7 @@
   (symbol (lib_id "power:GND") (at 168.91 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71fb4cab-dad7-4993-8294-80c53c34cc05)
-    (property "Reference" "#PWR0327" (at 168.91 72.39 0)
+    (property "Reference" "#PWR0169" (at 168.91 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 169.037 70.4342 0)
@@ -1025,7 +1025,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "#PWR0327") (unit 1)
+          (reference "#PWR0169") (unit 1)
         )
       )
     )
@@ -1034,7 +1034,7 @@
   (symbol (lib_id "power:GND") (at 185.42 87.63 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7670fa7d-004a-4a4c-aa76-e131ed5be25b)
-    (property "Reference" "#PWR092" (at 185.42 93.98 0)
+    (property "Reference" "#PWR0170" (at 185.42 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.293 92.0242 0)
@@ -1050,7 +1050,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR0170") (unit 1)
         )
       )
     )
@@ -1059,7 +1059,7 @@
   (symbol (lib_id "power:GND") (at 143.51 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 818ae534-3cbc-42ee-87c0-b07b87e8fde0)
-    (property "Reference" "#PWR096" (at 143.51 144.78 0)
+    (property "Reference" "#PWR0166" (at 143.51 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.637 142.8242 0)
@@ -1075,7 +1075,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0166") (unit 1)
         )
       )
     )
@@ -1084,7 +1084,7 @@
   (symbol (lib_id "Device:C") (at 110.49 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88ccbcbe-5e2d-4376-b954-1e40305ec983)
-    (property "Reference" "C40" (at 113.411 85.1916 0)
+    (property "Reference" "C85" (at 113.411 85.1916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 113.411 87.503 0)
@@ -1104,7 +1104,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C40") (unit 1)
+          (reference "C85") (unit 1)
         )
       )
     )
@@ -1132,7 +1132,7 @@
           (reference "T41") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "T53") (unit 1)
+          (reference "T24") (unit 1)
         )
       )
     )
@@ -1141,7 +1141,7 @@
   (symbol (lib_id "Device:R_Small") (at 120.65 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3ae5f61-c19a-4b88-941f-0dbdc3451682)
-    (property "Reference" "R27" (at 122.555 116.205 0)
+    (property "Reference" "R59" (at 122.555 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22.6k" (at 122.555 118.745 0)
@@ -1158,7 +1158,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "R27") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
     )
@@ -1167,7 +1167,7 @@
   (symbol (lib_id "power:+3V3") (at 146.05 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a88664b4-8d76-42fb-8562-5d713a80b878)
-    (property "Reference" "#PWR095" (at 146.05 58.42 0)
+    (property "Reference" "#PWR0167" (at 146.05 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 147.32 49.53 0)
@@ -1183,7 +1183,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0167") (unit 1)
         )
       )
     )
@@ -1192,7 +1192,7 @@
   (symbol (lib_id "Interface_USB:CP2102N-Axx-xQFN24") (at 143.51 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7270d7b-46cf-4f3d-8516-6ad95f30dd5a)
-    (property "Reference" "U12" (at 148.59 140.97 0)
+    (property "Reference" "U19" (at 148.59 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CP2102N-Axx-xQFN24" (at 158.115 144.145 0)
@@ -1232,7 +1232,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "U12") (unit 1)
+          (reference "U19") (unit 1)
         )
       )
     )
@@ -1241,7 +1241,7 @@
   (symbol (lib_id "Device:C") (at 185.42 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1c1d51c-ff07-493f-893d-d23592af8584)
-    (property "Reference" "C31" (at 188.341 78.8416 0)
+    (property "Reference" "C89" (at 188.341 78.8416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 188.341 81.153 0)
@@ -1261,7 +1261,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "C31") (unit 1)
+          (reference "C89") (unit 1)
         )
       )
     )
@@ -1270,7 +1270,7 @@
   (symbol (lib_id "power:VBUS") (at 120.65 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7012ec9-ae16-4292-b7f5-bb730b5f81ee)
-    (property "Reference" "#PWR093" (at 120.65 78.74 0)
+    (property "Reference" "#PWR0164" (at 120.65 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 121.031 69.9008 0)
@@ -1286,7 +1286,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -1314,7 +1314,7 @@
           (reference "T41") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/26331aa8-35b7-4c22-8a42-89230ada1085"
-          (reference "T54") (unit 1)
+          (reference "T25") (unit 1)
         )
       )
     )

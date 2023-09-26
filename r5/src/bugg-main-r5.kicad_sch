@@ -2871,7 +2871,7 @@
   (symbol (lib_id "Device:R_Small") (at 151.13 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01f77c52-1b52-4742-808d-d7be12bf5723)
-    (property "Reference" "R34" (at 151.13 109.22 90)
+    (property "Reference" "R2" (at 151.13 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 151.13 111.76 90)
@@ -2888,7 +2888,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R34") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2897,7 +2897,7 @@
   (symbol (lib_id "Device:R_Small") (at 255.27 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a12b46b-2d36-47b2-9116-2a9e5e09bb58)
-    (property "Reference" "R4" (at 255.27 92.71 90)
+    (property "Reference" "R5" (at 255.27 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 255.27 95.25 90)
@@ -2914,7 +2914,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2923,7 +2923,7 @@
   (symbol (lib_id "power:+3V3") (at 280.67 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bfdb639-d8ff-4600-87a1-d93da0344cbc)
-    (property "Reference" "#PWR0292" (at 280.67 104.14 0)
+    (property "Reference" "#PWR037" (at 280.67 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 280.67 96.52 0)
@@ -2939,7 +2939,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0292") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -2976,7 +2976,7 @@
   (symbol (lib_id "power:GND") (at 179.07 73.66 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e2c286d-da78-422c-a039-4f51a88a5b9a)
-    (property "Reference" "#PWR036" (at 172.72 73.66 0)
+    (property "Reference" "#PWR012" (at 172.72 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.6758 73.787 0)
@@ -2992,7 +2992,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3001,7 +3001,7 @@
   (symbol (lib_id "Device:LED") (at 144.78 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e3e850c-ac29-40de-81ec-d9b546f8face)
-    (property "Reference" "D7" (at 140.97 109.22 0)
+    (property "Reference" "D1" (at 140.97 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LY R976-PS-36" (at 139.7 111.76 0)
@@ -3018,7 +3018,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "D7") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -3027,7 +3027,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 306.07 105.41 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1300a12c-1ad0-41ca-bf28-52b7f1f18c6a)
-    (property "Reference" "T39" (at 311.15 105.41 90)
+    (property "Reference" "T5" (at 311.15 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 311.15 104.14 90)
@@ -3043,7 +3043,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T39") (unit 1)
+          (reference "T5") (unit 1)
         )
       )
     )
@@ -3052,7 +3052,7 @@
   (symbol (lib_id "power:+3V3") (at 288.29 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 156cd133-c84d-4aea-b398-6d8813ef4c8c)
-    (property "Reference" "#PWR061" (at 288.29 177.8 0)
+    (property "Reference" "#PWR039" (at 288.29 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 288.0233 167.7606 90)
@@ -3068,7 +3068,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -3101,7 +3101,7 @@
   (symbol (lib_id "power:+3V3") (at 267.97 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16a696e5-6903-408b-b733-a2a1f5faaf4b)
-    (property "Reference" "#PWR058" (at 264.16 99.06 0)
+    (property "Reference" "#PWR034" (at 264.16 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 274.1994 98.7933 90)
@@ -3117,7 +3117,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -3198,7 +3198,7 @@
   (symbol (lib_id "Device:R_Small") (at 151.13 144.78 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 240833ea-1257-4551-82cb-c99cef62cb54)
-    (property "Reference" "R2" (at 148.59 147.32 90)
+    (property "Reference" "R4" (at 148.59 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DNP" (at 152.4 147.32 90)
@@ -3215,7 +3215,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3249,7 +3249,7 @@
   (symbol (lib_id "power:GND") (at 161.29 260.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2877ca3a-06ab-4070-aed2-0aa8266911c0)
-    (property "Reference" "#PWR0328" (at 161.29 266.7 0)
+    (property "Reference" "#PWR08" (at 161.29 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 265.43 0)
@@ -3265,7 +3265,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0328") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3298,7 +3298,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 166.37 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a0442cb-5411-48c8-925c-f59398e20545)
-    (property "Reference" "T15" (at 166.37 152.4 90)
+    (property "Reference" "T2" (at 166.37 152.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 167.64 152.4 90)
@@ -3314,7 +3314,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T15") (unit 1)
+          (reference "T2") (unit 1)
         )
       )
     )
@@ -3553,7 +3553,7 @@
   (symbol (lib_id "power:GND") (at 240.03 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36b2549f-c809-4b3f-95b1-a44a1a8faa6f)
-    (property "Reference" "#PWR051" (at 246.38 114.3 0)
+    (property "Reference" "#PWR027" (at 246.38 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 244.4242 114.173 0)
@@ -3569,7 +3569,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3603,7 +3603,7 @@
   (symbol (lib_id "Device:R_Small") (at 151.13 142.24 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f8d97d6-0ac1-4872-872a-ee1b29879834)
-    (property "Reference" "R1" (at 148.59 139.7 90)
+    (property "Reference" "R3" (at 148.59 139.7 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DNP" (at 152.4 139.7 90)
@@ -3620,7 +3620,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3629,7 +3629,7 @@
   (symbol (lib_id "Device:R_Small") (at 148.59 96.52 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 419e1d4b-f5ee-4565-a304-a1743a170485)
-    (property "Reference" "R3" (at 146.05 93.98 90)
+    (property "Reference" "R1" (at 146.05 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DNP" (at 149.86 93.98 90)
@@ -3646,7 +3646,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R3") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3655,7 +3655,7 @@
   (symbol (lib_id "power:GND") (at 240.03 162.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 473d9318-4fca-43f4-be0d-d7977648ac20)
-    (property "Reference" "#PWR056" (at 246.38 162.56 0)
+    (property "Reference" "#PWR032" (at 246.38 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 244.4242 162.433 0)
@@ -3671,7 +3671,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3680,7 +3680,7 @@
   (symbol (lib_id "j_74xGxx:74LVC1G157") (at 283.21 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49f0a85e-091e-47e3-b359-faa089765cc9)
-    (property "Reference" "U34" (at 287.02 97.79 0)
+    (property "Reference" "U2" (at 287.02 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC1G157GV" (at 292.1 100.33 0)
@@ -3701,7 +3701,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "U34") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3710,7 +3710,7 @@
   (symbol (lib_id "power:GND") (at 138.43 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a6f2884-3726-4b4c-bde5-4a4ab7cfba37)
-    (property "Reference" "#PWR032" (at 132.08 96.52 0)
+    (property "Reference" "#PWR03" (at 132.08 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.0358 96.647 0)
@@ -3726,7 +3726,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3784,7 +3784,7 @@
   (symbol (lib_id "power:+3V3") (at 146.05 142.24 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51f3dddf-1767-434a-830e-7fb8f9ea9a6f)
-    (property "Reference" "#PWR031" (at 149.86 142.24 0)
+    (property "Reference" "#PWR05" (at 149.86 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 139.8206 142.5067 90)
@@ -3800,7 +3800,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3809,7 +3809,7 @@
   (symbol (lib_id "power:GND") (at 240.03 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5484a2eb-0682-4cee-8cc8-ad64263f67b5)
-    (property "Reference" "#PWR052" (at 246.38 127 0)
+    (property "Reference" "#PWR028" (at 246.38 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 244.4242 126.873 0)
@@ -3825,7 +3825,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -3858,7 +3858,7 @@
   (symbol (lib_id "power:GND") (at 240.03 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58eee8f9-5c65-4b24-8de5-f71014943a43)
-    (property "Reference" "#PWR048" (at 246.38 81.28 0)
+    (property "Reference" "#PWR024" (at 246.38 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 244.4242 81.153 0)
@@ -3874,7 +3874,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3883,7 +3883,7 @@
   (symbol (lib_id "power:+3V3") (at 139.7 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 591b91b5-2eb6-476c-a17a-36bfb016bd8f)
-    (property "Reference" "#PWR0119" (at 143.51 106.68 0)
+    (property "Reference" "#PWR04" (at 143.51 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 133.4706 106.9467 90)
@@ -3899,7 +3899,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3908,7 +3908,7 @@
   (symbol (lib_id "power:VBUS") (at 358.14 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a68360f-d010-4245-9a91-d594a73363be)
-    (property "Reference" "#PWR063" (at 358.14 29.21 0)
+    (property "Reference" "#PWR040" (at 358.14 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 358.521 21.0058 0)
@@ -3924,7 +3924,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -3933,7 +3933,7 @@
   (symbol (lib_id "power:GND") (at 161.29 270.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 616e7bea-9e34-4908-a60d-c4c33e873202)
-    (property "Reference" "#PWR0329" (at 161.29 276.86 0)
+    (property "Reference" "#PWR09" (at 161.29 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 275.59 0)
@@ -3949,7 +3949,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0329") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3983,7 +3983,7 @@
   (symbol (lib_id "power:+5V") (at 245.11 170.18 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6794b596-da23-4aca-9aa0-bb4a546e8fee)
-    (property "Reference" "#PWR057" (at 241.3 170.18 0)
+    (property "Reference" "#PWR033" (at 241.3 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 250.7742 170.561 0)
@@ -3999,7 +3999,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -4008,7 +4008,7 @@
   (symbol (lib_id "power:GND") (at 113.03 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67d00768-0fce-47c0-abb8-4f282402d0e7)
-    (property "Reference" "#PWR0142" (at 119.38 81.28 0)
+    (property "Reference" "#PWR02" (at 119.38 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 117.4242 81.153 0)
@@ -4024,7 +4024,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4053,7 +4053,7 @@
           (reference "R77") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R77") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -4086,7 +4086,7 @@
   (symbol (lib_id "power:GND") (at 179.07 124.46 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b3483b9-7c65-4d33-b2c7-ad1bcef38b2e)
-    (property "Reference" "#PWR041" (at 172.72 124.46 0)
+    (property "Reference" "#PWR017" (at 172.72 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.6758 124.587 0)
@@ -4102,7 +4102,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4111,7 +4111,7 @@
   (symbol (lib_id "power:GND") (at 240.03 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ddd7dbd-e5f4-4a52-ad0c-6e87afd7fa4c)
-    (property "Reference" "#PWR049" (at 246.38 88.9 0)
+    (property "Reference" "#PWR025" (at 246.38 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 244.4242 88.773 0)
@@ -4127,7 +4127,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -4136,7 +4136,7 @@
   (symbol (lib_id "Device:LED") (at 288.29 177.8 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 720158e6-c2db-4122-8969-d31433825b73)
-    (property "Reference" "D2" (at 290.83 179.07 0)
+    (property "Reference" "D3" (at 290.83 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LH R974-LP-1" (at 293.37 173.99 0)
@@ -4153,7 +4153,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -4162,7 +4162,7 @@
   (symbol (lib_id "power:GND") (at 280.67 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7217a4d2-24ad-4a54-97e6-b6def033f5ff)
-    (property "Reference" "#PWR0293" (at 280.67 120.65 0)
+    (property "Reference" "#PWR038" (at 280.67 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 280.67 119.38 0)
@@ -4178,7 +4178,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0293") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4187,7 +4187,7 @@
   (symbol (lib_id "power:+3V3") (at 173.99 170.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7591dce3-7b19-40ab-a95d-85b1f571f5a9)
-    (property "Reference" "#PWR033" (at 177.8 170.18 0)
+    (property "Reference" "#PWR010" (at 177.8 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 167.7606 170.4467 90)
@@ -4203,7 +4203,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4212,7 +4212,7 @@
   (symbol (lib_id "power:GND") (at 275.59 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78aa0c23-4788-46b9-b765-d1bd8199f967)
-    (property "Reference" "#PWR0330" (at 275.59 204.47 0)
+    (property "Reference" "#PWR036" (at 275.59 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 276.86 203.2 0)
@@ -4228,7 +4228,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0330") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -4237,7 +4237,7 @@
   (symbol (lib_id "power:GND") (at 240.03 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d39eccb-837d-4e83-9739-e59fe0d8b4bb)
-    (property "Reference" "#PWR050" (at 246.38 101.6 0)
+    (property "Reference" "#PWR026" (at 246.38 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 244.4242 101.473 0)
@@ -4253,7 +4253,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -4306,7 +4306,7 @@
           (reference "R75") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R75") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4339,7 +4339,7 @@
   (symbol (lib_id "power:GND") (at 179.07 147.32 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 930e32d4-3389-4d6f-ad56-e5ad082a3604)
-    (property "Reference" "#PWR043" (at 172.72 147.32 0)
+    (property "Reference" "#PWR019" (at 172.72 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.6758 147.447 0)
@@ -4355,7 +4355,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4388,7 +4388,7 @@
   (symbol (lib_id "power:GND") (at 179.07 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9808244a-ee11-4ee4-9fae-77c6ea4ed986)
-    (property "Reference" "#PWR037" (at 172.72 81.28 0)
+    (property "Reference" "#PWR013" (at 172.72 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.6758 81.407 0)
@@ -4404,7 +4404,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -4643,7 +4643,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 264.16 198.12 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ccdc2ea-4360-4b47-aed5-c03dd29ae59e)
-    (property "Reference" "T16" (at 269.24 198.12 90)
+    (property "Reference" "T4" (at 269.24 198.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 269.24 196.85 90)
@@ -4659,7 +4659,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T16") (unit 1)
+          (reference "T4") (unit 1)
         )
       )
     )
@@ -4743,7 +4743,7 @@
   (symbol (lib_id "Device:R_Small") (at 288.29 185.42 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac3c5b36-e82b-4708-bead-6d14c90a7d37)
-    (property "Reference" "R5" (at 285.75 186.69 90)
+    (property "Reference" "R6" (at 285.75 186.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 285.75 182.88 90)
@@ -4760,7 +4760,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4769,7 +4769,7 @@
   (symbol (lib_id "power:GND") (at 179.07 154.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae2bf790-b215-4c08-a283-5755aff91fbb)
-    (property "Reference" "#PWR044" (at 172.72 154.94 0)
+    (property "Reference" "#PWR020" (at 172.72 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.6758 155.067 0)
@@ -4785,7 +4785,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4794,7 +4794,7 @@
   (symbol (lib_id "power:+3V3") (at 173.99 180.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae7e1731-5ce9-469e-af1d-f54414604fb3)
-    (property "Reference" "#PWR034" (at 177.8 180.34 0)
+    (property "Reference" "#PWR011" (at 177.8 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 167.7606 180.6067 90)
@@ -4810,7 +4810,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -4819,7 +4819,7 @@
   (symbol (lib_id "power:+3V3") (at 275.59 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid afe0ea34-5e34-4718-835f-4e8407c69bf1)
-    (property "Reference" "#PWR059" (at 275.59 191.77 0)
+    (property "Reference" "#PWR035" (at 275.59 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 275.59 184.15 0)
@@ -4835,7 +4835,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -4844,7 +4844,7 @@
   (symbol (lib_id "power:GND") (at 240.03 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0bf168c-73f6-4a3b-b2d9-6b025ac93c76)
-    (property "Reference" "#PWR053" (at 246.38 139.7 0)
+    (property "Reference" "#PWR029" (at 246.38 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 244.4242 139.573 0)
@@ -4860,7 +4860,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -4889,7 +4889,7 @@
           (reference "R76") (unit 1)
         )
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "R76") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4898,7 +4898,7 @@
   (symbol (lib_id "power:GND") (at 161.29 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b697f81e-08d2-4ce1-b42e-ed10fd2aba5c)
-    (property "Reference" "#PWR0229" (at 161.29 246.38 0)
+    (property "Reference" "#PWR06" (at 161.29 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 245.11 0)
@@ -4914,7 +4914,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR0229") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4923,7 +4923,7 @@
   (symbol (lib_id "power:GND") (at 179.07 111.76 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b69bdcb2-d21e-4199-a6f2-d9d957411b03)
-    (property "Reference" "#PWR040" (at 172.72 111.76 0)
+    (property "Reference" "#PWR016" (at 172.72 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.6758 111.887 0)
@@ -4939,7 +4939,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -4948,7 +4948,7 @@
   (symbol (lib_id "power:GND") (at 161.29 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b853ea60-27a9-4777-96db-5d0a59e2b807)
-    (property "Reference" "#PWR060" (at 161.29 256.54 0)
+    (property "Reference" "#PWR07" (at 161.29 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 255.27 0)
@@ -4964,7 +4964,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4973,7 +4973,7 @@
   (symbol (lib_id "power:GND") (at 179.07 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4b1b565-c00d-451a-a17d-5e636c72bc18)
-    (property "Reference" "#PWR039" (at 172.72 99.06 0)
+    (property "Reference" "#PWR015" (at 172.72 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.6758 99.187 0)
@@ -4989,7 +4989,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5022,7 +5022,7 @@
   (symbol (lib_id "power:GND") (at 179.07 195.58 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce45c20f-d158-4176-94c5-0dc6ca20fb83)
-    (property "Reference" "#PWR046" (at 172.72 195.58 0)
+    (property "Reference" "#PWR022" (at 172.72 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.6758 195.707 0)
@@ -5038,7 +5038,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5047,7 +5047,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 306.07 107.95 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf049661-d088-4e11-9f6d-44e318ef4327)
-    (property "Reference" "T40" (at 311.15 107.95 90)
+    (property "Reference" "T6" (at 311.15 107.95 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 311.15 106.68 90)
@@ -5063,7 +5063,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T40") (unit 1)
+          (reference "T6") (unit 1)
         )
       )
     )
@@ -5097,7 +5097,7 @@
   (symbol (lib_id "power:GND") (at 240.03 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0102429-087a-4d3c-aa5b-25020d00eb5a)
-    (property "Reference" "#PWR055" (at 246.38 154.94 0)
+    (property "Reference" "#PWR031" (at 246.38 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 244.4242 154.813 0)
@@ -5113,7 +5113,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -5122,7 +5122,7 @@
   (symbol (lib_id "Device:LED") (at 261.62 99.06 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5badfeb-00a1-4782-b632-d407790f5aa1)
-    (property "Reference" "D1" (at 260.35 91.44 0)
+    (property "Reference" "D2" (at 260.35 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LG R971-KN-1" (at 266.7 93.98 0)
@@ -5139,7 +5139,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -5221,7 +5221,7 @@
   (symbol (lib_id "power:GND") (at 179.07 137.16 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef671ec8-f88c-4ecd-85f7-83283341f7c4)
-    (property "Reference" "#PWR042" (at 172.72 137.16 0)
+    (property "Reference" "#PWR018" (at 172.72 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.6758 137.287 0)
@@ -5237,7 +5237,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -5246,7 +5246,7 @@
   (symbol (lib_id "power:GND") (at 179.07 165.1 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f241dbcc-4631-45e6-ad66-b2e2fa9c731d)
-    (property "Reference" "#PWR045" (at 172.72 165.1 0)
+    (property "Reference" "#PWR021" (at 172.72 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.6758 165.227 0)
@@ -5262,7 +5262,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5296,7 +5296,7 @@
   (symbol (lib_id "power:GND") (at 240.03 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7b0058d-1ebb-465d-ae10-1144af04e0b2)
-    (property "Reference" "#PWR047" (at 246.38 73.66 0)
+    (property "Reference" "#PWR023" (at 246.38 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 244.4242 73.533 0)
@@ -5312,7 +5312,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5321,7 +5321,7 @@
   (symbol (lib_id "power:GND") (at 179.07 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9456674-b34b-46d7-ac9a-909a64e1df1b)
-    (property "Reference" "#PWR038" (at 172.72 88.9 0)
+    (property "Reference" "#PWR014" (at 172.72 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 174.6758 89.027 0)
@@ -5337,7 +5337,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -5346,7 +5346,7 @@
   (symbol (lib_id "power:GND") (at 240.03 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc5a1d4a-a5cd-4fe1-8f3d-5ba318fb815e)
-    (property "Reference" "#PWR054" (at 246.38 147.32 0)
+    (property "Reference" "#PWR030" (at 246.38 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 244.4242 147.193 0)
@@ -5362,7 +5362,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -5371,7 +5371,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 163.83 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcb49e07-a2a2-4397-af2b-8defe95e017e)
-    (property "Reference" "T14" (at 163.83 152.4 90)
+    (property "Reference" "T1" (at 163.83 152.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" " " (at 165.1 152.4 90)
@@ -5387,7 +5387,7 @@
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
-          (reference "T14") (unit 1)
+          (reference "T1") (unit 1)
         )
       )
     )
