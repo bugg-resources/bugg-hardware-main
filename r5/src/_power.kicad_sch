@@ -6752,8 +6752,8 @@
     (property "Voltage" "6.3V" (at 86.36 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4a05604-522c-4480-92b0-14bb2ada65dd))
-    (pin "2" (uuid 2f29baf1-586a-4e7e-a0e5-d1466d523516))
+    (pin "1" (uuid b9d4ce37-12db-4f3f-b998-dc957bba5df5))
+    (pin "2" (uuid d4dcfa47-05fa-4ad6-9f1e-2ca7667a17df))
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f/e93db74d-0429-4e7f-b256-c16b4c3a83e7"
