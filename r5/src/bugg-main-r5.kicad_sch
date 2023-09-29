@@ -1,11 +1,11 @@
-(kicad_sch (version 20230409) (generator eeschema)
+(kicad_sch (version 20230819) (generator eeschema)
 
   (uuid e3eb514f-6ce4-4abe-ba20-f82f0015628f)
 
   (paper "A3")
 
   (lib_symbols
-    (symbol "74xGxx:74LVC1G07" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "74xGxx:74LVC1G07" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -2.54 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -18,10 +18,10 @@
       (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "Single Gate Buff LVC CMOS Open Drain" (at 0 0 0)
+      (property "Description" "Single Buffer Gate w/ Open Drain, Low-Voltage CMOS" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Single Buffer Gate w/ Open Drain, Low-Voltage CMOS" (at 0 0 0)
+      (property "ki_keywords" "Single Gate Buff LVC CMOS Open Drain" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "SOT* SG-*" (at 0 0 0)
@@ -77,7 +77,7 @@
         )
       )
     )
-    (symbol "CM4IO:ComputeModule4-CM4" (in_bom yes) (on_board yes)
+    (symbol "CM4IO:ComputeModule4-CM4" (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "Module" (at 113.03 -68.58 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -88,6 +88,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 142.24 -26.67 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Description" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Field4" "Hirose" (at 0 0 0)
@@ -929,7 +932,7 @@
         )
       )
     )
-    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -942,10 +945,10 @@
       (property "Datasheet" "~" (at 5.08 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
+      (property "Description" "test point" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "test point" (at 0 0 0)
+      (property "ki_keywords" "test point tp" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
@@ -964,7 +967,7 @@
         )
       )
     )
-    (symbol "Connector:TestPoint_Probe" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+    (symbol "Connector:TestPoint_Probe" (pin_numbers hide) (pin_names (offset 0.762) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 1.651 5.842 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -977,10 +980,10 @@
       (property "Datasheet" "~" (at 5.08 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
+      (property "Description" "test point (alternative probe-style design)" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "test point (alternative probe-style design)" (at 0 0 0)
+      (property "ki_keywords" "test point tp" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
@@ -1016,7 +1019,7 @@
         )
       )
     )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1029,10 +1032,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+      (property "Description" "Unpolarized capacitor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "C_*" (at 0 0 0)
@@ -1067,7 +1070,7 @@
         )
       )
     )
-    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1080,10 +1083,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "LED diode" (at 0 0 0)
+      (property "Description" "Light emitting diode" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Light emitting diode" (at 0 0 0)
+      (property "ki_keywords" "LED diode" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
@@ -1150,7 +1153,7 @@
         )
       )
     )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -1163,10 +1166,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
+      (property "Description" "Resistor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Resistor" (at 0 0 0)
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "R_*" (at 0 0 0)
@@ -1189,7 +1192,7 @@
         )
       )
     )
-    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0.762 0.508 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1202,10 +1205,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "R resistor" (at 0 0 0)
+      (property "Description" "Resistor, small symbol" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
+      (property "ki_keywords" "R resistor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "R_*" (at 0 0 0)
@@ -1228,7 +1231,7 @@
         )
       )
     )
-    (symbol "Mechanical:Fiducial" (in_bom yes) (on_board yes)
+    (symbol "Mechanical:Fiducial" (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "FID" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1241,10 +1244,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "fiducial marker" (at 0 0 0)
+      (property "Description" "Fiducial Marker" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Fiducial Marker" (at 0 0 0)
+      (property "ki_keywords" "fiducial marker" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Fiducial*" (at 0 0 0)
@@ -1257,7 +1260,7 @@
         )
       )
     )
-    (symbol "Mechanical:Housing" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Mechanical:Housing" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "N" (at 3.81 0 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1270,10 +1273,10 @@
       (property "Datasheet" "~" (at 1.27 1.27 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "housing enclosure" (at 0 0 0)
+      (property "Description" "Housing" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Housing" (at 0 0 0)
+      (property "ki_keywords" "housing enclosure" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Enclosure* Housing*" (at 0 0 0)
@@ -1492,7 +1495,7 @@
         )
       )
     )
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1505,10 +1508,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
+      (property "Description" "Mounting Hole without connection" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
@@ -1521,7 +1524,7 @@
         )
       )
     )
-    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 0 6.35 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1534,10 +1537,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
+      (property "Description" "Mounting Hole with connection" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
@@ -1556,7 +1559,7 @@
         )
       )
     )
-    (symbol "j_74xGxx:74LVC1G157" (in_bom yes) (on_board yes)
+    (symbol "j_74xGxx:74LVC1G157" (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -2.54 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1567,6 +1570,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Description" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC1G157_0_1"
@@ -1602,7 +1608,7 @@
         )
       )
     )
-    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+3V3" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1615,10 +1621,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "Description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "+3V3_0_1"
@@ -1654,7 +1660,7 @@
         )
       )
     )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1667,10 +1673,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "Description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "+5V_0_1"
@@ -1706,7 +1712,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1719,10 +1725,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "GND_0_1"
@@ -1746,7 +1752,7 @@
         )
       )
     )
-    (symbol "power:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:VBUS" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1759,10 +1765,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "Description" "Power symbol creates a global label with name \"VBUS\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"VBUS\"" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "VBUS_0_1"
@@ -2931,7 +2937,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 151.13 106.68 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 01f77c52-1b52-4742-808d-d7be12bf5723)
     (property "Reference" "R34" (at 151.13 109.22 90)
       (effects (font (size 1.27 1.27)))
@@ -2943,6 +2949,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 151.13 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0f504b9b-a15e-4a99-b40a-616c88205728))
@@ -2957,7 +2966,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 255.27 99.06 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a12b46b-2d36-47b2-9116-2a9e5e09bb58)
     (property "Reference" "R4" (at 255.27 92.71 90)
       (effects (font (size 1.27 1.27)))
@@ -2969,6 +2978,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 255.27 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 255.27 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 76050695-05b9-43b5-a1fc-035a71cdfd77))
@@ -2983,7 +2995,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 283.21 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bfdb639-d8ff-4600-87a1-d93da0344cbc)
     (property "Reference" "#PWR037" (at 283.21 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2997,6 +3009,9 @@
     (property "Datasheet" "" (at 283.21 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 283.21 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b65daf31-bbfe-4191-8573-a2b5a2d75a8a))
     (instances
       (project "bugg-main-r5"
@@ -3008,7 +3023,7 @@
   )
 
   (symbol (lib_id "74xGxx:74LVC1G07") (at 275.59 193.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d301e3a-5e66-4f12-a600-824f82e690fc)
     (property "Reference" "U1" (at 281.305 196.215 0)
       (effects (font (size 1.27 1.27)))
@@ -3020,6 +3035,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 275.59 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 275.59 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 382843d5-8fb4-4e96-acee-e90f12d9ea06))
@@ -3036,7 +3054,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 73.66 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e2c286d-da78-422c-a039-4f51a88a5b9a)
     (property "Reference" "#PWR012" (at 172.72 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3050,6 +3068,9 @@
     (property "Datasheet" "" (at 179.07 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ca7e4d71-3d41-4ecc-9f7e-3c98453bbc57))
     (instances
       (project "bugg-main-r5"
@@ -3061,7 +3082,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 144.78 106.68 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e3e850c-ac29-40de-81ec-d9b546f8face)
     (property "Reference" "D7" (at 140.97 109.22 0)
       (effects (font (size 1.27 1.27)))
@@ -3073,6 +3094,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 144.78 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 144.78 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 72384791-d66d-4ded-99c4-d583b77a2b46))
@@ -3087,7 +3111,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 308.61 105.41 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1300a12c-1ad0-41ca-bf28-52b7f1f18c6a)
     (property "Reference" "T39" (at 313.69 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3101,6 +3125,9 @@
     (property "Datasheet" "~" (at 308.61 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 308.61 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b52276c5-6733-4f66-8d0f-21068fa9ffff))
     (instances
       (project "bugg-main-r5"
@@ -3112,7 +3139,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 288.29 173.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 156cd133-c84d-4aea-b398-6d8813ef4c8c)
     (property "Reference" "#PWR039" (at 288.29 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3126,6 +3153,9 @@
     (property "Datasheet" "" (at 288.29 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 288.29 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid bdd34523-1663-474d-8705-64b71b928616))
     (instances
       (project "bugg-main-r5"
@@ -3137,7 +3167,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 74.93 223.52 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16a0396c-a9e9-4cf0-a1fa-15a27fab4369)
     (property "Reference" "FID1" (at 77.47 222.8849 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3151,6 +3181,9 @@
     (property "Datasheet" "~" (at 74.93 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 74.93 223.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -3161,7 +3194,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 267.97 99.06 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 16a696e5-6903-408b-b733-a2a1f5faaf4b)
     (property "Reference" "#PWR034" (at 264.16 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3175,6 +3208,9 @@
     (property "Datasheet" "" (at 267.97 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 267.97 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6ef21cc5-8f81-4579-832a-ab2d63c82fe5))
     (instances
       (project "bugg-main-r5"
@@ -3186,7 +3222,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 74.93 236.22 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17f236dc-b841-44d3-b743-0a941e02b531)
     (property "Reference" "FID3" (at 77.47 235.5849 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3200,6 +3236,9 @@
     (property "Datasheet" "~" (at 74.93 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 74.93 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -3210,7 +3249,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 74.93 259.08 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no)
     (uuid 1b24891f-7b26-44eb-899e-a99a41222c7f)
     (property "Reference" "H2" (at 78.74 258.4449 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3224,6 +3263,9 @@
     (property "Datasheet" "~" (at 74.93 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 74.93 259.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -3234,7 +3276,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 74.93 271.78 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no)
     (uuid 1cc3b791-6b53-4113-97d4-0cb2fe132e49)
     (property "Reference" "H4" (at 78.74 271.1449 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3248,6 +3290,9 @@
     (property "Datasheet" "~" (at 74.93 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 74.93 271.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -3258,7 +3303,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 151.13 144.78 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 240833ea-1257-4551-82cb-c99cef62cb54)
     (property "Reference" "R2" (at 148.59 147.32 90)
       (effects (font (size 1.27 1.27)))
@@ -3270,6 +3315,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 151.13 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0771f09e-ecd1-4e62-b7ef-59557163cb76))
@@ -3284,7 +3332,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 161.29 270.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 270d3253-98ec-4a7a-a1b9-ece0102cf028)
     (property "Reference" "GC4" (at 165.1 268.2875 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3298,6 +3346,9 @@
     (property "Datasheet" "~" (at 166.37 270.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 161.29 270.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid bd8d48d7-f30f-40bd-8768-68976614c0fe))
     (instances
       (project "bugg-main-r5"
@@ -3309,7 +3360,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 161.29 260.35 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2877ca3a-06ab-4070-aed2-0aa8266911c0)
     (property "Reference" "#PWR08" (at 161.29 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3323,6 +3374,9 @@
     (property "Datasheet" "" (at 161.29 260.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 161.29 260.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1e2b850e-ad48-4a23-8cb7-9b30a34c9a32))
     (instances
       (project "bugg-main-r5"
@@ -3334,7 +3388,7 @@
   )
 
   (symbol (lib_id "Mechanical:Housing") (at 46.99 271.78 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2912102e-bbd1-4bfe-a2c0-bbf61df23d4c)
     (property "Reference" "BOSS4" (at 50.8 271.4625 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3348,6 +3402,9 @@
     (property "Datasheet" "~" (at 48.26 270.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 46.99 271.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -3358,7 +3415,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 166.37 147.32 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a0442cb-5411-48c8-925c-f59398e20545)
     (property "Reference" "T15" (at 166.37 152.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3372,6 +3429,9 @@
     (property "Datasheet" "~" (at 161.29 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 166.37 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4df6f43c-985f-4407-8ef9-f1a976662324))
     (instances
       (project "bugg-main-r5"
@@ -3383,7 +3443,7 @@
   )
 
   (symbol (lib_id "CM4IO:ComputeModule4-CM4") (at -57.15 134.62 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e5d8954-dabb-4a70-9f83-592efa0a244f)
     (property "Reference" "Module1" (at 83.185 204.0444 0)
       (effects (font (size 1.27 1.27)))
@@ -3395,6 +3455,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 85.09 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at -57.15 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field5" "2x DF40C-100DS-0.4V" (at 210.82 210.82 0)
@@ -3613,7 +3676,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 240.03 114.3 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 36b2549f-c809-4b3f-95b1-a44a1a8faa6f)
     (property "Reference" "#PWR027" (at 246.38 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3627,6 +3690,9 @@
     (property "Datasheet" "" (at 240.03 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 240.03 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2a078d0c-4631-44cd-95ae-83d3aad416aa))
     (instances
       (project "bugg-main-r5"
@@ -3638,7 +3704,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 123.19 248.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3eae5975-a41e-4b7f-8113-e6e04432108c)
     (property "Reference" "SP1" (at 127 248.2849 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3652,6 +3718,9 @@
     (property "Datasheet" "~" (at 123.19 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 123.19 248.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 303e3606-027d-41a6-b01b-8751618f3e3a))
     (instances
       (project "bugg-main-r5"
@@ -3663,7 +3732,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 151.13 142.24 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f8d97d6-0ac1-4872-872a-ee1b29879834)
     (property "Reference" "R1" (at 148.59 139.7 90)
       (effects (font (size 1.27 1.27)))
@@ -3675,6 +3744,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 151.13 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8ec37087-fde5-47f5-b71d-354251c96bf9))
@@ -3689,7 +3761,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 148.59 96.52 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 419e1d4b-f5ee-4565-a304-a1743a170485)
     (property "Reference" "R3" (at 146.05 93.98 90)
       (effects (font (size 1.27 1.27)))
@@ -3701,6 +3773,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 148.59 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c87d5dd4-3a78-453f-b8f7-8fabf8ab62f8))
@@ -3715,7 +3790,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 240.03 162.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 473d9318-4fca-43f4-be0d-d7977648ac20)
     (property "Reference" "#PWR032" (at 246.38 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3729,6 +3804,9 @@
     (property "Datasheet" "" (at 240.03 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 240.03 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid eb57e518-11ec-4d2a-affd-96c485972097))
     (instances
       (project "bugg-main-r5"
@@ -3740,7 +3818,7 @@
   )
 
   (symbol (lib_id "j_74xGxx:74LVC1G157") (at 285.75 106.68 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 49f0a85e-091e-47e3-b359-faa089765cc9)
     (property "Reference" "U34" (at 289.56 97.79 0)
       (effects (font (size 1.27 1.27)))
@@ -3752,6 +3830,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 285.75 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 285.75 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c39b70f7-f710-422a-a14f-ece0dc4e9a65))
@@ -3770,7 +3851,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 138.43 96.52 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a6f2884-3726-4b4c-bde5-4a4ab7cfba37)
     (property "Reference" "#PWR03" (at 132.08 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3784,6 +3865,9 @@
     (property "Datasheet" "" (at 138.43 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 138.43 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid cb9767d6-5ed5-4685-8b6b-4f5e3df64609))
     (instances
       (project "bugg-main-r5"
@@ -3795,7 +3879,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 74.93 265.43 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no)
     (uuid 4add46bf-d50a-4e5e-9578-739f6bdeb1e3)
     (property "Reference" "H3" (at 78.74 264.7949 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3809,6 +3893,9 @@
     (property "Datasheet" "~" (at 74.93 265.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 74.93 265.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -3819,7 +3906,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 161.29 260.35 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 502692a9-2cfe-4fc0-88e5-c2a10a8fb761)
     (property "Reference" "GC3" (at 165.1 258.1275 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3833,6 +3920,9 @@
     (property "Datasheet" "~" (at 166.37 260.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 161.29 260.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 428f7317-1b5f-4402-8b5f-e8559b05a4ea))
     (instances
       (project "bugg-main-r5"
@@ -3844,7 +3934,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 146.05 142.24 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 51f3dddf-1767-434a-830e-7fb8f9ea9a6f)
     (property "Reference" "#PWR05" (at 149.86 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3858,6 +3948,9 @@
     (property "Datasheet" "" (at 146.05 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 146.05 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 62ec7f39-aa93-4999-9469-43dd1deec7e0))
     (instances
       (project "bugg-main-r5"
@@ -3869,7 +3962,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 240.03 127 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5484a2eb-0682-4cee-8cc8-ad64263f67b5)
     (property "Reference" "#PWR028" (at 246.38 127 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3883,6 +3976,9 @@
     (property "Datasheet" "" (at 240.03 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 240.03 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 532d484a-c215-48d5-9dd8-52bc9876c626))
     (instances
       (project "bugg-main-r5"
@@ -3894,7 +3990,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 90.17 223.52 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 584c4cf6-e023-4881-9a18-8f47fed31ccc)
     (property "Reference" "FID4" (at 92.71 222.8849 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3908,6 +4004,9 @@
     (property "Datasheet" "~" (at 90.17 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 90.17 223.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -3918,7 +4017,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 240.03 81.28 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 58eee8f9-5c65-4b24-8de5-f71014943a43)
     (property "Reference" "#PWR024" (at 246.38 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3932,6 +4031,9 @@
     (property "Datasheet" "" (at 240.03 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 240.03 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4d1092cd-0dc9-4864-bd6c-2f58bd20ad64))
     (instances
       (project "bugg-main-r5"
@@ -3943,7 +4045,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 139.7 106.68 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 591b91b5-2eb6-476c-a17a-36bfb016bd8f)
     (property "Reference" "#PWR04" (at 143.51 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3957,6 +4059,9 @@
     (property "Datasheet" "" (at 139.7 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 139.7 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid dfb77052-2e46-418b-9faa-27c62cc4ed5e))
     (instances
       (project "bugg-main-r5"
@@ -3968,7 +4073,7 @@
   )
 
   (symbol (lib_id "power:VBUS") (at 358.14 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a68360f-d010-4245-9a91-d594a73363be)
     (property "Reference" "#PWR040" (at 358.14 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3982,6 +4087,9 @@
     (property "Datasheet" "" (at 358.14 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 358.14 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a89b5dd9-d671-4039-822e-225604ff080d))
     (instances
       (project "bugg-main-r5"
@@ -3993,7 +4101,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 161.29 270.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 616e7bea-9e34-4908-a60d-c4c33e873202)
     (property "Reference" "#PWR09" (at 161.29 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4007,6 +4115,9 @@
     (property "Datasheet" "" (at 161.29 270.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 161.29 270.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid bd94e0fb-147c-4526-b948-b25d6f7ddaf4))
     (instances
       (project "bugg-main-r5"
@@ -4018,7 +4129,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 161.29 250.19 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 669f7f3a-303d-4263-b265-5b495a71ca21)
     (property "Reference" "GC2" (at 165.1 247.9675 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4032,6 +4143,9 @@
     (property "Datasheet" "~" (at 166.37 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 161.29 250.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid cf621737-8382-4d31-81f3-e87c54185f5b))
     (instances
       (project "bugg-main-r5"
@@ -4043,7 +4157,7 @@
   )
 
   (symbol (lib_id "power:+5V") (at 245.11 170.18 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 6794b596-da23-4aca-9aa0-bb4a546e8fee)
     (property "Reference" "#PWR033" (at 241.3 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4057,6 +4171,9 @@
     (property "Datasheet" "" (at 245.11 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 245.11 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ce4e568e-f88a-4186-8707-fcdd14a6ba72))
     (instances
       (project "bugg-main-r5"
@@ -4068,7 +4185,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 113.03 81.28 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 67d00768-0fce-47c0-abb8-4f282402d0e7)
     (property "Reference" "#PWR02" (at 119.38 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4082,6 +4199,9 @@
     (property "Datasheet" "" (at 113.03 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 113.03 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c7aa3dc8-d055-4862-8662-c5f6902fdd57))
     (instances
       (project "bugg-main-r5"
@@ -4093,7 +4213,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 290.83 41.91 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 69101932-fc27-495a-b7f1-5d4a77086d6d)
     (property "Reference" "R77" (at 297.815 43.18 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4105,6 +4225,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 290.83 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 290.83 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cb726560-c5a0-44b7-9da8-7dc688bbd11a))
@@ -4122,7 +4245,7 @@
   )
 
   (symbol (lib_id "Mechanical:Housing") (at 46.99 245.11 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a37d782-01ae-42ea-af6a-83284321ae00)
     (property "Reference" "BOSS1" (at 50.8 244.7925 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4136,6 +4259,9 @@
     (property "Datasheet" "~" (at 48.26 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 46.99 245.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -4146,7 +4272,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 124.46 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b3483b9-7c65-4d33-b2c7-ad1bcef38b2e)
     (property "Reference" "#PWR017" (at 172.72 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4160,6 +4286,9 @@
     (property "Datasheet" "" (at 179.07 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d3bac35d-ff61-4400-bea0-beb5cfdaa44b))
     (instances
       (project "bugg-main-r5"
@@ -4171,7 +4300,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 240.03 88.9 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ddd7dbd-e5f4-4a52-ad0c-6e87afd7fa4c)
     (property "Reference" "#PWR025" (at 246.38 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4185,6 +4314,9 @@
     (property "Datasheet" "" (at 240.03 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 240.03 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 06f8de92-765d-47b0-9142-f26eb1ab5dab))
     (instances
       (project "bugg-main-r5"
@@ -4196,7 +4328,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 288.29 177.8 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 720158e6-c2db-4122-8969-d31433825b73)
     (property "Reference" "D2" (at 290.83 179.07 0)
       (effects (font (size 1.27 1.27)))
@@ -4208,6 +4340,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 288.29 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 288.29 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 26e1de35-075c-423d-ac05-1b5341e33cc2))
@@ -4222,7 +4357,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 283.21 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7217a4d2-24ad-4a54-97e6-b6def033f5ff)
     (property "Reference" "#PWR038" (at 283.21 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4236,6 +4371,9 @@
     (property "Datasheet" "" (at 283.21 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 283.21 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b45e3a03-978c-4e7e-90cb-947283a6d476))
     (instances
       (project "bugg-main-r5"
@@ -4247,7 +4385,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 173.99 170.18 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7591dce3-7b19-40ab-a95d-85b1f571f5a9)
     (property "Reference" "#PWR010" (at 177.8 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4261,6 +4399,9 @@
     (property "Datasheet" "" (at 173.99 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 173.99 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e7ad2637-aee0-4309-9e5a-a93ff5520c5a))
     (instances
       (project "bugg-main-r5"
@@ -4272,7 +4413,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 275.59 198.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 78aa0c23-4788-46b9-b765-d1bd8199f967)
     (property "Reference" "#PWR036" (at 275.59 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4286,6 +4427,9 @@
     (property "Datasheet" "" (at 275.59 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 275.59 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7593be9c-20ec-4c9b-a524-48edab057240))
     (instances
       (project "bugg-main-r5"
@@ -4297,7 +4441,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 240.03 101.6 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d39eccb-837d-4e83-9739-e59fe0d8b4bb)
     (property "Reference" "#PWR026" (at 246.38 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4311,6 +4455,9 @@
     (property "Datasheet" "" (at 240.03 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 240.03 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8d5b94b2-11da-4260-9f7d-689d362c9b94))
     (instances
       (project "bugg-main-r5"
@@ -4322,7 +4469,7 @@
   )
 
   (symbol (lib_id "Mechanical:Housing") (at 46.99 254 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 868cbc6a-5de3-43c4-a29a-4b2744ddb4f5)
     (property "Reference" "BOSS2" (at 50.8 253.6825 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4336,6 +4483,9 @@
     (property "Datasheet" "~" (at 48.26 252.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 46.99 254 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -4346,7 +4496,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 292.1 92.71 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d9bc83f-6b77-4263-b50d-d6f6a791efea)
     (property "Reference" "#PWR0306" (at 298.45 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4360,6 +4510,9 @@
     (property "Datasheet" "" (at 292.1 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 292.1 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3dc9a64f-a480-4f5b-89be-bfc82c2d5da1))
     (instances
       (project "bugg-main-r5"
@@ -4371,7 +4524,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 290.83 36.83 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f9de661-a0b9-4f62-918e-0a8637567c92)
     (property "Reference" "R75" (at 297.815 38.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4383,6 +4536,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 290.83 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 290.83 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d24e65a6-17da-45d2-95fd-3d042f824c33))
@@ -4400,7 +4556,7 @@
   )
 
   (symbol (lib_id "Mechanical:Housing") (at 46.99 262.89 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90406939-2f10-40b4-97c4-ab6b178fa1e7)
     (property "Reference" "BOSS3" (at 50.8 262.5725 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4414,6 +4570,9 @@
     (property "Datasheet" "~" (at 48.26 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 46.99 262.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -4424,7 +4583,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 147.32 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 930e32d4-3389-4d6f-ad56-e5ad082a3604)
     (property "Reference" "#PWR019" (at 172.72 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4438,6 +4597,9 @@
     (property "Datasheet" "" (at 179.07 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid cae2e547-1763-459d-b1f9-b40d3773b363))
     (instances
       (project "bugg-main-r5"
@@ -4449,7 +4611,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 90.17 229.87 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 942c6c62-d640-4e95-87d8-e9772f5b0a8a)
     (property "Reference" "FID5" (at 92.71 229.2349 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4463,6 +4625,9 @@
     (property "Datasheet" "~" (at 90.17 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 90.17 229.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -4473,7 +4638,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 81.28 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9808244a-ee11-4ee4-9fae-77c6ea4ed986)
     (property "Reference" "#PWR013" (at 172.72 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4487,6 +4652,9 @@
     (property "Datasheet" "" (at 179.07 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d2c82a44-c01a-4828-9268-5f23c9baed90))
     (instances
       (project "bugg-main-r5"
@@ -4498,7 +4666,7 @@
   )
 
   (symbol (lib_id "CM4IO:ComputeModule4-CM4") (at 212.09 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 983969c3-711c-41cf-b33f-8b265354541d)
     (property "Reference" "Module1" (at 210.82 203.4094 0)
       (effects (font (size 1.27 1.27)))
@@ -4510,6 +4678,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 354.33 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 212.09 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field5" "2x DF40C-100DS-0.4V" (at 212.09 132.08 0)
@@ -4728,7 +4899,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 264.16 198.12 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ccdc2ea-4360-4b47-aed5-c03dd29ae59e)
     (property "Reference" "T16" (at 269.24 198.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4742,6 +4913,9 @@
     (property "Datasheet" "~" (at 264.16 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 264.16 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 35d3c4e4-7e21-468a-a5dd-6fefd2261fe7))
     (instances
       (project "bugg-main-r5"
@@ -4753,7 +4927,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 123.19 271.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a255c8a8-e6f5-4304-becb-a2a160ac5dfc)
     (property "Reference" "SP4" (at 127 271.1449 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4767,6 +4941,9 @@
     (property "Datasheet" "~" (at 123.19 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 123.19 271.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 58f5e55d-8228-463f-af09-95cc0e6fdb7a))
     (instances
       (project "bugg-main-r5"
@@ -4778,7 +4955,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 179.07 187.96 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a28dff5b-6aea-45e3-a447-6ff0232d5c28)
     (property "Reference" "T3" (at 173.99 187.96 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4792,6 +4969,9 @@
     (property "Datasheet" "~" (at 179.07 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ba6b380d-b090-4afb-a6f4-f3b62ed668cc))
     (instances
       (project "bugg-main-r5"
@@ -4803,7 +4983,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 123.19 264.16 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a3da0aef-52a3-4503-8424-55a90422d622)
     (property "Reference" "SP3" (at 127 263.5249 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4817,6 +4997,9 @@
     (property "Datasheet" "~" (at 123.19 264.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 123.19 264.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b2c38b12-f7c2-4ed7-bcbb-9fdef8cbd65d))
     (instances
       (project "bugg-main-r5"
@@ -4828,7 +5011,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 288.29 185.42 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ac3c5b36-e82b-4708-bead-6d14c90a7d37)
     (property "Reference" "R5" (at 285.75 186.69 90)
       (effects (font (size 1.27 1.27)))
@@ -4840,6 +5023,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 288.29 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 288.29 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0408c062-c5ee-44cb-90ce-61d5f1264f54))
@@ -4854,7 +5040,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 154.94 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ae2bf790-b215-4c08-a283-5755aff91fbb)
     (property "Reference" "#PWR020" (at 172.72 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4868,6 +5054,9 @@
     (property "Datasheet" "" (at 179.07 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 954dce78-87cc-4621-8d42-b1c6d017d40b))
     (instances
       (project "bugg-main-r5"
@@ -4879,7 +5068,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 173.99 180.34 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ae7e1731-5ce9-469e-af1d-f54414604fb3)
     (property "Reference" "#PWR011" (at 177.8 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4893,6 +5082,9 @@
     (property "Datasheet" "" (at 173.99 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 173.99 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid cdf59bda-c214-4677-9d67-8ec3a3c2029d))
     (instances
       (project "bugg-main-r5"
@@ -4904,7 +5096,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 275.59 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid afe0ea34-5e34-4718-835f-4e8407c69bf1)
     (property "Reference" "#PWR035" (at 275.59 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4918,6 +5110,9 @@
     (property "Datasheet" "" (at 275.59 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 275.59 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 18ea0e11-2525-47ea-9498-7eda9ce040cc))
     (instances
       (project "bugg-main-r5"
@@ -4929,7 +5124,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 240.03 139.7 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b0bf168c-73f6-4a3b-b2d9-6b025ac93c76)
     (property "Reference" "#PWR029" (at 246.38 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4943,6 +5138,9 @@
     (property "Datasheet" "" (at 240.03 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 240.03 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 94eca867-084a-49e1-a3c8-531d43a91a09))
     (instances
       (project "bugg-main-r5"
@@ -4954,7 +5152,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 290.83 39.37 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b22930e2-d4c4-4a3d-b400-a3d1805a8bf9)
     (property "Reference" "R76" (at 297.815 40.64 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4966,6 +5164,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 290.83 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 290.83 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 455b8bd0-ed84-4af0-8432-75beea5a99ce))
@@ -4983,7 +5184,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 161.29 240.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b697f81e-08d2-4ce1-b42e-ed10fd2aba5c)
     (property "Reference" "#PWR06" (at 161.29 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4997,6 +5198,9 @@
     (property "Datasheet" "" (at 161.29 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 161.29 240.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 74386977-55dd-4dab-8167-32ed7e5b35ba))
     (instances
       (project "bugg-main-r5"
@@ -5008,7 +5212,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 111.76 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b69bdcb2-d21e-4199-a6f2-d9d957411b03)
     (property "Reference" "#PWR016" (at 172.72 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5022,6 +5226,9 @@
     (property "Datasheet" "" (at 179.07 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9a4839b4-2fa2-47b0-8de1-e83a0d322109))
     (instances
       (project "bugg-main-r5"
@@ -5033,7 +5240,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 161.29 250.19 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b853ea60-27a9-4777-96db-5d0a59e2b807)
     (property "Reference" "#PWR07" (at 161.29 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5047,6 +5254,9 @@
     (property "Datasheet" "" (at 161.29 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 161.29 250.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 24cfaa72-853c-4b9a-912c-98195503935b))
     (instances
       (project "bugg-main-r5"
@@ -5058,7 +5268,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 99.06 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c4b1b565-c00d-451a-a17d-5e636c72bc18)
     (property "Reference" "#PWR015" (at 172.72 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5072,6 +5282,9 @@
     (property "Datasheet" "" (at 179.07 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8d2132ad-8c87-4596-870e-5d8ae8d4113e))
     (instances
       (project "bugg-main-r5"
@@ -5083,7 +5296,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 74.93 252.73 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no)
     (uuid c77a8c91-eb9f-473c-8aca-9afdae0447db)
     (property "Reference" "H1" (at 78.74 252.0949 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5097,6 +5310,9 @@
     (property "Datasheet" "~" (at 74.93 252.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 74.93 252.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -5107,7 +5323,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 195.58 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ce45c20f-d158-4176-94c5-0dc6ca20fb83)
     (property "Reference" "#PWR022" (at 172.72 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5121,6 +5337,9 @@
     (property "Datasheet" "" (at 179.07 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 195.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4d131341-5780-4c5a-b6de-dd6e29bf1b76))
     (instances
       (project "bugg-main-r5"
@@ -5132,7 +5351,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 308.61 107.95 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid cf049661-d088-4e11-9f6d-44e318ef4327)
     (property "Reference" "T40" (at 313.69 107.95 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5146,6 +5365,9 @@
     (property "Datasheet" "~" (at 308.61 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 308.61 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 53bfcb24-e9c7-4fb3-95b3-c27c738f9dc5))
     (instances
       (project "bugg-main-r5"
@@ -5157,7 +5379,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 123.19 256.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid cfb8efd4-42da-4ffd-b074-db44b392a084)
     (property "Reference" "SP2" (at 127 255.9049 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5171,6 +5393,9 @@
     (property "Datasheet" "~" (at 123.19 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 123.19 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b5db6937-4d2c-4b94-99c4-1b4af52e294c))
     (instances
       (project "bugg-main-r5"
@@ -5182,7 +5407,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 240.03 154.94 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d0102429-087a-4d3c-aa5b-25020d00eb5a)
     (property "Reference" "#PWR031" (at 246.38 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5196,6 +5421,9 @@
     (property "Datasheet" "" (at 240.03 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 240.03 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a7013384-bc1d-4441-b380-9c79a4824189))
     (instances
       (project "bugg-main-r5"
@@ -5207,7 +5435,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 261.62 99.06 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d5badfeb-00a1-4782-b632-d407790f5aa1)
     (property "Reference" "D1" (at 260.35 91.44 0)
       (effects (font (size 1.27 1.27)))
@@ -5219,6 +5447,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 261.62 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 261.62 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 163031e5-034a-4b5e-9e87-c39cbdacedef))
@@ -5233,7 +5464,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 74.93 229.87 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6c5107c-4969-428e-b7db-9dbf291c34f4)
     (property "Reference" "FID2" (at 77.47 229.2349 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5247,6 +5478,9 @@
     (property "Datasheet" "~" (at 74.93 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 74.93 229.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -5257,7 +5491,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 52.07 81.28 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e11fd796-3573-4c9c-9585-e0943b8d76f5)
     (property "Reference" "#PWR01" (at 45.72 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5271,6 +5505,9 @@
     (property "Datasheet" "" (at 52.07 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 52.07 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6a5a1739-f579-437c-9c26-72f714090669))
     (instances
       (project "bugg-main-r5"
@@ -5282,7 +5519,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 90.17 236.22 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e65ba028-130e-42d2-a777-c9435af2659a)
     (property "Reference" "FID6" (at 92.71 235.5849 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5296,6 +5533,9 @@
     (property "Datasheet" "~" (at 90.17 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 90.17 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "bugg-main-r5"
         (path "/e3eb514f-6ce4-4abe-ba20-f82f0015628f"
@@ -5306,7 +5546,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 137.16 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ef671ec8-f88c-4ecd-85f7-83283341f7c4)
     (property "Reference" "#PWR018" (at 172.72 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5320,6 +5560,9 @@
     (property "Datasheet" "" (at 179.07 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3879cefc-161f-4c8d-b604-44b1edff7629))
     (instances
       (project "bugg-main-r5"
@@ -5331,7 +5574,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 165.1 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f241dbcc-4631-45e6-ad66-b2e2fa9c731d)
     (property "Reference" "#PWR021" (at 172.72 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5345,6 +5588,9 @@
     (property "Datasheet" "" (at 179.07 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d7580a7e-3b7b-43d3-92ba-e0cc11460c30))
     (instances
       (project "bugg-main-r5"
@@ -5356,7 +5602,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 161.29 240.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3b4fd39-1a6b-4209-968f-306a8e790a19)
     (property "Reference" "GC1" (at 165.1 237.8075 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5370,6 +5616,9 @@
     (property "Datasheet" "~" (at 166.37 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 161.29 240.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ac542b86-3cba-4e35-b8e9-43f0a1bedc4c))
     (instances
       (project "bugg-main-r5"
@@ -5381,7 +5630,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 288.29 92.71 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f50ece8c-94af-4ee7-a570-68c1e0d63119)
     (property "Reference" "C53" (at 289.56 86.36 90)
       (effects (font (size 1.27 1.27)))
@@ -5393,6 +5642,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 288.29 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 288.29 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 376d95a8-cccf-4690-8620-3dedfc175408))
@@ -5410,7 +5662,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 240.03 73.66 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f7b0058d-1ebb-465d-ae10-1144af04e0b2)
     (property "Reference" "#PWR023" (at 246.38 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5424,6 +5676,9 @@
     (property "Datasheet" "" (at 240.03 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 240.03 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 29a20963-0964-4b8d-817a-d9761c241950))
     (instances
       (project "bugg-main-r5"
@@ -5435,7 +5690,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 88.9 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f9456674-b34b-46d7-ac9a-909a64e1df1b)
     (property "Reference" "#PWR014" (at 172.72 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5449,6 +5704,9 @@
     (property "Datasheet" "" (at 179.07 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 166d989f-ffa1-4db7-a591-39ec4910b59c))
     (instances
       (project "bugg-main-r5"
@@ -5460,7 +5718,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 240.03 147.32 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fc5a1d4a-a5cd-4fe1-8f3d-5ba318fb815e)
     (property "Reference" "#PWR030" (at 246.38 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5474,6 +5732,9 @@
     (property "Datasheet" "" (at 240.03 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 240.03 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fdff93f6-e705-401a-8b7e-a0155ed3a75c))
     (instances
       (project "bugg-main-r5"
@@ -5485,7 +5746,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 163.83 147.32 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fcb49e07-a2a2-4397-af2b-8defe95e017e)
     (property "Reference" "T14" (at 163.83 152.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5497,6 +5758,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 163.83 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 788773e6-7819-47e8-b4cb-9d06a91033c4))
