@@ -816,6 +816,22 @@
       {
         "netclass": "Power",
         "pattern": "/Power and input connector/3V7_O"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power and input connector/1V8_O"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power and input connector/3.3VA_O"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power and input connector/-15V_L"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power and input connector/+15V_L"
       }
     ]
   },
