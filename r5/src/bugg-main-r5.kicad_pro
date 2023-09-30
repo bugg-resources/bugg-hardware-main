@@ -840,6 +840,10 @@
       {
         "netclass": "Power",
         "pattern": "/P3V3_OUT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power and input connector/VIN_LDO*"
       }
     ]
   },
