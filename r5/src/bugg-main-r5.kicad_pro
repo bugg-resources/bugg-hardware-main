@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.25
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -832,6 +832,10 @@
       {
         "netclass": "Power",
         "pattern": "/Power and input connector/+15V_L"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power and input connector/48V_O"
       }
     ]
   },
