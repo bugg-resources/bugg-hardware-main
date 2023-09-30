@@ -836,6 +836,10 @@
       {
         "netclass": "Power",
         "pattern": "/Power and input connector/48V_O"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/P3V3_OUT"
       }
     ]
   },
