@@ -668,6 +668,10 @@
     (uuid de433cb5-1be2-431f-85d3-a1af3341d075)
   )
 
+  (label "VBAT" (at 110.49 72.39 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 027994df-d615-4be1-8a44-6e840cf56642)
+  )
   (label "n_RTC_INT" (at 147.32 99.06 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9d646e45-87df-410f-980a-65156bb58e96)
