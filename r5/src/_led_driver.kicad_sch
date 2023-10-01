@@ -454,7 +454,7 @@
       (property "Footprint" "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" (at 0 0 0)
+      (property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Description" "8 Bit Port/Expander to I2C Bus, SSOP-20" (at 0 0 0)
@@ -571,7 +571,7 @@
       (property "Description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "+3V3_0_1"
@@ -623,7 +623,7 @@
       (property "Description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "+5V_0_1"
@@ -675,7 +675,7 @@
       (property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "GND_0_1"
