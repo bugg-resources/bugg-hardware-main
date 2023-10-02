@@ -4846,7 +4846,7 @@
     (property "Value" "15pF" (at 190.5 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 187.96 64.77 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 187.96 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 187.96 64.77 0)
