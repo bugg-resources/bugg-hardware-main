@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.75,
-          "width": 0.75
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -852,7 +852,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/jeff/projects/2022/bugg-v3/repos/bugg-hardware-main/r5/build/bugg-main-r5-fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
