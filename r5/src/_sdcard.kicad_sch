@@ -597,7 +597,7 @@
     (uuid d5b1640a-d723-487d-a9b0-9a68416bec5f)
   )
 
-  (no_connect (at 140.97 115.57) (uuid 62ea4fcf-8880-4f00-a85f-0c0afe7109bf))
+  (no_connect (at 140.97 115.57) (uuid 5b73ae2e-5197-4d07-b006-1da4f194de2f))
 
   (wire (pts (xy 162.56 77.47) (xy 162.56 78.74))
     (stroke (width 0) (type solid))
