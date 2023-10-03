@@ -3097,7 +3097,7 @@
     (property "Description" "" (at 139.7 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MANUFACTURER" "Sierra Wireliess" (at 139.7 143.51 0)
+    (property "Manufacturer" "Sierra Wireliess" (at 139.7 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (pin "1" (uuid 531a31fc-2593-47fa-ba4e-aab670610fb5))

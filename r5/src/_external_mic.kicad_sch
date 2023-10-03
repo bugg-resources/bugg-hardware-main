@@ -9460,7 +9460,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 473.71 330.2 180) (unit 1)
-    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no)
     (uuid 7290dd92-9b72-4ef1-a7d1-173de261d269)
     (property "Reference" "T33" (at 473.71 335.28 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -11457,7 +11457,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 473.71 312.42 0) (unit 1)
-    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp no)
     (uuid be0dc3b9-e6d9-43a1-bd4a-e1d82a4d966d)
     (property "Reference" "T32" (at 473.71 307.34 90)
       (effects (font (size 1.27 1.27)) (justify left))
