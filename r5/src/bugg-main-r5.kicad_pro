@@ -853,7 +853,7 @@
       "idf": "",
       "netlist": "",
       "plot": "/home/jeff/projects/2022/bugg-v3/repos/bugg-hardware-main/r5/build/bugg-main-r5-fabrication/",
-      "pos_files": "",
+      "pos_files": "../build/bugg-main-r5-assembly/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
