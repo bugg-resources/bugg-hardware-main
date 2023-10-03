@@ -6,3 +6,5 @@ fp-info-cache
 bugg-main-r4.xml
 *.kicad_prl
 *~lock*
+*.lck
+
