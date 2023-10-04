@@ -999,11 +999,11 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "TestPoint:TestPoint_Pad_D1.0mm",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Footprint"
     },
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
