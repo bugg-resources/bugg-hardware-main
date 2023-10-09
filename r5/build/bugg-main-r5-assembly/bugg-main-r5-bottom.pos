@@ -1,4 +1,4 @@
-### Footprint positions - created on 2023-10-03T23:27:43+0100 ###
+### Footprint positions - created on 2023-10-05T18:34:02+0100 ###
 ### Printed by KiCad version 7.99.0-1.20230926git54171ec.fc37
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -25,6 +25,8 @@ C15       47uF                C_1206_3216Metric                                 
 C16       47uF                C_1206_3216Metric                                    -33.4600    54.7000   90.0000  bottom
 C17       100nF               C_0402_1005Metric                                    -39.3250    52.0750    0.0000  bottom
 C18       100nF               C_0402_1005Metric                                    -36.0000    51.9250  180.0000  bottom
+C22       47uF                C_1206_3216Metric                                    -42.7250    46.0000   90.0000  bottom
+C23       47uF                C_1206_3216Metric                                    -39.5000    45.9500   90.0000  bottom
 C24       DNP_4.7uF           C_0603_1608Metric                                    -50.8250   -18.7750  180.0000  bottom
 C25       100nF               C_0402_1005Metric                                    -10.4500    16.3500  -90.0000  bottom
 C27       22pF                C_0402_1005Metric                                    -28.0450   -40.9250    0.0000  bottom
@@ -83,7 +85,7 @@ C90       4.7uF               C_1206_3216Metric                                 
 C91       4.7uF               C_1206_3216Metric                                    -22.5902    -5.3357    0.0000  bottom
 C92       3.3pF               C_0402_1005Metric                                    -15.6607   -18.8348    0.0000  bottom
 C93       220nF               C_0402_1005Metric                                    -17.2500   -13.0500   90.0000  bottom
-C94       5.8pF               C_0402_1005Metric                                    -19.1500   -11.1750   90.0000  bottom
+C94       DNP                 C_0402_1005Metric                                    -19.1500   -11.1750   90.0000  bottom
 C95       4.7nF               C_0402_1005Metric                                    -16.3152   -13.0357   90.0000  bottom
 C96       10nF                C_0402_1005Metric                                    -15.6598   -15.9643    0.0000  bottom
 C101      100nF               C_0402_1005Metric                                    -29.1000    -4.1750    0.0000  bottom
@@ -145,10 +147,6 @@ FB7       1k@100MHz           L_0603_1608Metric                                 
 FID4      Fiducial            Fiducial_1mm_Mask2mm                                 -58.5000   -40.5000    0.0000  bottom
 FID5      Fiducial            Fiducial_1mm_Mask2mm                                  -9.0000    46.0000    0.0000  bottom
 FID6      Fiducial            Fiducial_1mm_Mask2mm                                 -60.5000    52.5000    0.0000  bottom
-GC1       TestPoint_Probe     TestPoint_Keystone_5019_Minature                     -60.4000    23.4000    0.0000  bottom
-GC2       TestPoint_Probe     TestPoint_Keystone_5019_Minature                     -60.3500    28.9000    0.0000  bottom
-GC3       TestPoint_Probe     TestPoint_Keystone_5019_Minature                     -60.3500    34.4000    0.0000  bottom
-GC4       TestPoint_Probe     TestPoint_Keystone_5019_Minature                     -60.3000    39.9000    0.0000  bottom
 J1        _                   TestPoint_Pad_D1.0mm                                 -40.8000    34.0750  180.0000  bottom
 J2        _                   TestPoint_Pad_D1.0mm                                 -39.2000    35.3000  180.0000  bottom
 J3        _                   TestPoint_Pad_D1.0mm                                 -37.6000    34.0750  180.0000  bottom
