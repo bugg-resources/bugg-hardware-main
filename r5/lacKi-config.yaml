@@ -1,0 +1,9 @@
+project_name: bugg-main-r5
+zip_file: bugg-main-r5.zip
+project_dir: src
+output_dir: build
+layers: F.Cu, B.Cu, In1.Cu, In2.Cu, In3.Cu, In4.Cu, F.Silkscreen, B.Silkscreen, F.Mask, B.Mask, F.Paste, B.Paste, Edge.Cuts, User.1
+bom_fields: Reference, ${QUANTITY}, Value, Voltage, Tempco, Tolerance, Footprint, Manufacturer, MPN, Mouser, Digikey
+bom_labels: Reference, Qty, Value, Voltage, Tempco, Tolerance, Footprint, Manufacturer, MPN, Mouser, Digikey
+bom_groupby: Value, Footprint, Voltage, Tempco, Tolerance
+extra_files: src/README.txt
