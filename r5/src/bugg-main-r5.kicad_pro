@@ -3,6 +3,9 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.09999999999999999,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
@@ -190,6 +193,32 @@
         1.4,
         2.0
       ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 100,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.1,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 100,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.1,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 100,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.1,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
       "via_dimensions": [
         {
           "diameter": 0.0,
@@ -206,6 +235,13 @@
       ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
     },
     "layer_presets": [
       {
@@ -862,7 +898,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/home/jeff/projects/2022/bugg-v3/repos/bugg-hardware-main/r5/build/bugg-main-r5-fabrication/",
+      "plot": "../build/bugg-main-r5-assembly/",
       "pos_files": "../build/bugg-main-r5-assembly/",
       "specctra_dsn": "",
       "step": "",
@@ -1032,12 +1068,13 @@
           "show": false
         }
       ],
-      "filter_string": "u30",
+      "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -1090,7 +1127,7 @@
   "sheets": [
     [
       "e3eb514f-6ce4-4abe-ba20-f82f0015628f",
-      ""
+      "Root"
     ],
     [
       "e93db74d-0429-4e7f-b256-c16b4c3a83e7",
